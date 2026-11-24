@@ -1,0 +1,63 @@
+name: VPS Radar Crawl
+
+on:
+  schedule:
+    - cron: "7 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+      - name: Crawl and Review
+        working-directory: gh-action
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          AI_MAX_PER_ROUND: "60"
+        run: bun run src/run.js
+      - name: Commit data
+        run: |
+          git config user.name "vps-radar-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add gh-action/docs/data.json
+          git diff --staged --quiet || git commit -m "data update"
+          git pushname: VPS Radar Crawl
+
+on:
+  schedule:
+    - cron: "7 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+      - name: Crawl and Review
+        working-directory: gh-action
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          AI_MAX_PER_ROUND: "60"
+        run: bun run src/run.js
+      - name: Commit data
+        run: |
+          git config user.name "vps-radar-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add gh-action/docs/data.json
+          git diff --staged --quiet || git commit -m "data update"
+          git push
