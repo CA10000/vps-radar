@@ -1,6 +1,570 @@
 {
   "items": [
     {
+      "hash": "51f5f97a6c1212fa",
+      "source_id": "lowendtalk",
+      "source_name": "LowEndTalk Offers",
+      "category": "A",
+      "title": "Black Friday | Zenlayer | Select Dedicated Servers 50% Off from $98.60/mo, Traffic 40% Off, $50 Top-",
+      "url": "https://lowendtalk.com/discussion/223766/black-friday-zenlayer-select-dedicated-servers-50-off-from-98-60-mo-traffic-40-off-50-top",
+      "summary": "Zenlayer is a global edge cloud provider. We run bare metal and elastic compute in 50+ cities across Asia Pacific, the Americas, Europe and the Middle East, all ordered from the same self-service console. For Black Friday, select dedicated servers are 50% off, and the traffic or bandwidth that goes with them is 40% off. The offer runs until December 1, 23:59:59, and anything you order in that window renews at the same price for as long as you keep it. These are all single-tenant bare metal. Each",
+      "published_at": "2026-11-24T02:42:43.000Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "2a9666b3adfd9e40",
+      "source_id": "v2ex",
+      "source_name": "V2EX 技术",
+      "category": "A",
+      "title": "我去环境搞得再好，几次对话下来，大多都跟中国有关，被封了",
+      "url": "https://www.v2ex.com/t/1259353#reply12",
+      "summary": "",
+      "published_at": "2026-11-24T03:38:21.000Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "bd5633efbc02e42f",
+      "source_id": "v2ex",
+      "source_name": "V2EX 技术",
+      "category": "A",
+      "title": "预想购入一款 windows 的开发本",
+      "url": "https://www.v2ex.com/t/1259341#reply10",
+      "summary": "有推荐的品牌和型号吗？？需求想要轻薄版的",
+      "published_at": "2026-11-24T03:38:05.000Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "b89d08d969bc843b",
+      "source_id": "v2ex",
+      "source_name": "V2EX 技术",
+      "category": "A",
+      "title": "黄仁勋回归英伟达股票大涨？我看到了更多",
+      "url": "https://www.v2ex.com/t/1259335#reply3",
+      "summary": "今天早上起来看到英伟达股票大涨，但是我看到的是在今天之前的前一天，面临 10%以上的跌幅却依然会放量如此之大。量做多容易做少难，如此恐慌的场景应该是缩量的，如此异常的放量说明一对拿着内幕消息的人提前进了场。可惜当时临近收盘前我在睡觉",
+      "published_at": "2026-11-24T03:02:17.000Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "8ddfe310d7803037",
+      "source_id": "v2ex",
+      "source_name": "V2EX 技术",
+      "category": "A",
+      "title": "5.6 家族要被下线了",
+      "url": "https://www.v2ex.com/t/1259326#reply5",
+      "summary": "OA 已经发文确认，5.6 系列将于 12 月 23 日下线。 https://x.com/ChatGPT/status/2124981905380569283",
+      "published_at": "2026-11-24T02:59:18.000Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "6f37bff26dc453ba",
+      "source_id": "v2ex",
+      "source_name": "V2EX 技术",
+      "category": "A",
+      "title": "opencode go 的订阅用起来还行",
+      "url": "https://www.v2ex.com/t/1259362#reply1",
+      "summary": "虽然输出速度很慢, 只有 100 左右, 有的时候快一些有 130 左右, 但是胜在确实便宜, 没有 token 消耗的焦虑. 首字延迟快一些有 2 秒左右, 慢一些在 5 秒左右, 5 秒左右也在可以接受的范围, 反正任务慢慢跑也行. 有一点要注意的是, 刚开始用 opencode go 的时候, 用着用着发现首字延迟越来越高, 从 4 秒多一路变成 10 秒多, 甚至几十秒, 最后任务看起来就是卡住了, 直接不可用了, 有的时候又一直是稳定的 5 秒以内. 刚开始对于这个问题, 摸不着头脑, 以为是网络的问题需要挂梯子, 或者可能是区域性的请求过载, 觉得换一个节点, 可能请求就到了另一个服务器, 说不定这个服务器负载轻, 首字延迟就降低了. 然后我就开始了玄学地折腾了几天, 不停地换代理. 后来突然猛地注意到, 好像同时运行的会话一多, 首字延迟就会增加到一个不可用的程度. 现在的经验是, 控制同时进行的会话(包括子智能体)在 3 个以内, 这样各个会话的首字延迟会在 5 秒以内, 速度还是 100-130 左右.",
+      "published_at": "2026-11-24T02:55:15.000Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "700c2ccf09fefee5",
+      "source_id": "v2ex",
+      "source_name": "V2EX 技术",
+      "category": "A",
+      "title": "疲惫的前额叶（脑门子）",
+      "url": "https://www.v2ex.com/t/1259344#reply4",
+      "summary": "AI 扩展了我能够同时推进的任务数量，却没有等比例扩展我的注意力、记忆力和认知调节能力。 累 眼酸、头皮紧、脑袋的中心明显靠前（感觉脑门比后脑勺重），坐电脑前两三个小时感觉比以前上一天班都累，应该不只我一个人有这种感受。 以前写代码的时候，可能连续几个小时只关注或者主要关注一个需求/bug，即便期间涉及和其他人的讨论、上网查资料、翻 stack overflow，并不是纯粹在 vs code 里看/写代码，但始终是在一个主线上，注意力是相对集中的。 但 2026 年以来，随着模型能力越来越强，好用的 Agent 越来越多，我使用 AI 的强度也随之增大，具体表现在数量飙升的 GitHub commits 和 pr，在非常短的时间里，经历了“掌握”多任务并发能力的从兴奋，到沉迷，再到疲惫的过程。 我可以同时让几个 Agent 做需求分析、技术调研、样式设计、功能实现，我需要做的就是下达指令、提供授权、验收成果和思考如何优化流程。 这期间的直观感受是工作推进很快，特别是几个 session 同时亮起小绿点时，那种即将逐个验收成果的期待感和盲目的满足感，和游戏里抽卡一样上头，那个时刻应该有很",
+      "published_at": "2026-11-24T02:24:45.000Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "46dec2b731bb692a",
+      "source_id": "v2ex",
+      "source_name": "V2EX 技术",
+      "category": "A",
+      "title": "朝鲜推出的 AI「智慧之泉」有人用过吗?",
+      "url": "https://www.v2ex.com/t/1259396#reply0",
+      "summary": "敏感程度比葵伊吹、藤森里穗、小野六花还高吗？",
+      "published_at": "2026-11-23T23:41:08.000Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "6ea786a9e5aa4e98",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "中国版muse 小豆公测-实测自带北京阿里云2C4G10G",
+      "url": "https://www.nodeseek.com/post-1076174-1",
+      "summary": "我是用本机登录的豆包APP直接授权登录，就直接进去了，我这个豆包应该满一年了，你们如果有老号也可以试试我从她嘴里套出来她的云机配置是2c4g硬盘10g自带py套件 具体配置如下操作系统Ubuntu22.04.5LTS（x86_64）Linux沙箱容器，内核6.6 CPUIntelXeonPlatinum8457C，",
+      "published_at": "2026-11-24T03:51:45.000Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "7d3af8cb51b22513",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "【收】 适当溢价收ZOROCLOUD JP-Titan-Plus 138/月 1T流量款",
+      "url": "https://www.nodeseek.com/post-1076173-1",
+      "summary": "RT：愿意出的联系",
+      "published_at": "2026-11-24T03:50:48.000Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "7f595cdb77e10a0e",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "【38出】wawo HK-ipv6only-0.5G-18 27年付",
+      "url": "https://www.nodeseek.com/post-1076172-1",
+      "summary": "移动v6快乐鸡，摸够了ns原油出",
+      "published_at": "2026-11-24T03:50:22.000Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "68f2c8ed36dbd25f",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "atmosnode 咋样，有用过一年以上的吗？",
+      "url": "https://www.nodeseek.com/post-1076171-1",
+      "summary": "稳定吗？能和berohost坐一桌吗",
+      "published_at": "2026-11-24T03:50:20.000Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "2b9e61795dffcb44",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "怎么感觉GPT的chat模式比任务模式，更有人味一点呢",
+      "url": "https://www.nodeseek.com/post-1076170-1",
+      "summary": "chat模式好像会自由发挥一样，任务模式更像理工男专一答题",
+      "published_at": "2026-11-24T03:50:14.000Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "cc8dfaea5416a1ab",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "时间已到，小鸡出狱了",
+      "url": "https://www.nodeseek.com/post-1076169-1",
+      "summary": "RT",
+      "published_at": "2026-11-24T03:50:04.000Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "b7544f211b951069",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "raksmart双isp和荫云的双isp怎么选",
+      "url": "https://www.nodeseek.com/post-1076167-1",
+      "summary": "",
+      "published_at": "2026-11-24T03:49:39.000Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "d9cfa29293bd9123",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "[破云] 洛杉矶 GGBOOM 企业专线（非Cogent）上新",
+      "url": "https://www.nodeseek.com/post-1076166-1",
+      "summary": "洛杉矶GGBOOM企业专线（非Cogent）上新1C1G/20G/500M·原生IP·流媒体+AI全解锁·三网回程300M+年付400用码GGBOOM40立减40→360HKD/年https://brea.cloud/checkout?product=ggboom-special-nocogent&regi",
+      "published_at": "2026-11-24T03:49:05.000Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "10deaba46527a062",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "【车找人】gpt team席位|质保全周期",
+      "url": "https://www.nodeseek.com/post-1076165-1",
+      "summary": "80/月风险自担，禁止破限nsfw，招长期车友退款政策：•半路跳车：不退款•母号封：按天退款（车主原因）•子号封：可重新拉两次（车友自身原因）禁止行为：•禁止破限、逆向、黄色等违规行为•禁止私自拉人进team,发现立马踢，不退款",
+      "published_at": "2026-11-24T03:48:37.000Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "286c859019e52840",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "GPT 5x 智利区订阅成功",
+      "url": "https://www.nodeseek.com/post-1076164-1",
+      "summary": "折腾了一圈，总算把GPT5x智利区订阅开好了。原价100刀的套餐，这次实付约86.34刀，相当于8.6折左右，省了13.66刀。Starryblu换了两个账户都被拒付，最后换成英区Krak才支付成功。PS：又是怀念抹茶全球卡的一天。",
+      "published_at": "2026-11-24T03:48:12.000Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "74ca78e8ca04bf27",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "求美西优化推荐",
+      "url": "https://www.nodeseek.com/post-1076163-1",
+      "summary": "预算500左右需要有现货的需要稳定、大流量（最好可以按需加购流量或者重置流量）目前看了akko的SJC,还有其他的推荐的不",
+      "published_at": "2026-11-24T03:48:09.000Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "db1539d3efad1440",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "现在一号mega+power的在什么价格？非原油",
+      "url": "https://www.nodeseek.com/post-1076162-1",
+      "summary": "rt了解下市场",
+      "published_at": "2026-11-24T03:47:36.000Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "9928e3987592ecb9",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "（换） 老款pro.wee换 老款1150 eb wee",
+      "url": "https://www.nodeseek.com/post-1076161-1",
+      "summary": "36.9550Gpro.wee换老款1150ebwee",
+      "published_at": "2026-11-24T03:47:35.000Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "b1eb9521fbdddce4",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "【300收】总价300收破云/艾云 三网CN2GIA 2C1G 800G 500M 特价款280HKD/年",
+      "url": "https://www.nodeseek.com/post-1076160-1",
+      "summary": "如题",
+      "published_at": "2026-11-24T03:47:35.000Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "37e62b6d613cc90c",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "Malibu溢价2K都秒出了？？？？",
+      "url": "https://www.nodeseek.com/post-1076159-1",
+      "summary": "https://www.nodeseek.com/post-1075893-1再这样我就忍不住了啊",
+      "published_at": "2026-11-24T03:47:27.000Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "76479c4ccf09a24b",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "【慢讯】黄仁勋回归英伟达",
+      "url": "https://www.nodeseek.com/post-1076158-1",
+      "summary": "老黄请假通关了GTA6，然后回归工作岗位了",
+      "published_at": "2026-11-24T03:47:13.000Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "a7a0a992d997488f",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "借一个日本不送中的节点",
+      "url": "https://www.nodeseek.com/post-1076157-1",
+      "summary": "可以借一个日本节点临时用一下吗？用于谷歌改地区，几分钟就好，感谢。等级不够暂时无法回复。",
+      "published_at": "2026-11-24T03:47:03.000Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "ce8e661885bf2c54",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "来一个Muse24小时内的邀请码",
+      "url": "https://www.nodeseek.com/post-1076155-1",
+      "summary": "我可以填写一个另外这个是我的KHLCVG这个点子鸡蛋可以用在api中吗，第一次嫖",
+      "published_at": "2026-11-24T03:46:16.000Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "aee3141e7ca270a2",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "GPTPLUS有必要换成GEMINI Pro吗",
+      "url": "https://www.nodeseek.com/post-1076154-1",
+      "summary": "一直在用GPT的PLUS，有不有必要换成GEMINI。",
+      "published_at": "2026-11-24T03:46:10.000Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "d8d1d80c9ad37a95",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "小鸡出狱一台",
+      "url": "https://www.nodeseek.com/post-1076153-1",
+      "summary": "小鸡铁窗泪七天已到",
+      "published_at": "2026-11-24T03:46:07.000Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "2f927d56124f9626",
+      "source_id": "gh-free-vps",
+      "source_name": "GitHub: free-vps 主题",
+      "category": "C",
+      "title": "itex341/vps-free-backup-plans",
+      "url": "https://github.com/itex341/vps-free-backup-plans",
+      "summary": "VPS with Free Backup: What \"Free\" Actually Includes, How Long It's Kept, and Which Plans Bundle It (Full Plan Table)  ⭐ 1",
+      "published_at": "2026-11-24T01:48:47Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": {
+        "is_server": true,
+        "is_free": false,
+        "confidence": 25,
+        "real_free": "标题称VPS含免费备份，但备份属附加功能，机器本身仍需付费；原文无法抓取，内容存疑",
+        "cost": "未知",
+        "risks": "原文不可达，可能为引流仓库；免费备份不等于免费VPS，谨防误导",
+        "tag": "技术讨论"
+      }
+    },
+    {
+      "hash": "70d8a57a17ac04b4",
+      "source_id": "gh-free-vps",
+      "source_name": "GitHub: free-vps 主题",
+      "category": "C",
+      "title": "Uelzivom/vps-oracle-gratis",
+      "url": "https://github.com/Uelzivom/vps-oracle-gratis",
+      "summary": "Guia passo a passo para criar uma VPS gratuita na Oracle Cloud (Always Free)  ⭐ 0",
+      "published_at": "2026-11-24T01:41:47Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 55,
+        "real_free": "Oracle Cloud Always Free 提供永久免费 ARM/x86 云主机（可 SSH 登录）",
+        "cost": "完全免费",
+        "risks": "需绑卡验证；免费额度有限，闲置可能被回收；原文未抓取，内容真实性待核实",
+        "tag": "免费云主机"
+      }
+    },
+    {
+      "hash": "53eae3016d4d62e0",
+      "source_id": "gh-free-vps",
+      "source_name": "GitHub: free-vps 主题",
+      "category": "C",
+      "title": "ifx2295/mt4-vps-ram-sizing",
+      "url": "https://github.com/ifx2295/mt4-vps-ram-sizing",
+      "summary": "MT4 VPS: How much RAM per terminal, which plan is enough, and when a free broker VPS beats paying (all 11 Evoxt plans compared)  ⭐ 1",
+      "published_at": "2026-11-24T01:15:11Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 30,
+        "real_free": "文中提及经纪商提供的免费MT4 VPS，但具体免费额度与条件无法核实",
+        "cost": "未知",
+        "risks": "原文无法抓取，免费VPS可能需开户入金或绑定交易账户，存在营销推广嫌疑",
+        "tag": "免费试用"
+      }
+    },
+    {
+      "hash": "1e8bcd08cc295870",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "C",
+      "title": "What VP != VNP Means (In 3 Minutes)",
+      "url": "https://www.friedgil.com/vpvnp/",
+      "summary": "<p><a href=\"https://lobste.rs/s/2k95fs/what_vp_vnp_means_3_minutes\">Comments</a></p>",
+      "published_at": "2026-11-24T02:10:30.000Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "518f6f9969cf87f9",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "C",
+      "title": "the algebra of dependent types (2025)",
+      "url": "https://dotat.at/@/2025-05-28-types.html",
+      "summary": "<p><a href=\"https://lobste.rs/s/n2krd2/algebra_dependent_types_2025\">Comments</a></p>",
+      "published_at": "2026-11-24T00:51:41.000Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "793c7258ab271ef3",
+      "source_id": "gh-topic-free",
+      "source_name": "GitHub: free-tier 主题",
+      "category": "C",
+      "title": "pnnnhan99/awesome-vietnam-open-data [JavaScript]",
+      "url": "https://github.com/pnnnhan99/awesome-vietnam-open-data",
+      "summary": "Kho tổng hợp các Public API miễn phí và Dữ liệu mở tại Việt Nam. Trạng thái API được hệ thống tự động kiểm tra mỗi ngày.  ⭐ 7",
+      "published_at": "2026-11-24T03:12:22Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "29cd8b3a9748fa70",
+      "source_id": "gh-topic-free",
+      "source_name": "GitHub: free-tier 主题",
+      "category": "C",
+      "title": "liuda30201/AI-Coding [HTML]",
+      "url": "https://github.com/liuda30201/AI-Coding",
+      "summary": "AI 编程福利导航：汇总 Claude Code、Codex、Cursor 中转站与公益站，整理免费额度、注册福利、签到活动和评测记录，提供可视化看板与 Python 数据采集工具。  ⭐ 614",
+      "published_at": "2026-11-24T02:11:55Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 60,
+        "real_free": "汇总 AI 编程工具（Claude Code、Cursor 等）的免费额度与注册福利导航，本身不提供机器",
+        "cost": "完全免费",
+        "risks": "仅为信息导航，第三方中转站/公益站稳定性与安全性未知",
+        "tag": "非服务器服务"
+      }
+    },
+    {
+      "hash": "4dbf44f75efd0698",
+      "source_id": "gh-topic-free",
+      "source_name": "GitHub: free-tier 主题",
+      "category": "C",
+      "title": "Knnmm/nullcost-inventory [HTML]",
+      "url": "https://github.com/Knnmm/nullcost-inventory",
+      "summary": "Best Free & Open Source Nullcost Plugin 2026 - Discover Free Dev Tools  ⭐ 0",
+      "published_at": "2026-11-24T01:43:02Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": {
+        "is_server": false,
+        "is_free": false,
+        "confidence": 90,
+        "real_free": "无，这是一个聚合免费层API目录的插件/工具，本身不提供任何机器",
+        "cost": "未知",
+        "risks": "仓库0星、2246次提交但内容空洞，疑似刷量或SEO垃圾项目，勿轻信",
+        "tag": "非服务器服务"
+      }
+    },
+    {
+      "hash": "e29e25a1ed9d35f2",
+      "source_id": "gh-topic-free",
+      "source_name": "GitHub: free-tier 主题",
+      "category": "C",
+      "title": "saltcrate/saltcrate-oracle",
+      "url": "https://github.com/saltcrate/saltcrate-oracle",
+      "summary": "Eight free-to-start web tools for AI agents (verify, monitor, diff, extract, deps) — plus SaltCrate Watch: 25 URLs checked hourly for $9/30 days.  ⭐ 0",
+      "published_at": "2026-11-24T01:26:25Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": {
+        "is_server": false,
+        "is_free": false,
+        "confidence": 85,
+        "real_free": "无免费机器；仅为面向 AI agent 的 Web 工具集（校验、监控、diff、提取、依赖），付费监控 $9/30 天",
+        "cost": "需购买",
+        "risks": "非计算资源，无法跑程序或获得 shell/root；付费服务",
+        "tag": "非服务器服务"
+      }
+    },
+    {
+      "hash": "919b9a1f8fd6dee2",
+      "source_id": "gh-topic-free",
+      "source_name": "GitHub: free-tier 主题",
+      "category": "C",
+      "title": "0langa/FreeTierWiki [MDX]",
+      "url": "https://github.com/0langa/FreeTierWiki",
+      "summary": "A source-linked catalog of free developer tools and services, with plan limits, billing risks, comparison guides, and verification dates.  ⭐ 4",
+      "published_at": "2026-11-24T01:10:01Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": {
+        "is_server": false,
+        "is_free": false,
+        "confidence": 30,
+        "real_free": "仅是一个免费开发者工具目录/维基，本身不提供任何可运行程序的机器",
+        "cost": "未知",
+        "risks": "内容无法抓取，且为目录类项目，非实际服务",
+        "tag": "非服务器服务"
+      }
+    },
+    {
+      "hash": "52595706ca212c5f",
+      "source_id": "gh-topic-free",
+      "source_name": "GitHub: free-tier 主题",
+      "category": "C",
+      "title": "sebastianrenker/renker-swarm [Python]",
+      "url": "https://github.com/sebastianrenker/renker-swarm",
+      "summary": "Free, self-throttling AI agent orchestrator: rotates agents across free LLM tiers on GitHub Actions or an always-free VM with a hard daily budget. Python, Apache-2.0.  ⭐ 1",
+      "published_at": "2026-11-24T00:23:46Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": {
+        "is_server": false,
+        "is_free": false,
+        "confidence": 30,
+        "real_free": "一个开源 Python 项目，在 GitHub Actions 或免费 VM 上编排 AI agent，本身不提供机器",
+        "cost": "完全免费",
+        "risks": "利用 CI/CD 免费额度充当服务器，违反条款，随时封号",
+        "tag": "蹭额度hack"
+      }
+    },
+    {
+      "hash": "5ee68e0f3508e184",
+      "source_id": "gh-topic-free",
+      "source_name": "GitHub: free-tier 主题",
+      "category": "C",
+      "title": "navaneeth-dev/oracle-ops [Nix]",
+      "url": "https://github.com/navaneeth-dev/oracle-ops",
+      "summary": "Fully IaC Kubernetes on Oracle Cloud  ⭐ 1",
+      "published_at": "2026-11-24T00:04:21Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": null
+    },
+    {
+      "hash": "ad439e85b2eb4ef9",
+      "source_id": "gh-topic-free",
+      "source_name": "GitHub: free-tier 主题",
+      "category": "C",
+      "title": "rustemmustafingovua-byte/opencode-free-stack [JavaScript]",
+      "url": "https://github.com/rustemmustafingovua-byte/opencode-free-stack",
+      "summary": "Free-model stack for OpenCode: route requests to $0 models, fall back automatically when a provider runs dry, track daily quotas.  ⭐ 0",
+      "published_at": "2026-11-23T23:48:57Z",
+      "found_at": "2026-11-24T03:52:16.504Z",
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 30,
+        "real_free": "一个用于 OpenCode 的免费模型路由与配额跟踪脚本，并非可运行程序的机器",
+        "cost": "完全免费",
+        "risks": "仓库信息无法抓取，且星数为 0，来源不明，需谨慎",
+        "tag": "非服务器服务"
+      }
+    },
+    {
       "hash": "56f339e681551b53",
       "source_id": "nodeseek",
       "source_name": "NodeSeek 交易",
@@ -4990,7 +5554,15 @@
       "summary": "Headless backend and services, purpose built for AI agents. Includes hosting, databases, storage, LLMs, and third-party APIs. Agentic signup. Free tier includes 10 projects, 100K edge requests, 10 GB object storage, 100 emails, and 5 USD/month in credits for AI and search.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 55,
+        "real_free": "免费层含10个项目、10万边缘请求、10GB对象存储、100封邮件及每月5美元AI/搜索额度",
+        "cost": "完全免费",
+        "risks": "偏后端API与存储服务，非可SSH机器；原文未抓取，条款待核实",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "927afa81dc24b265",
@@ -5002,7 +5574,15 @@
       "summary": "Run compute jobs across Cloud Providers & On-Prem. The free tier includes up to 10 concurrent job runs, 2 compute spawns, self-hosted compute, 1 cloud provider, 1 container registry and 1 cron job.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 55,
+        "real_free": "免费层含最多10个并发作业、2个计算实例、自托管计算、1个云厂商、1个容器镜像仓库和1个定时任务",
+        "cost": "完全免费",
+        "risks": "原文未抓取，免费额度细节与是否需绑卡未知；并发与实例数有限",
+        "tag": "免费PaaS"
+      }
     },
     {
       "hash": "649e1e5af32641e3",
@@ -5014,7 +5594,15 @@
       "summary": "Developer-focused PaaS for deploying and hosting applications with Git-based deployments, custom domains, automatic HTTPS, and Dockerfile support. Run Node.js, Python, Go, Java, Rust, PHP, static sites, and more. The free tier includes 1 app with 0.25 vCPU, 128 MB RAM, 250 MB disk, and 100 GB bandwidth.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 72,
+        "real_free": "免费层含1个应用，0.25 vCPU、128MB内存、250MB磁盘、100GB流量，支持Git部署和Dockerfile",
+        "cost": "完全免费",
+        "risks": "免费层资源极小，仅够轻量测试；原文未抓取，条款可能变动",
+        "tag": "免费PaaS"
+      }
     },
     {
       "hash": "242c74d0f95838a3",
@@ -5026,7 +5614,15 @@
       "summary": "Linux hosting service that provides CI/CD with GitHub, SSH, and MariaDB/Postgres database. The free version has 1 GB storage and 1 GB network/month limit and is limited to a free domain.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 70,
+        "real_free": "免费版提供1GB存储、每月1GB流量，支持SSH登录和GitHub CI/CD，可运行Linux程序",
+        "cost": "完全免费",
+        "risks": "流量和存储限制较严，仅限免费域名，原文未抓取需自行核实",
+        "tag": "免费PaaS"
+      }
     },
     {
       "hash": "1b609d5d5a5d894e",
@@ -5038,7 +5634,15 @@
       "summary": "Backend framework using static analysis to provide automatic infrastructure, boilerplate-free code, and more. Includes free cloud hosting for hobby projects.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 55,
+        "real_free": "Encore 为业余项目提供免费云托管，可部署后端服务并运行在云端实例上",
+        "cost": "完全免费",
+        "risks": "免费额度与限制未明，原文未抓取，需绑卡或限功能",
+        "tag": "免费PaaS"
+      }
     },
     {
       "hash": "71e883f9cc881cb4",
@@ -5050,7 +5654,15 @@
       "summary": "Hosting and agentic coding platform containing Built-in Analytics, Database, GitHub CI/CD, free sub-domain, CLI, AI coding agent. Free tier allows one project 256 MB RAM / 0.5 CPU, sleeps after 30 min idle, 512 MB database and 100,000 tokens on the default model one time.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 75,
+        "real_free": "免费层含1个项目，256MB内存/0.5CPU，闲置30分钟休眠，附512MB数据库和10万token",
+        "cost": "完全免费",
+        "risks": "闲置30分钟即休眠，资源极小，仅适合轻量测试",
+        "tag": "免费PaaS"
+      }
     },
     {
       "hash": "ec7d7136b4340a0b",
@@ -5062,7 +5674,15 @@
       "summary": "Deploy apps with framework auto-detection for Python and Node.js. The free tier includes one 0.5 CPU / 1 GB RAM instance per project, 10 GB bandwidth, 10 successful deploys per day, automatic SSL and a built-in WAF, plus OAuth 2.0 / OIDC authentication. Apps sleep after 2 hours without traffic. European servers.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 75,
+        "real_free": "免费层提供每个项目一个0.5 CPU/1GB内存实例，10GB带宽，每日10次部署，自动SSL和WAF，无流量2小时后休眠。",
+        "cost": "完全免费",
+        "risks": "应用无流量2小时后休眠，冷启动延迟；免费层资源有限，适合轻量应用。",
+        "tag": "免费PaaS"
+      }
     },
     {
       "hash": "a4e2a30583dcfa82",
@@ -5074,7 +5694,15 @@
       "summary": "Gigalixir provides one free instance that never sleeps and a free-tier PostgreSQL database limited to 2 connections, 10, 000 rows and no backups for Elixir/Phoenix apps.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 75,
+        "real_free": "Gigalixir 提供 1 个永不休眠的免费实例，用于托管 Elixir/Phoenix 应用，另附免费 PostgreSQL（限 2 连接、1 万行、无备份）",
+        "cost": "完全免费",
+        "risks": "仅限 Elixir/Phoenix 应用，资源与数据库限制较严，免费实例可能随时调整",
+        "tag": "免费PaaS"
+      }
     },
     {
       "hash": "593b43af78712b23",
@@ -5086,7 +5714,15 @@
       "summary": "Build and deploy microservices, jobs, and managed databases with a powerful UI, API & CLI. Seamlessly scale containers from version control and external Docker registries. The free tier includes two services, two cron jobs and 1 database.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 72,
+        "real_free": "免费层含2个服务、2个定时任务和1个数据库，可部署容器化微服务",
+        "cost": "完全免费",
+        "risks": "免费层资源有限，可能需绑卡验证，具体限额以官网为准",
+        "tag": "免费PaaS"
+      }
     },
     {
       "hash": "e56908fefad006fb",
@@ -5098,7 +5734,15 @@
       "summary": "A cloud for personal software. Deploy apps, workers, jobs and managed databases with your coding agent, on prepaid credit from $5 that never expires. Free tier: the Starter plan runs everything on one instance in your own AWS account, no credit card needed (you pay AWS for the instance).",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 55,
+        "real_free": "Starter 计划可在你自己的 AWS 账户中运行一个实例，部署应用、worker、job 和托管数据库，无需信用卡",
+        "cost": "需自付 AWS 实例费用",
+        "risks": "所谓免费只是平台层免费，AWS 实例费用需自付；原文未抓取，细节待核实",
+        "tag": "免费PaaS"
+      }
     },
     {
       "hash": "c39d819c70747952",
@@ -5110,7 +5754,15 @@
       "summary": "An integration platform built for developers. Develop any workflow based on any trigger. Workflows are code you can run for free. No server or cloud resources to manage.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 72,
+        "real_free": "免费额度可运行基于触发器的代码工作流，无需自管服务器",
+        "cost": "完全免费",
+        "risks": "本质是工作流/集成平台，非可SSH的通用机器，有额度与执行时长限制",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "f891c169c83c9b55",
@@ -5122,7 +5774,15 @@
       "summary": "Cloud Python app hosting. Beginner account is free, 1 Python web application at your-username.pythonanywhere.com domain, 512 MB private file storage, one MySQL database",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 78,
+        "real_free": "免费初学者账户：1个Python Web应用托管于*.pythonanywhere.com子域名，512MB私有存储，1个MySQL数据库",
+        "cost": "完全免费",
+        "risks": "免费账户有CPU/带宽限制，Web应用会休眠，无SSH root权限，仅限Python Web托管",
+        "tag": "免费PaaS"
+      }
     },
     {
       "hash": "b94b03a56dd10388",
@@ -5134,7 +5794,15 @@
       "summary": "Deploy web services, databases, and more on your own AWS account with a Git push style workflow. The Individuals plan is free for one user with up to 50 modules, 2,000 pipeline minutes and $20 of AI tokens per month. AWS costs are billed through AWS, but you can use credits and the AWS free tier.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 55,
+        "real_free": "免费的是部署编排平台（1用户、50模块、2000流水线分钟），实际计算资源跑在用户自己的AWS账户上，AWS费用另计。",
+        "cost": "完全免费（平台层），但AWS资源需自付或靠免费额度",
+        "risks": "并非提供机器，计算资源需自备AWS账户并承担费用；原文无法抓取，信息待核实。",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "417f907581615257",
@@ -5146,7 +5814,15 @@
       "summary": "European PaaS with automated deployments from GitHub for web services or static sites (1 web 0.1 vCPU/256 MB free), managed PostgreSQL and Valkey(Redis) (30 days for free), Transactional Email (3,000 emails/month free), S3 compatible storage (5 GB/free), all what you need for start your web site. Servers located in Germany.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 65,
+        "real_free": "免费提供1个Web服务实例（0.1 vCPU/256MB），可运行程序，另有免费PostgreSQL、Redis、邮件和存储",
+        "cost": "完全免费",
+        "risks": "免费实例资源极小，仅0.1 vCPU/256MB；数据库和Redis仅免费30天；原文未抓取，细节待核实",
+        "tag": "免费PaaS"
+      }
     },
     {
       "hash": "5e49888347f575ce",
@@ -5158,7 +5834,15 @@
       "summary": "Docker containers or GitHub repos, hosted on AWS. Free tier: up to 4 containers, 100 running hours a month, 10 deploys a day. Sleeps after 15 minutes idle and wakes on the next request. No credit card.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 75,
+        "real_free": "免费层提供最多4个Docker容器，每月100运行小时，每天10次部署，无需信用卡，闲置15分钟休眠",
+        "cost": "完全免费",
+        "risks": "闲置15分钟休眠，每月100小时限制，可能需重新唤醒，无SLA保障",
+        "tag": "免费PaaS"
+      }
     },
     {
       "hash": "fd57180d53b72b38",
@@ -5170,7 +5854,15 @@
       "summary": "Multi-tenant app hosting: each tenant gets its own app, database, subdomain and TLS in an isolated Kubernetes namespace through either a web app or API integration. Free tier includes 2 tenants with up to 2 services each (0.5 vCPU, 512 MB), free apps sleep after 24 hours of being idle.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 72,
+        "real_free": "免费层含2个租户，每租户最多2个服务，各0.5 vCPU/512MB，独立K8s命名空间，闲置24小时休眠",
+        "cost": "完全免费",
+        "risks": "闲置24小时自动休眠，资源较小，需重新唤醒",
+        "tag": "免费PaaS"
+      }
     },
     {
       "hash": "2d8f90533f05fea1",
@@ -5182,7 +5874,15 @@
       "summary": "Frictionless vibe hosting for coding agents. One curl gets your agent a root Linux box on an HTTPS subdomain within seconds. Free tier: 2-core, 512 MB server 24/7 with a verified phone, no credit card.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 72,
+        "real_free": "手机验证后可获 2 核 512MB 的 root Linux 机器，24/7 运行，HTTPS 子域名，无需信用卡",
+        "cost": "完全免费",
+        "risks": "需手机验证；新服务稳定性与数据安全未知；免费资源有限",
+        "tag": "免费云主机"
+      }
     },
     {
       "hash": "dc58a8d04aee8fe2",
@@ -5194,7 +5894,15 @@
       "summary": "Full stack development environment hosted on own infrastructure with selectable framework, db engine behind https with ssh access, vscode + terminal in the editor. Free tier: always on, 2GB disk and 2GB ram. No card required.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 72,
+        "real_free": "免费层提供常驻在线全栈开发环境，含VSCode编辑器、终端和SSH访问，2GB内存+2GB磁盘，无需绑卡",
+        "cost": "完全免费",
+        "risks": "来源为free-for-dev列表但官网无法抓取验证，服务稳定性与长期免费政策未知",
+        "tag": "免费沙盒IDE"
+      }
     },
     {
       "hash": "e56e5c627febabdb",
@@ -5206,7 +5914,15 @@
       "summary": "EU-hosted PaaS that builds web apps from source in any language (Node.js, Python, Go, Ruby, PHP, Java, Elixir, Rust, .NET and more), no Dockerfile needed. The free tier includes one app (0.25 vCPU, 256 MB RAM) that sleeps when idle, custom domains with TLS, and no credit card.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 72,
+        "real_free": "免费层含1个应用（0.25 vCPU、256MB内存），支持多语言源码构建、自定义域名+TLS，无需信用卡",
+        "cost": "完全免费",
+        "risks": "空闲会休眠，资源很小；原文未抓取，细节待核实",
+        "tag": "免费PaaS"
+      }
     },
     {
       "hash": "f32071e5b7c48537",
@@ -5218,7 +5934,15 @@
       "summary": "An open-source platform that allows you to  quickly build, ship and manage modern APIs. Built-in CI/CD, GitHub integration, and automatic HTTPS. Up to 3 projects, 1GB egress, 300 minutes of build time per month on the free plan",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 72,
+        "real_free": "免费计划提供API构建与管理平台，含CI/CD、GitHub集成、自动HTTPS，最多3个项目、1GB出站流量、每月300分钟构建时间",
+        "cost": "完全免费",
+        "risks": "API管理平台非可登录机器，无shell/root，无法跑任意程序",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "aaaa75aae3925737",
@@ -5230,7 +5954,15 @@
       "summary": "All-in-one platform to connect APIs and services in a serverless environment. It brings all the agility and benefits of NoCode tools but with all the power of using programming languages. The free tier includes 1.000 yeps.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 55,
+        "real_free": "免费层含1000次yeps执行额度，属无服务器函数/集成编排平台，非可登录机器",
+        "cost": "完全免费",
+        "risks": "免费额度有限，超出需付费；无shell/root，不能当VPS用",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "4f87a58aa666efa0",
@@ -5242,7 +5974,15 @@
       "summary": "1 GB free web hosting with support for MySQL, PostgreSQL, RabbitMQ, .NET, Deno, Elixir, Go, Java, Lua, Node.js, PHP, Python, Ruby, Rust. Custom web servers, access via FTP, WebDAV and SSH. Mailbox, mailing list and app installer included. No custom domain on free plan.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 78,
+        "real_free": "1GB 免费网页托管，支持 SSH 登录、自定义 Web 服务器，可跑 Node/Python/Go/Java 等多语言程序，含 MySQL/PostgreSQL",
+        "cost": "完全免费",
+        "risks": "免费版不支持自定义域名，资源仅 1GB，可能限速或休眠",
+        "tag": "免费PaaS"
+      }
     },
     {
       "hash": "f2ff50d02d9c66ec",
@@ -5254,7 +5994,15 @@
       "summary": "Free web hosting + a free short domain, PHP, MySQL, App Installer, Email Sending & No Ads.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 55,
+        "real_free": "免费虚拟主机，含PHP、MySQL、短域名和邮件发送，无广告",
+        "cost": "完全免费",
+        "risks": "共享虚拟主机，无shell/root权限，资源限制严格，无法运行常驻程序",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "5f5d86285d712dd6",
@@ -5266,7 +6014,15 @@
       "summary": "Publish static sites (HTML/Markdown/images/PDF or a whole folder) to an instant HTTPS URL with no account; free tier shows a small banner. Custom domains supported.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "免费将静态站点（HTML/Markdown/图片/PDF）发布到即时HTTPS链接，无需账号，免费版带小横幅",
+        "cost": "完全免费",
+        "risks": "纯静态托管，无法运行程序或获得shell/root",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "e2f12802e4b5ccdd",
@@ -5278,7 +6034,15 @@
       "summary": "Visual programming to build web and mobile apps without code, free with Bubble branding.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "免费使用可视化无代码平台搭建Web和移动应用，带Bubble品牌标识",
+        "cost": "完全免费",
+        "risks": "无代码SaaS平台，不提供shell/root，无法运行自定义程序",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "13f5301e1956ec8f",
@@ -5290,7 +6054,15 @@
       "summary": "Decentralized web hosting platform for Web3 frontends focusing on increasing uptime and security and providing an additional access point for users.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 55,
+        "real_free": "面向 Web3 前端的去中心化静态网站托管，提供额外访问节点与高可用",
+        "cost": "完全免费",
+        "risks": "仅为静态托管，无法运行程序或获得 shell/root",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "13030cc75188e524",
@@ -5302,7 +6074,15 @@
       "summary": "Build and deploy three static sites for free on the App Platform Starter tier.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "App Platform Starter 层可免费部署3个静态站点，但静态托管不算可跑程序的机器；Droplet 最低$4/月需付费",
+        "cost": "完全免费（仅限静态站点）/Droplet $4月起",
+        "risks": "免费额度仅限静态站点，无法跑程序或获得 shell/root；动态应用和 Droplet 均需付费",
+        "tag": "免费PaaS"
+      }
     },
     {
       "hash": "0cde5505c54a15e9",
@@ -5314,7 +6094,15 @@
       "summary": "Community-powered free Flarum hosting for up to 250 users (donate to remove the watermark from the footer).",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "免费托管 Flarum 论坛，最多 250 用户，捐赠可去页脚水印",
+        "cost": "完全免费",
+        "risks": "仅限论坛托管，无法运行自定义程序或获得 shell/root",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "6c65b3b6683a6b2c",
@@ -5326,7 +6114,15 @@
       "summary": "Static site hosting via CLI (`npx harvis`) with no config files or build step. Includes free subdomain, free form submissions collections, GitHub Actions integration, CloudFlare CDN, free SSL.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "通过 CLI 部署的静态网站托管，含免费子域名、表单收集、SSL 和 CDN",
+        "cost": "完全免费",
+        "risks": "纯静态托管，无法运行后端程序或获得 shell",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "76d5db0f6d6720c3",
@@ -5338,7 +6134,15 @@
       "summary": "Serverless platform with a free Hobby plan providing 550 free compute hours/month (512 MB RAM Free tier), 1 free PostgreSQL database, and custom domain SSL.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "Koyeb Hobby 免费计划每月 550 小时计算额度，512MB RAM 实例，可部署常驻 Web 服务/容器，含免费 PostgreSQL 和自定义域名 SSL。",
+        "cost": "完全免费",
+        "risks": "免费实例会休眠或限速，需绑卡验证，超出额度可能计费",
+        "tag": "免费PaaS"
+      }
     },
     {
       "hash": "97f2205746ab9d33",
@@ -5350,7 +6154,15 @@
       "summary": "Free hosting for one project with two weeks Container TTL, 500 MB RAM per project, SFTP - 1G disk space.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 72,
+        "real_free": "MDB GO 免费托管一个项目，提供容器实例，500MB 内存、1GB 磁盘、SFTP 访问，容器 TTL 两周",
+        "cost": "完全免费",
+        "risks": "容器仅存活两周，到期需重建；原文未抓取，细节待核实",
+        "tag": "免费PaaS"
+      }
     },
     {
       "hash": "c1564a6e7d6f044b",
@@ -5362,7 +6174,15 @@
       "summary": "Website platform and hosting for small businesses with an AI website builder and visual editor. Starts with a free homepage redesign; the free plan includes 1 hosted site on a mymirin.com address, up to 3 pages, visual editing, and 10 AI credits every 30 days with a Made with Mirin credit (no card required).",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 55,
+        "real_free": "免费套餐含1个托管站点（mymirin.com子域名）、最多3页、可视化编辑、每30天10个AI额度，无需绑卡",
+        "cost": "完全免费",
+        "risks": "纯静态建站托管，无shell/root，不能跑程序；原文未抓取，信息待核实",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "8c420badc7c15bf4",
@@ -5374,7 +6194,15 @@
       "summary": "Static, 1 GB free storage with 200 GB Bandwidth.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 95,
+        "real_free": "免费静态网页托管，1GB存储、200GB流量，含在线HTML编辑器和CLI工具",
+        "cost": "完全免费",
+        "risks": "仅静态托管，无法运行程序或获得shell/root",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "355b3e07f92467e6",
@@ -5386,7 +6214,15 @@
       "summary": "Builds, deploys and hosts static site/app free for 300 credits/month (equals 30 GB bandwidth).",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "每月300 credits（约30GB带宽）的静态站点/应用托管，含构建部署",
+        "cost": "完全免费",
+        "risks": "仅静态托管与Serverless函数，非可SSH的完整机器；超额度需付费",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "edea7b0ff2f33ab2",
@@ -5398,7 +6234,15 @@
       "summary": "Hosting for plain HTML sites, uploaded over SFTP or in the browser. Free plan: 1 site, 250 MB storage, 20 GB transfer/month, HTTPS on a pagehaus.site subdomain, contact forms, Server Side Includes and cookie-free analytics. No expiry, no card.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 72,
+        "real_free": "免费静态HTML托管：1个站点、250MB存储、20GB月流量、HTTPS子域名，支持SFTP上传",
+        "cost": "完全免费",
+        "risks": "纯静态托管，无shell/root，不能跑程序",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "fa47fbfc2be219eb",
@@ -5410,7 +6254,15 @@
       "summary": "An eco-system for developers includes web hosting in different formats (static web hosting, container based web hosting, wordpress and so many other managed apps available in couple of clicks ). One free web hosting (static or containered) and one free database with 100GB Bandwidth and 300 Build mins/month.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 55,
+        "real_free": "免费提供1个容器化Web托管实例和1个数据库，含100GB带宽、300构建分钟/月",
+        "cost": "完全免费",
+        "risks": "原文未抓取，免费额度细节与是否需绑卡未知，容器可能休眠或限资源",
+        "tag": "免费PaaS"
+      }
     },
     {
       "hash": "869126073b9c3a71",
@@ -5422,7 +6274,15 @@
       "summary": "Drupal and WordPress hosting, automated DevOps, and scalable infrastructure. Free for developers and agencies. No custom domain.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 62,
+        "real_free": "面向开发者的免费 WordPress/Drupal 托管环境，含自动化 DevOps，可运行站点，但不支持自定义域名",
+        "cost": "完全免费",
+        "risks": "免费版无自定义域名，资源与功能受限，可能随时调整政策",
+        "tag": "免费PaaS"
+      }
     },
     {
       "hash": "a348819d954c9d0e",
@@ -5434,7 +6294,15 @@
       "summary": "PaaS service similar to Heroku with a developer-centric approach and all-inclusive features. Free tier for static assets, staging, and developer apps.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 72,
+        "real_free": "Qoddi 是类似 Heroku 的 PaaS，免费层可托管静态资源、staging 和开发者应用，能跑应用进程",
+        "cost": "完全免费",
+        "risks": "免费层资源与休眠策略可能受限，原文未抓取，细节待核实",
+        "tag": "免费PaaS"
+      }
     },
     {
       "hash": "d7ee61b0e7a1a359",
@@ -5446,7 +6314,15 @@
       "summary": "Free documentation hosting with versioning, PDF generation, and more",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 95,
+        "real_free": "开源项目免费文档托管，含构建、版本、PDF生成，非可执行机器",
+        "cost": "完全免费",
+        "risks": "无",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "1b863267917e94bb",
@@ -5458,7 +6334,15 @@
       "summary": "Host, monitor, and deploy your services with production best practices. Tracing, continuous profiling, metrics, and logs fully baked in and correlated with each release allow you to identify and auto rollback on demand. One free static site per organization, 1 GiB of storage, 10 GiB of traffic a month, CDN with HTTPS, custom domains, no card needed, deployed with the open-source forge CLI.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 72,
+        "real_free": "免费提供1个静态站点托管，含1GiB存储、每月10GiB流量、CDN与HTTPS、自定义域名，无需绑卡",
+        "cost": "完全免费",
+        "risks": "仅静态托管，无法运行后端程序或获得shell/root",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "a6c75fc9faeba25b",
@@ -5470,7 +6354,15 @@
       "summary": "Unified cloud to build and run apps and sites with free SSL, a global CDN, private networks, auto-deploys from Git, and completely free plans for web services, databases, and static web pages.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 78,
+        "real_free": "免费套餐可托管 Web 服务（应用托管），支持从 Git 自动部署，含免费 SSL 与 CDN",
+        "cost": "完全免费",
+        "risks": "免费实例会休眠、资源受限；数据库免费额度有时限",
+        "tag": "免费PaaS"
+      }
     },
     {
       "hash": "e596fd6f1a3a92e4",
@@ -5482,7 +6374,15 @@
       "summary": "Publish files, reports, custom microsites right from ChatGPT, Claude, Codex and other AI agents as public or password-protected websites. Free tier: 2GB storage, 2 live sites/apps, 1 database (25 MB), 3 AI connections, 1k files/bucket (100 MB/file), basic analytics.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 75,
+        "real_free": "免费层提供2GB存储、2个在线站点/应用、1个25MB数据库，用于从AI代理发布文件或微站点",
+        "cost": "完全免费",
+        "risks": "偏静态托管与发布，非可SSH/root的计算实例；免费额度有限",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "d136794670fd7ee4",
@@ -5494,7 +6394,15 @@
       "summary": "Static hosting your AI agent can drive itself: `npx @shipstatic/ship ./dist` and the site is live, with no install, no signup, no repo, no build. MCP, SDK and API too. Free accounts keep sites permanently with automatic HTTPS, global edge delivery and unmetered bandwidth; custom domains are paid.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "免费静态网站托管，自动HTTPS、全球CDN、不限流量，无需注册",
+        "cost": "完全免费",
+        "risks": "仅静态托管，不能运行程序或获得shell；自定义域名需付费",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "6018727c17421dca",
@@ -5506,7 +6414,15 @@
       "summary": "Find, Create, and Publish Open Source software for free",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 60,
+        "real_free": "SourceForge 是开源软件托管与分发平台，提供代码仓库、项目主页和下载镜像，并非可登录的机器。",
+        "cost": "完全免费",
+        "risks": "无 shell/root，不能跑常驻程序；下载站广告多，需甄别捆绑安装包。",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "766f456ff275978c",
@@ -5518,7 +6434,15 @@
       "summary": "Static web publishing for Front-End developers. Unlimited sites with custom domain support",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 90,
+        "real_free": "免费静态网站托管，支持自定义域名，无限站点",
+        "cost": "完全免费",
+        "risks": "无",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "392dd77ddf516f61",
@@ -5530,7 +6454,15 @@
       "summary": "One site, 50 pages, 50 MB storage, only the main pre-defined blocks among 170+ available, no fonts, no favicon, and no custom domain",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 92,
+        "real_free": "Tilda 免费建站套餐：1个站点、50页、50MB存储，仅限预设区块，无自定义域名和字体",
+        "cost": "完全免费",
+        "risks": "纯网站建设工具，无法运行程序或获得shell/root",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "771a401620fe44e0",
@@ -5542,7 +6474,15 @@
       "summary": "Build, deploy, and host web apps with free SSL, global CDN, and unique Preview URLs each time you `git push`. Perfect for Next.js and other Static Site Generators.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "免费提供静态/前端应用托管、SSL、全球CDN和预览URL，属于Serverless部署平台",
+        "cost": "完全免费",
+        "risks": "免费额度有带宽和函数调用限制，不适合常驻后端服务",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "349e23aff1780baa",
@@ -5554,7 +6494,15 @@
       "summary": "SaaS-focused website builder - unlimited websites, 70+ blocks, five templates, custom CSS, favicon, SEO and forms. No custom domain.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "免费版网站构建器，无限网站、70+区块、5模板、自定义CSS、SEO和表单，但不支持自定义域名",
+        "cost": "完全免费",
+        "risks": "无",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "9144c8cb08f7d01f",
@@ -5566,7 +6514,15 @@
       "summary": "Self-hostable Vercel alternative for building, hosting, and deploying modern frontend and JavaScript applications. Free plan includes 1 app, 50 GB bandwidth, unlimited custom domains, and free SSL.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 62,
+        "real_free": "免费计划含1个应用、50GB带宽、无限自定义域名和免费SSL，可托管部署前端/JS应用",
+        "cost": "完全免费",
+        "risks": "免费额度有限，仅1个应用；原文未抓取，细节待核实",
+        "tag": "免费PaaS"
+      }
     },
     {
       "hash": "c8691a23d600dab4",
@@ -5578,7 +6534,15 @@
       "summary": "Compatible with AWS S3 - APIs, interface operations, CLI, and other upload methods, upload and store files from the IPFS and Arweave networks in a safe, convenient, and efficient manner. Registered users can get 6 GB of IPFS storage and 300MB of Arweave storage for free. Any Arweave file uploads smaller than 150 KB are free.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "免费提供6GB IPFS存储和300MB Arweave存储，兼容S3 API，属于去中心化存储服务",
+        "cost": "完全免费",
+        "risks": "仅为存储服务，无法运行程序或获得shell/root权限",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "e38f0b48ba3a24fc",
@@ -5590,7 +6554,15 @@
       "summary": "Backblaze B2 cloud storage. Free 10 GB (Amazon S3-like) object storage for unlimited time",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 90,
+        "real_free": "Backblaze B2 提供 10GB 免费对象存储空间，长期有效",
+        "cost": "完全免费",
+        "risks": "仅为对象存储，无法运行程序或获得 shell",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "74ade46c029d79a3",
@@ -8881,8 +9853,13 @@
       "ai": null
     }
   ],
-  "lastUpdate": "2026-11-24T00:42:55.473Z",
+  "lastUpdate": "2026-11-24T03:52:16.504Z",
   "runs": [
+    {
+      "at": "2026-11-24T03:52:16.504Z",
+      "found": 41,
+      "errors": []
+    },
     {
       "at": "2026-11-24T00:42:55.473Z",
       "found": 8,
