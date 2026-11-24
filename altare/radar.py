@@ -569,6 +569,26 @@ def sync_to_github(all_items, valuable):
     except Exception:
         pass
 
+    # 同步 GitHub 热点数据
+    trend_src = "/opt/radar/trending.json"
+    if os.path.exists(trend_src):
+        try:
+            import shutil
+            shutil.copy(trend_src, os.path.join(REPO_DIR, "docs", "trending.json"))
+            log("  [GitHub] 已同步 trending.json")
+        except Exception as e:
+            log("  [GitHub] trending 同步失败: %s" % e)
+
+    # 同步新版网页（如果存在）
+    new_ui = "/opt/radar/index.html"
+    if os.path.exists(new_ui):
+        try:
+            import shutil
+            shutil.copy(new_ui, os.path.join(REPO_DIR, "docs", "index.html"))
+            log("  [GitHub] 已同步 index.html")
+        except Exception as e:
+            log("  [GitHub] index 同步失败: %s" % e)
+
     # git 操作
     env = dict(os.environ)
     env["GIT_SSH_COMMAND"] = "ssh -i /opt/radar/deploy_key -o StrictHostKeyChecking=accept-new"
