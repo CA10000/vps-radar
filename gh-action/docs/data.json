@@ -1,6 +1,338 @@
 {
   "items": [
     {
+      "hash": "1121737e3a12ea09",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "Muse自己注册显示候补名单，登录位置“未知地点”",
+      "url": "https://www.nodeseek.com/post-1075632-1",
+      "summary": "",
+      "published_at": "2026-11-24T00:38:11.000Z",
+      "found_at": "2026-11-24T00:38:32.643Z",
+      "ai": null
+    },
+    {
+      "hash": "14a901e30fe23794",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "论坛没有一个梭哈的吗",
+      "url": "https://www.nodeseek.com/post-1075631-1",
+      "summary": "可比炒🐔赚钱多了。",
+      "published_at": "2026-11-24T00:33:30.000Z",
+      "found_at": "2026-11-24T00:38:32.643Z",
+      "ai": null
+    },
+    {
+      "hash": "09ef70694a789d13",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "GTA 6 pc 进度网站",
+      "url": "https://www.nodeseek.com/post-1075630-1",
+      "summary": "在b站看到别人发的进度网站还不错https://vuyp.github.io/gta6-pc-race/",
+      "published_at": "2026-11-24T00:33:22.000Z",
+      "found_at": "2026-11-24T00:38:32.643Z",
+      "ai": null
+    },
+    {
+      "hash": "6663e747ea0a8de3",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "网址买muse邀请靠谱吗",
+      "url": "https://www.nodeseek.com/post-1075629-1",
+      "summary": "有那种几块钱刷满300亿token的会不会封号我有人试过吗",
+      "published_at": "2026-11-24T00:32:54.000Z",
+      "found_at": "2026-11-24T00:38:32.643Z",
+      "ai": null
+    },
+    {
+      "hash": "a28e19afa9c4c207",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "【抽奖】新商家欧科eukvps的法国ovh 2C2G建站落地鸡",
+      "url": "https://www.nodeseek.com/post-1075628-1",
+      "summary": "昨天算中了个打折账单吧，15r月付，应该是可以终身续费的https://www.nodeseek.com/post-1074328-1新商家，法国ovh的机房，同款免费鸡的nq/tqhttps://www.nodeseek.com/post-1074916-1https://www.nodeseek.com/pos",
+      "published_at": "2026-11-24T00:32:46.000Z",
+      "found_at": "2026-11-24T00:38:32.643Z",
+      "ai": {
+        "is_server": true,
+        "is_free": false,
+        "confidence": 55,
+        "real_free": "无免费，实为15元/月付费法国OVH 2C2G VPS，抽奖中奖打折账单",
+        "cost": "$5.99月付",
+        "risks": "新商家跑路风险高，抽奖营销，非免费",
+        "tag": "低价促销"
+      }
+    },
+    {
+      "hash": "744b2d9baea28ed4",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "【快讯】GPT Chat更新新模型了",
+      "url": "https://www.nodeseek.com/post-1075627-1",
+      "summary": "",
+      "published_at": "2026-11-24T00:32:30.000Z",
+      "found_at": "2026-11-24T00:38:32.643Z",
+      "ai": null
+    },
+    {
+      "hash": "450a3ea4d7f3c174",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "之前买的机械键盘没Home键咋办，现在需要用",
+      "url": "https://www.nodeseek.com/post-1075626-1",
+      "summary": "下了键盘软件也改不了",
+      "published_at": "2026-11-24T00:32:03.000Z",
+      "found_at": "2026-11-24T00:38:32.643Z",
+      "ai": null
+    },
+    {
+      "hash": "af0dd09114a6b46b",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "剩余价值九折出虫网余额",
+      "url": "https://www.nodeseek.com/post-1075624-1",
+      "summary": "还剩11英镑余额，黑五活动必备",
+      "published_at": "2026-11-24T00:28:25.000Z",
+      "found_at": "2026-11-24T00:38:32.643Z",
+      "ai": null
+    },
+    {
+      "hash": "5a3290ba8a22f606",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "在哪能赚msue邀请额度啊",
+      "url": "https://www.nodeseek.com/post-1075623-1",
+      "summary": "在推特上也发过只邀请到了两个自己又注册一个又让朋友注册一个还是太少了",
+      "published_at": "2026-11-24T00:27:59.000Z",
+      "found_at": "2026-11-24T00:38:32.643Z",
+      "ai": null
+    },
+    {
+      "hash": "2196daf8f41356af",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "大家的加密货币热钱包都用的什么？",
+      "url": "https://www.nodeseek.com/post-1075622-1",
+      "summary": "TrustWallet感觉东西有些少，有其他推荐吗？",
+      "published_at": "2026-11-24T00:27:37.000Z",
+      "found_at": "2026-11-24T00:38:32.643Z",
+      "ai": null
+    },
+    {
+      "hash": "f0b58638e141b880",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "JIO的春天要来了吗？我的哈基米·氢要上线了",
+      "url": "https://www.nodeseek.com/post-1075621-1",
+      "summary": "如果这哥们不打嘴炮的话，token自由的日子临近了",
+      "published_at": "2026-11-24T00:27:31.000Z",
+      "found_at": "2026-11-24T00:38:32.643Z",
+      "ai": null
+    },
+    {
+      "hash": "068a6118400b8163",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "有好用的vps推荐吗",
+      "url": "https://www.nodeseek.com/post-1075620-1",
+      "summary": "佬们新手想整个玩玩有没有性价比高的",
+      "published_at": "2026-11-24T00:25:57.000Z",
+      "found_at": "2026-11-24T00:38:32.643Z",
+      "ai": null
+    },
+    {
+      "hash": "249d01eddfb43301",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "【疑惑】openai chatgpt是钱烧光了吗",
+      "url": "https://www.nodeseek.com/post-1075619-1",
+      "summary": "现在gpt的模型能力，明显不像是叠甲的原因。感觉真的就是钱不够在省算力。现实中，和gpt这样的人对话，能坚持到5分钟，不扇耳光都算绅士的克劳德就不说了，现阶段的geminineon是真的好用。解决的问题的能力，思考直击要害。",
+      "published_at": "2026-11-24T00:25:44.000Z",
+      "found_at": "2026-11-24T00:38:32.643Z",
+      "ai": null
+    },
+    {
+      "hash": "e0609bedc05eeffe",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "我可怜的0刀48team周限。",
+      "url": "https://www.nodeseek.com/post-1075618-1",
+      "summary": "本来两个周限号爽蹬的，你全部给我上了5h。还我周限。我我我，你你你，啊啊啊。",
+      "published_at": "2026-11-24T00:25:06.000Z",
+      "found_at": "2026-11-24T00:38:32.643Z",
+      "ai": null
+    },
+    {
+      "hash": "0f640a96bc00300c",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "gpt现在一台电脑只允许登录两个付费账号",
+      "url": "https://www.nodeseek.com/post-1075617-1",
+      "summary": "有大佬试过吗",
+      "published_at": "2026-11-24T00:24:50.000Z",
+      "found_at": "2026-11-24T00:38:32.643Z",
+      "ai": null
+    },
+    {
+      "hash": "fc5f78df532bb701",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "开源发布 VoWiFiX v1.0.0：打破安卓原生 VoWiFi 漫游封锁，有 Wi-Fi 随时随地原生通话",
+      "url": "https://www.nodeseek.com/post-1075616-1",
+      "summary": "很多境外卡与保号卡在跨国漫游时，明明开了WLAN通话却死活不出VoWiFi：要么被系统检测漫游地基站与国家码拦截，要么被高通基带底层MBN直接写死“漫游强制禁用VoWiFi”，切一次卡还得重新折腾或重启。VoWiFiX从安卓框架到高通基带EFS全链路打通这一痛点，实现真正的无感漫游原生VoWiFi：破除基带漫游硬锁",
+      "published_at": "2026-11-24T00:24:36.000Z",
+      "found_at": "2026-11-24T00:38:32.643Z",
+      "ai": null
+    },
+    {
+      "hash": "fcf4464d5aa425cc",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "卖家委托，溢价1800出台ovh独服，SYS-STOR-LE-1，48T大盘CA区GRA（法国）",
+      "url": "https://www.nodeseek.com/post-1075615-1",
+      "summary": "机器详情SYS-STOR-LE-1（48T）—法国GravelinesCPU：XeonD-2141I，8核16线程内存：32GBDDR4ECC硬盘：4×12TBHDD（共48TB）+512GBNVMe网络：公网1Gbps上/1Gbps下；vRack1Gbps内网月费：$39/月安装费：$39一次性卖家诉求溢价180",
+      "published_at": "2026-11-24T00:24:11.000Z",
+      "found_at": "2026-11-24T00:38:32.643Z",
+      "ai": null
+    },
+    {
+      "hash": "4632ee2b6ac9608d",
+      "source_id": "gh-free-vps",
+      "source_name": "GitHub: free-vps 主题",
+      "category": "C",
+      "title": "iplus009/hermes-intel-portal [HTML]",
+      "url": "https://github.com/iplus009/hermes-intel-portal",
+      "summary": "Auto-updated 2-hour AI, GitHub, Free API/VPS, War, Stocks, Gold & RAM Intelligence Portal powered by Hermes Agent  ⭐ 0",
+      "published_at": "2026-11-23T23:38:27Z",
+      "found_at": "2026-11-24T00:38:32.643Z",
+      "ai": {
+        "is_server": false,
+        "is_free": false,
+        "confidence": 30,
+        "real_free": "无免费机器，仅是一个自动更新的情报门户网页项目",
+        "cost": "未知",
+        "risks": "无法抓取原文，内容可能为聚合信息或营销页面",
+        "tag": "无关内容"
+      }
+    },
+    {
+      "hash": "2b98fdd57802e2b3",
+      "source_id": "gh-free-vps",
+      "source_name": "GitHub: free-vps 主题",
+      "category": "C",
+      "title": "rafaelperez-spec/despertador-oracle-vps [HTML]",
+      "url": "https://github.com/rafaelperez-spec/despertador-oracle-vps",
+      "summary": "Despertador y Monitor Radiómico para VPS Always Free Oracle Cloud (Angelus)  ⭐ 0",
+      "published_at": "2026-11-23T23:37:23Z",
+      "found_at": "2026-11-24T00:38:32.643Z",
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 30,
+        "real_free": "疑似利用 Oracle Cloud Always Free 免费 VPS 运行定时唤醒/监控脚本，但仓库内容无法抓取，无法确认是否真提供机器",
+        "cost": "完全免费",
+        "risks": "仓库无法抓取，内容不明；Oracle 免费层有回收风险，脚本用途不明",
+        "tag": "免费云主机"
+      }
+    },
+    {
+      "hash": "e36e14eff6e534f6",
+      "source_id": "gh-free-cloud",
+      "source_name": "GitHub: free-cloud 主题",
+      "category": "C",
+      "title": "dappros/ethora [JavaScript]",
+      "url": "https://github.com/dappros/ethora",
+      "summary": "SDK monorepo for the Ethora chat / messaging platform. (1) Pick an SDK for your frontend stack. (2) Integrate manually or with ethora-setup. (3) Optionally configure app settings, deploy AI agents etc. Server: ethora.com cloud (free), self-hosted (AWS, Docker, Helm, Cloudron) or a managed dedicated server with SLA. All options: ethora.com/get  ⭐ 552",
+      "published_at": "2026-11-23T23:37:46Z",
+      "found_at": "2026-11-24T00:38:32.643Z",
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 30,
+        "real_free": "Ethora 聊天平台 SDK，云端免费使用，但这是消息服务而非可运行程序的机器",
+        "cost": "完全免费",
+        "risks": "仅为聊天平台 SDK/托管服务，非可 SSH 的服务器；自托管需自备 AWS 等资源",
+        "tag": "非服务器服务"
+      }
+    },
+    {
+      "hash": "b38c8499cba7ddbf",
+      "source_id": "gh-free-cloud",
+      "source_name": "GitHub: free-cloud 主题",
+      "category": "C",
+      "title": "knowkhelan/garmin-connect-mcp [Python]",
+      "url": "https://github.com/knowkhelan/garmin-connect-mcp",
+      "summary": "MCP server that turns Claude into a marathon coach + sports dietitian: live Garmin Connect data, a persistent food log, and calorie targets from your real burn. Runs on Google Cloud Run + Firestore free tier with a $0 billing hard cap.  ⭐ 0",
+      "published_at": "2026-11-23T23:26:03Z",
+      "found_at": "2026-11-24T00:38:32.643Z",
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 30,
+        "real_free": "项目本身是MCP服务代码，可部署到Cloud Run免费层，但并非提供现成机器",
+        "cost": "完全免费",
+        "risks": "需自行部署；Cloud Run免费层有配额限制，非直接可用的免费主机",
+        "tag": "非服务器服务"
+      }
+    },
+    {
+      "hash": "2e704f5ae2003dec",
+      "source_id": "gh-topic-free",
+      "source_name": "GitHub: free-tier 主题",
+      "category": "C",
+      "title": "newdeme/quota-scout [Python]",
+      "url": "https://github.com/newdeme/quota-scout",
+      "summary": "🛰️ 额度侦察兵 | CI-probed availability of official free-tier LLM quotas. 不收录逆向渠道。  ⭐ 1",
+      "published_at": "2026-11-24T00:36:43Z",
+      "found_at": "2026-11-24T00:38:32.643Z",
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 75,
+        "real_free": "一个开源工具，用于探测官方免费 LLM 额度的可用性，本身不提供任何机器或算力",
+        "cost": "完全免费",
+        "risks": "无",
+        "tag": "非服务器服务"
+      }
+    },
+    {
+      "hash": "31257ab4ed245db2",
+      "source_id": "gh-topic-free",
+      "source_name": "GitHub: free-tier 主题",
+      "category": "C",
+      "title": "buguoshixc/ai-deals-aggregator [JavaScript]",
+      "url": "https://github.com/buguoshixc/ai-deals-aggregator",
+      "summary": "聚合国内外 AI 大模型的真实优惠：新用户免费额度、免费模型、学生/教师/非营利折扣与限时促销。零构建静态站点，GitHub Actions 每日两次自动采集、校验后发布到 GitHub Pages。  ⭐ 5",
+      "published_at": "2026-11-23T23:29:45Z",
+      "found_at": "2026-11-24T00:38:32.643Z",
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "一个聚合AI优惠信息的静态网站，本身不提供任何可运行程序的机器或shell",
+        "cost": "完全免费",
+        "risks": "无",
+        "tag": "非服务器服务"
+      }
+    },
+    {
       "hash": "3d753526f7e7845f",
       "source_id": "lowendtalk",
       "source_name": "LowEndTalk Offers",
@@ -682,7 +1014,15 @@
       "summary": "Hello LowEndTalk! This Black Friday, Leapswitch Networks is offering powerhouse dedicated servers engineered for nonstop performance and unstoppable growth, advanced DDoS protection, free setup, and discounted pricing despite industry-wide RAM prices rising up to 40%. All servers are hosted at our Tier 4 certified datacenters India, with free BGP IPv4/IPv6 announcement under your own ASN available. Offer valid: 21 Nov – 30 Nov 2026 The Deals Single Intel Xeon Gold 6244 (3.60GHz) (DDR4) : 8 Cores",
       "published_at": "2026-11-21T18:07:32.000Z",
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": false,
+        "confidence": 85,
+        "real_free": "无免费，仅为黑五促销折扣（最高15% off）的付费独立服务器",
+        "cost": "需购买",
+        "risks": "付费促销非免费；原文未抓取，价格与条款需核实",
+        "tag": "低价促销"
+      }
     },
     {
       "hash": "f99fe1ab9357d710",
@@ -706,7 +1046,15 @@
       "summary": "Hey all, we have 11 of these 8-GPU V100 servers available. Fully built, tested, and ready to go. Specs (per server): Supermicro SYS-4029GP-TVRT (4U) 8x NVIDIA Tesla V100 16GB SXM2 (128GB total VRAM) 2x Intel Xeon Gold 6130 (16C each, 32C total) 384GB DDR4-2666 ECC (12x 32GB) 16x 2.5\" drive bays (no drives included) 2x 2200W PSUs Price: $7,750 per server. Discounts for multiple units, so message me with quantity. Good to know before you buy: Shipping: Free shipping on a half pallet to locations w",
       "published_at": "2026-11-18T17:50:44.000Z",
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": false,
+        "confidence": 92,
+        "real_free": "无免费内容，这是二手硬件出售，每台7750美元",
+        "cost": "需购买",
+        "risks": "二手硬件无质保，不含硬盘，电费与运维成本高",
+        "tag": "二手交易"
+      }
     },
     {
       "hash": "195a43606113d5dd",
@@ -718,7 +1066,15 @@
       "summary": "Introduction We started as a Discord community in 2023 and became an officially registered company in Casablanca, Morocco, in March 2026. We'll be here to answer your questions! Infrastructure Datacenter Location: Interwerk Data Center, Frankfurt am Main, Germany Processor: AMD Ryzen 9 9950X (4.3 / 5.7 GHz) Memory: High-Speed DDR5 RAM Storage: Enterprise Gen4 NVMe SSDs Network Connectivity: 10Gbps Uplink | Unlimited Bandwidth (Fair Usage) | AS201129 Virtualization Technology: KVM via VirtFusion ",
       "published_at": "2026-10-19T14:38:31.000Z",
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": false,
+        "confidence": 85,
+        "real_free": "无免费内容，这是付费KVM VPS销售帖，仅标题提及免费IP",
+        "cost": "需购买",
+        "risks": "新注册公司，无口碑，需预付，跑路风险未知",
+        "tag": "低价促销"
+      }
     },
     {
       "hash": "e2b2f2450e157b11",
@@ -790,7 +1146,15 @@
       "summary": "🚀 noez.de – Prepaid Hosting from Frankfurt, since 2012 VPS, dedicated servers, IPv4 leasing, GRE tunnel IPs, Squid proxies, VPN and webspace – 100% prepaid, no minimum term, running on our own hardware in premium data centers in Frankfurt am Main, Germany. Not sure yet? Test a VPS free for 7 days – no automatic renewal. ⚡ Turbo VPS – 4.2 to 5.7 GHz High-clock CPUs for game servers, databases and everything that loves single-thread performance. KVM Turbo NVMe – from €8.97/mo Up to 18 vCPU (4.2–5",
       "published_at": "2026-11-19T11:17:21.000Z",
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": false,
+        "confidence": 72,
+        "real_free": "仅提供7天免费试用VPS，试用后需付费，无长期免费方案",
+        "cost": "需购买（€8.97/月起，7天免费试用）",
+        "risks": "试用需注册，可能需绑卡；付费主机非免费资源",
+        "tag": "免费试用"
+      }
     },
     {
       "hash": "6533dc6e3216cf2e",
@@ -814,7 +1178,15 @@
       "summary": "Hi LET members, We're NiuProxy, a provider of residential, mobile, ISP, and datacenter proxy solutions for businesses and developers. Our services are intended only for legitimate business purposes, including: Public web data collection conducted in compliance with applicable laws and the target website's Terms of Service Market research SEO monitoring Ad verification Brand protection All prices below are in USD. Rotating Residential Proxies Order: https://niuproxy.com/pricing/rotating-residenti",
       "published_at": "2026-08-25T01:24:19.000Z",
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": false,
+        "confidence": 95,
+        "real_free": "无免费内容，这是付费代理IP服务（住宅/ISP/数据中心代理），按流量或IP计费",
+        "cost": "需购买",
+        "risks": "代理服务非计算资源，且代理IP可能涉及合规与滥用风险",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "4611024a52a68565",
@@ -850,7 +1222,15 @@
       "summary": "Hello LET Community, After a long wait, we are back with new promotions and new guarantees. What more can we offer you than before? 🌍 More optimized network and 25G connectivity on VPS Eco. (Network performance varies based on the number of vCores) ✅ Free Automatic backup system with a 2-day retention period 🔰 In-house Anti-DDoS Protection (Should the attack exceed our internal capacity, we rely on our carriers for pre-routers mitigation) 🌐 New Customer Area We have completely rebuilt our cli",
       "published_at": "2026-11-08T01:58:55.000Z",
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": false,
+        "confidence": 85,
+        "real_free": "无免费内容，这是付费VPS促销广告，仅提供付费VPS套餐",
+        "cost": "需购买",
+        "risks": "付费服务，需自行评估商家信誉与稳定性",
+        "tag": "低价促销"
+      }
     },
     {
       "hash": "8bb42b0e8481752a",
@@ -874,7 +1254,15 @@
       "summary": "aaPanel is a free Linux server control panel that lets you manage your server and websites right from your browser. Move from cPanel: Bring over your WordPress sites and SSL certificates. Get websites online: Connect domains, turn on HTTPS, and pick a PHP version for each site. Run your apps: Deploy Node.js and Python projects alongside Docker containers. Handle everyday hosting tasks: Edit website files, manage databases, and create email accounts on your own domain. Automate your backups: Sche",
       "published_at": "2026-11-19T04:12:18.000Z",
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": false,
+        "confidence": 85,
+        "real_free": "aaPanel 基础版免费，但这是 Pro 版付费促销（$98/年），且它只是服务器控制面板软件，不是机器本身",
+        "cost": "$98/年",
+        "risks": "仅为控制面板软件，需自备服务器；付费促销非免费",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "08b95b8a539bd12c",
@@ -886,7 +1274,15 @@
       "summary": "⚡️ WELCOME TO FIBERSTATE’S CHICAGO MEGA LAUNCH EVENT! GIVEAWAY + FLASH SALES⚡️ This isn’t just a sale — it’s a server flash sale mega event. A 20-day celebration of epic performance, next-gen hardware, and deals designed to melt the internet. We’re bringing flash sales, giveaways and price relief in these uncertain hardware times. 💥 WHAT’S NEW WITH CHICAGO, NEW YORK, LOS ANGELES & SALT LAKE CITY USA? AMD Ryzen 9 9950X now live in Chicago, New York City, Los Angeles, and Salt Lake City - Dual In",
       "published_at": "2026-08-02T22:34:08.000Z",
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": false,
+        "confidence": 55,
+        "real_free": "抽奖赠送可能免费获得VPS，但主体是限时闪购促销，非长期免费",
+        "cost": "需购买",
+        "risks": "闪购促销价，非免费；抽奖中奖概率低，需关注活动条款",
+        "tag": "低价促销"
+      }
     },
     {
       "hash": "a9e97c8879622404",
@@ -922,7 +1318,15 @@
       "summary": "Need something not listed below? Not a problem, dm me or hit me up on telegram @budgetvm1 Promo servers - Instant Deploy . Ryzen 5900XT / 32GB DDR4 / 1TB NVMe / 1Gbps Unmetered (fair usage) / Detroit - $129/month . Ryzen 5900XT / 64GB DDR4 / 1TB NVMe / 1Gbps Unmetered (fair usage) / Detroit - $159/month . Ryzen 5900XT / 128GB DDR4 / 1TB NVMe / 1Gbps Unmetered (fair usage) / Detroit - $189/month . Dual Gold 6262 / 128GB DDR4 / 1TB NVMe / 10Gbps + 20TB / Miami - $169/month . Ryzen 9950x / 128GB DD",
       "published_at": "2026-11-03T10:48:31.000Z",
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": false,
+        "confidence": 85,
+        "real_free": "无免费，均为付费独立服务器，最低$129/月，另有抽奖赠送活动",
+        "cost": "$129/月起",
+        "risks": "抽奖中奖概率低，付费价格高，需自行评估商家信誉",
+        "tag": "低价促销"
+      }
     },
     {
       "hash": "dfe2e891e664dd6b",
@@ -934,7 +1338,15 @@
       "summary": "🎉 New LET Promo: Free Unmetered Egress Order Standard S3-compatible object storage, then reply to this thread with your order number. We upgrade your egress from 3× to unmetered (fair use applies). Note: Our previous $4/TB offer (3× egress) is now over. If you got it, you are grandfathered and keep your current price. Standard: 3× egress included Yearly: from 100 GB at $7.20 USD/year Monthly: from 1 TB at $6 USD/TB/month Free egress up to 3× your stored data, then $1/TB 👉 Order Standard Unmete",
       "published_at": "2026-10-24T12:21:40.000Z",
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": false,
+        "confidence": 95,
+        "real_free": "无免费机器，仅为S3对象存储促销，需付费购买",
+        "cost": "需购买",
+        "risks": "对象存储非计算实例，无法跑程序或SSH",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "a67f651cc3d390eb",
@@ -946,7 +1358,15 @@
       "summary": "Get 50% OFF for LIFE on our KVM NVMe VPS plans. Powered by AMD EPYC 9534 processors and RAID10 NVMe storage , our KVM VPS plans deliver excellent performance. Halloween Coupon: HALLOWEEN50 Discount: 50% OFF Lifetime Billing Cycle: Annual Billing Product: KVM NVMe VPS Free DDoS protection Full KVM virtualization SolusVM control panel Full root access No setup fees or hidden charges ever 100+ payment options; Cryptocurrencies, PayPal, Skrill, Apple Pay, Google Pay, Western Union and more Offer Exp",
       "published_at": "2026-10-31T20:52:07.000Z",
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": false,
+        "confidence": 85,
+        "real_free": "无免费，是付费KVM NVMe VPS，用优惠码HALLOWEEN50享终身5折，需年付",
+        "cost": "需购买",
+        "risks": "HostSailor口碑一般，年付需预付，终身折扣依赖商家存续",
+        "tag": "低价促销"
+      }
     },
     {
       "hash": "677db3f81f373d21",
@@ -982,7 +1402,15 @@
       "summary": "Need something not listed below? Not a problem, dm me or hit me up on telegram @budgetvm1 Looking to Start Your Own Hardware Hosting? We have decommissioned E3 and E5 servers available for sale at super affordable prices. Mainly 4-node, 8-node, and 12-node multiblade systems available. Freight shipping available anywhere in the US. EPYC Servers - Instant Deploy Dual AMD EPYC 7C13 / 512GB DDR4 / 2×1TB NVMe + 2×3TB NVMe / 10Gbps / Chicago Dual AMD EPYC 7C13 / 512GB DDR4 / 1TB NVMe / 1Gbps / Detroi",
       "published_at": "2026-07-29T07:22:47.000Z",
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": false,
+        "confidence": 72,
+        "real_free": "无免费，仅为Ryzen 9900X抽奖活动，其余为付费EPYC/裸金属服务器租售",
+        "cost": "需购买",
+        "risks": "抽奖非免费资源，付费租机需谨慎核实商家信誉",
+        "tag": "低价促销"
+      }
     },
     {
       "hash": "72055afd15dea948",
@@ -1042,7 +1470,15 @@
       "summary": "Hi LET! We’re XGPU Store, a young GPU rental startup. We recently launched and wanted to introduce ourselves properly rather than just drop a link and disappear. Finding a GPU isn’t just about the price on the first screen. Is the machine available? How much VRAM does it have? What will the full rental period cost? And do you have to pay for a month when you only need a few hours? We offer hourly, daily and monthly rentals. Here are two configurations we’d like to introduce to the community: NVI",
       "published_at": "2026-11-09T12:11:31.000Z",
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": false,
+        "confidence": 72,
+        "real_free": "无免费额度，GPU 按小时/天/月付费租用，起价 $0.17/小时",
+        "cost": "按小时计费（$0.17/小时起）",
+        "risks": "付费服务，非免费；新创公司稳定性与数据安全未知",
+        "tag": "低价促销"
+      }
     },
     {
       "hash": "d0f63fea48272794",
@@ -1090,7 +1526,15 @@
       "summary": "Hey LET! Robert here from Caliber Node! We’re doing seven days of Halloween deals, starting Monday, October 26th , with a new offer unlocking every day through November 1st . Deploy Cloud Apps in any of our 10 locations : Dallas, Los Angeles, Vint Hill, Beauharnois, Nuremberg, Warsaw, Singapore, Tokyo, Mumbai, and Sydney. Use the same Cloud Apps subscription across all our locations , choosing an available location for each app when you deploy. Our VPS deals will be hosted in Dallas . Expect dea",
       "published_at": "2026-10-24T23:06:37.000Z",
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": false,
+        "confidence": 75,
+        "real_free": "无免费，仅为万圣节限时促销，VPS 和云应用需付费购买",
+        "cost": "需购买",
+        "risks": "促销广告，非免费资源；需付费，注意续费价格与商家信誉",
+        "tag": "低价促销"
+      }
     },
     {
       "hash": "16b2173c7c0887bd",
@@ -1174,7 +1618,15 @@
       "summary": "Introduction We've launched a new promotion for our KVM Standard VPS in our Miami, FL, location. This does not apply to any of our other locations. The previous promotion in our Kansas City, MO is still activated. Kansas City - KVM Standard XS AMD EPYC Milan (4 vCPU) 8GB DDR4 ECC Memory 64GB NVMe SSD Storage 32TB Bandwidth (10 Gbps) Located in Kansas City, MO $6/month Use code 914SQ1KJMG for KVM Standard XS, S, M plans ($0.75 per GB of RAM - 25% off list price) Miami, FL - KVM Standard XS AMD EP",
       "published_at": "2026-06-22T02:55:05.000Z",
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": false,
+        "confidence": 92,
+        "real_free": "无免费，付费VPS：$6/月 4vCPU 8GB RAM 64GB NVMe，另有$4/TB存储VPS",
+        "cost": "$6月付",
+        "risks": "低价小商家，稳定性与跑路风险需自担",
+        "tag": "低价促销"
+      }
     },
     {
       "hash": "baaff105081ee285",
@@ -1282,7 +1734,15 @@
       "summary": "Hi LET, My name is Oleksandr and I am the founder of ServersCamp. We are building a cloud provider, https://serverscamp.com What is it? We are trying to tune our cloud for databases, and naturally it works great for other workloads too. To get there we had to do a lot of custom stuff, both in solutions and in architecture. Also took a lot from the enterprise world. In theory the whole set should look like this, this is what every VM technically gets: 1. Hardware We already have 2 types of hardwa",
       "published_at": "2026-09-21T07:56:12.000Z",
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 55,
+        "real_free": "提供€25免费测试额度，可用于创建云主机VM，属试用性质",
+        "cost": "需绑卡",
+        "risks": "仅为试用额度，用尽后需付费；原文未抓取，细节不确定",
+        "tag": "免费试用"
+      }
     },
     {
       "hash": "99107878e51e016c",
@@ -1306,7 +1766,15 @@
       "summary": "Some lab setups never stay modest. A few containers become a collection of services, and suddenly the tiny VPS has an identity crisis. ServerHost is closing out their pre-Black-Friday giveaway series with another $100 prize and an 8GB Ryzen/i9 VPS offer for readers who need a larger memory tier. The post The Pre-Black-Friday Lab Upgrade: Win $100 + See the 8GB Ryzen/i9 Offer! appeared first on LowEndBox .",
       "published_at": "2026-11-23T12:00:18.000Z",
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": false,
+        "confidence": 30,
+        "real_free": "抽奖送100美元，非免费机器；8GB Ryzen/i9 VPS为付费促销",
+        "cost": "需购买",
+        "risks": "抽奖概率低，VPS需付费，原文未抓取",
+        "tag": "低价促销"
+      }
     },
     {
       "hash": "6649762abba8cdd6",
@@ -1330,7 +1798,15 @@
       "summary": "So your project started with one service. And then it acquired a database, a dashboard and a second service to watch the first one. And then you needed...and then you also needed...and pretty soon that 1GB VPS is getting pretty tight. Sound familiar? ServerHost has the solution! The post A Little More Room Before Black Friday: $100 Giveaway + 4GB Ryzen/i9 VPS! appeared first on LowEndBox .",
       "published_at": "2026-11-21T12:00:10.000Z",
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": false,
+        "confidence": 55,
+        "real_free": "无真正免费机器，实为抽奖送$100及低价促销4GB Ryzen/i9 VPS",
+        "cost": "需购买",
+        "risks": "抽奖中奖概率低，VPS为付费促销，需留意商家口碑与续费价格",
+        "tag": "低价促销"
+      }
     },
     {
       "hash": "86427437a36b18f6",
@@ -1354,7 +1830,15 @@
       "summary": "The provider is on a mission to dominate Black Friday. And they're starting early - with a $100 giveaway! The post Pre-Black-Friday Warm-Up: Win a $100 Prize and Grab a 2GB Ryzen VPS for Only $22.99/YEAR! appeared first on LowEndBox .",
       "published_at": "2026-11-19T12:00:04.000Z",
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": false,
+        "confidence": 85,
+        "real_free": "无免费，是$22.99/年的低价促销VPS（2GB Ryzen），另有抽奖送$100",
+        "cost": "$22.99/年",
+        "risks": "低价年付商家稳定性存疑，抽奖非免费资源",
+        "tag": "低价促销"
+      }
     },
     {
       "hash": "cc2500c190e92deb",
@@ -1402,7 +1886,15 @@
       "summary": "Welcome to fall! It's a time of crunchy autumn leaves, crisp air, tasty turkey...and wonderful deals on VPSes from community provider RackNerd! And not just deals...they're also giving away some great prizes, too. The post MORE CHANCES TO WIN in RackNerd’s Fall Giveaway! Win a Meta Quest 3, a Synology NAS, a Gaming Monitor and More! Plus Cheap VPS Deals from $21.99/YEAR! appeared first on LowEndBox .",
       "published_at": "2026-11-15T12:00:58.000Z",
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": false,
+        "confidence": 85,
+        "real_free": "无免费服务器，仅为RackNerd付费VPS促销（$21.99/年起）及抽奖活动",
+        "cost": "$21.99/年",
+        "risks": "付费产品，抽奖中奖概率低，需注意商家口碑与续费价格",
+        "tag": "低价促销"
+      }
     },
     {
       "hash": "6bc19169b049c6b3",
@@ -1474,7 +1966,15 @@
       "summary": "Welcome to fall! It's a time of crunchy autumn leaves, crisp air, tasty turkey...and wonderful deals on VPSes from community provider RackNerd! And not just deals...they're also giving away some great prizes, too. The post BONUS CODE DROP for RackNerd’s Fall Giveaway! Win a Meta Quest 3, a Synology NAS, a Gaming Monitor and More! Plus Cheap VPS Deals from $21.99/YEAR! appeared first on LowEndBox .",
       "published_at": "2026-11-08T12:00:31.000Z",
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": false,
+        "confidence": 75,
+        "real_free": "无免费机器，仅为RackNerd低价VPS促销（$21.99/年起）及抽奖活动",
+        "cost": "$21.99/年",
+        "risks": "低价VPS需付费购买，抽奖中奖概率低，非免费资源",
+        "tag": "低价促销"
+      }
     },
     {
       "hash": "18ebc65e3f7d251c",
@@ -1966,7 +2466,15 @@
       "summary": "来了，最新焚决 最适合学生的 google pro 套餐 1.99 刀每个月持续一年和 0.99 刀一个月 ultra 别错过最后一波上车机会了 说点注意事项 1.需要 mumu 模拟器，并且使用安卓 12 镜像，并且 mumu 模拟器需要开通 root 权限和 adb 权限 2.需要下载 google play 商店和 google one 应用（我主页置顶帖有具体操作步骤截图） 3. google 号需要没开过任何试用优惠 4.脚本依赖环境部署如果自己解决不了，特别是 frida 版本问题，就使用 ai 帮助，这是最快的办法 脚本传不上来，你自己上网搜，或者加我绿泡泡免费获取 绿泡联系方式：YzY0MDIwMjY=",
       "published_at": "2026-11-23T10:21:50.000Z",
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": false,
+        "confidence": 92,
+        "real_free": "无免费机器，实为通过模拟器+脚本伪造设备薅 Google One/Pro 订阅折扣",
+        "cost": "需购买（$1.99/月或$0.99/月订阅）",
+        "risks": "违反 Google 服务条款，账号可能被封；脚本来源不明有安全风险",
+        "tag": "蹭额度hack"
+      }
     },
     {
       "hash": "92ead2e75472f972",
@@ -2086,7 +2594,15 @@
       "summary": "我： 我感觉 grokbot 有 x 数据库 咨询最新 各种野路子 搜索野路子解法最好 gemini 有 google 数据 数据最大最全 做一般问题对答最舒服 claude 品味最高 适合出视频推广资料 deepseek 对中国人友好 harness 也不错 一般不涉及品味的功能性开发都可以用 好像每个我都不舍得弃订 怎么办 gemini 建议: 你的判断太精准了，建议其他都转免费版或 api，留着 gemini 订阅做主力",
       "published_at": "2026-11-23T07:46:32.000Z",
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": false,
+        "confidence": 92,
+        "real_free": "无，这是V2EX论坛关于AI订阅选择的讨论帖，不涉及任何服务器资源",
+        "cost": "未知",
+        "risks": "无",
+        "tag": "无关内容"
+      }
     },
     {
       "hash": "329e8cec03726fec",
@@ -2266,7 +2782,15 @@
       "summary": "上周免费领的被封了有推荐的号商吗",
       "published_at": "2026-11-24T00:16:21.000Z",
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": false,
+        "confidence": 85,
+        "real_free": "无，这是求购账号的交易帖，不涉及免费服务器",
+        "cost": "需购买",
+        "risks": "账号交易可能违反平台条款，存在封号风险",
+        "tag": "二手交易"
+      }
     },
     {
       "hash": "a02746ed55fcb39d",
@@ -2590,7 +3114,15 @@
       "summary": "",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "新用户$300试用额度可用于Compute Engine虚拟机、Cloud Run容器等计算资源，另有20+产品永久免费层",
+        "cost": "需绑卡",
+        "risks": "试用额度90天过期，免费层有配额限制，超额自动扣费，需绑卡",
+        "tag": "免费试用"
+      }
     },
     {
       "hash": "d537f679c1e9644b",
@@ -2602,7 +3134,15 @@
       "summary": "28 frontend instance hours per day, nine backend instance hours per day",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "App Engine标准环境每天免费28个前端实例小时和9个后端实例小时，可部署Node.js、Java、Python等应用",
+        "cost": "完全免费（有每日额度限制）",
+        "risks": "需绑定Google Cloud账号；超出免费额度会收费；仅标准环境免费",
+        "tag": "免费PaaS"
+      }
     },
     {
       "hash": "d531148821004b95",
@@ -2614,7 +3154,15 @@
       "summary": "1GB storage, 50,000 reads, 20,000 writes, 20,000 deletes per day",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 95,
+        "real_free": "Firestore 免费额度：每日5万读、2万写、2万删、1GB存储，另新用户赠$300",
+        "cost": "完全免费",
+        "risks": "仅为数据库服务，无shell/root，不能跑程序",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "e406eb287951c9b1",
@@ -2626,7 +3174,15 @@
       "summary": "1 non-preemptible e2-micro, 30GB HDD, 5GB snapshot storage (restricted to certain regions), 1 GB network egress from North America to all region destinations (excluding China and Australia) per month",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "GCP 免费层每月 1 台 e2-micro 非抢占式实例，30GB HDD，5GB 快照，1GB 北美出网流量，限特定区域",
+        "cost": "完全免费（需绑卡验证）",
+        "risks": "需绑信用卡；超出免费额度按量计费；区域受限；出网流量极少",
+        "tag": "免费云主机"
+      }
     },
     {
       "hash": "4474ec46f7fcaa4d",
@@ -2638,7 +3194,15 @@
       "summary": "5GB, 1GB network egress",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 95,
+        "real_free": "每月5GiB标准存储、55000次操作、100GiB流量",
+        "cost": "完全免费",
+        "risks": "对象存储非计算实例，无法运行程序或SSH",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "7d72a3da6e387bbf",
@@ -2650,7 +3214,15 @@
       "summary": "Web-based Linux shell/primary IDE with 5GB of persistent storage. 60-hour limit per week",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 78,
+        "real_free": "Google Cloud Shell 提供网页版 Linux shell，每周 60 小时免费使用，含 5GB 持久存储，可运行命令和程序",
+        "cost": "完全免费",
+        "risks": "每周限 60 小时，闲置会话会被回收，需 Google 账号",
+        "tag": "免费沙盒IDE"
+      }
     },
     {
       "hash": "9baa63b0c6b4510e",
@@ -2662,7 +3234,15 @@
       "summary": "10GB of messages per month",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 95,
+        "real_free": "每月10GB消息发布/订阅额度，属消息队列服务，非计算实例",
+        "cost": "完全免费",
+        "risks": "消息队列非服务器，无法跑程序或SSH",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "f784d9ed04f118e3",
@@ -2674,7 +3254,15 @@
       "summary": "2 million invocations per month (includes both background and HTTP invocations)",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 92,
+        "real_free": "每月200万次函数调用免费额度，新用户另赠300美元试用金",
+        "cost": "完全免费（额度内）",
+        "risks": "无shell/root，仅事件驱动函数；超额度按调用计费，需绑卡",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "404168a39cb14a09",
@@ -2686,7 +3274,15 @@
       "summary": "2 million requests per month, 360,000 GB-seconds memory, 180,000 vCPU-seconds of compute time, 1 GB network egress from North America per month",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 78,
+        "real_free": "每月200万请求、36万GB-秒内存、18万vCPU-秒计算时长、1GB北美出网流量",
+        "cost": "需绑卡",
+        "risks": "需绑定信用卡；超出免费额度按量计费；无状态容器，冷启动",
+        "tag": "免费PaaS"
+      }
     },
     {
       "hash": "b4ebcd5c7ffe6cab",
@@ -2698,7 +3294,15 @@
       "summary": "No cluster management fee for one zonal cluster. Each user node is charged at standard Compute Engine pricing",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 72,
+        "real_free": "GKE 单个区域集群免集群管理费，但节点按 Compute Engine 标准价收费，需自备节点",
+        "cost": "需绑卡",
+        "risks": "仅免管理费，节点和流量仍收费，需绑卡，易产生意外账单",
+        "tag": "免费云主机"
+      }
     },
     {
       "hash": "4855933fda251691",
@@ -2710,7 +3314,15 @@
       "summary": "1 TB of querying per month, 10 GB of storage each month",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 95,
+        "real_free": "每月免费10GiB存储和1TiB查询额度的数据分析引擎，新用户另送$300试用金",
+        "cost": "完全免费",
+        "risks": "无",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "220a10d08d13eba8",
@@ -2722,7 +3334,15 @@
       "summary": "120 build-minutes per day",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 95,
+        "real_free": "每月2500构建分钟免费，用于CI/CD流水线构建测试部署",
+        "cost": "完全免费",
+        "risks": "仅CI/CD构建额度，非可登录常驻机器，滥用属蹭额度",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "e962e4bf9f11aa50",
@@ -2734,7 +3354,15 @@
       "summary": "Free Jupyter Notebooks development environment.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 90,
+        "real_free": "免费提供带 GPU/TPU 的 Jupyter Notebook 云端环境，可运行代码、执行 shell 命令，但会话有时长限制",
+        "cost": "完全免费",
+        "risks": "会话有超时限制，空闲会断开，不适合长期常驻服务，资源可能被回收",
+        "tag": "免费沙盒IDE"
+      }
     },
     {
       "hash": "41166f77ace69774",
@@ -2746,7 +3374,15 @@
       "summary": "Jupyter Notebooks with 4 CPU cores and 30 GB RAM computational environment without any weekly usage limits. With Phone number verification, 1 Nvidia Tesla P100 GPU or 2x Nvidia Tesla T4 GPU can be added with a usage limit of 30 GPU hours/week for free. With Identity verification - 1 TPU v3-8 with 96 CPU cores and 330 GB RAM is available with a usage limit of 20 hours/week for free. Check Technical",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "免费提供Jupyter Notebook环境，4核CPU/30GB内存无周限制，手机验证可加GPU每周30小时，身份验证可加TPU每周20小时。",
+        "cost": "完全免费",
+        "risks": "需手机号或身份验证；GPU/TPU有周时长限制；资源可能被回收。",
+        "tag": "免费沙盒IDE"
+      }
     },
     {
       "hash": "640cc84964ee247a",
@@ -2758,7 +3394,15 @@
       "summary": "Free remote desktop app with practically no limit on the number of devices, owned by Google, so needs a Google account.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "Google 免费远程桌面工具，可远程控制你自己的电脑，设备数量几乎不限",
+        "cost": "完全免费",
+        "risks": "需 Google 账号；控制的是你自己的机器，并非提供计算资源",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "f635f3c68bfcb500",
@@ -2770,7 +3414,15 @@
       "summary": "Get free access to Gemini 3.5 Flash, Gemini 3 Flash and Gemma 4 models. The free tier for Flash offers 5 requests per minute, 20 requests per day, and 250k input tokens per minute. Meanwhile the free tier for Gemma 4 offers 30 requests per minute, 14.4k requests per day, but (only) 16k input tokens per minute.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 92,
+        "real_free": "免费提供 Gemini 系列大模型的 API 调用额度，属于 AI 模型推理服务，并非可登录的机器",
+        "cost": "完全免费",
+        "risks": "免费额度有速率和每日请求上限，且需遵守 Google 使用条款",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "9ac2ee2c843ae675",
@@ -2782,7 +3434,15 @@
       "summary": "",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "AWS 免费层提供 EC2 免费实例（t2.micro/t3.micro 每月 750 小时）、Lambda 等可计算资源，可运行程序并 SSH 登录",
+        "cost": "需绑卡",
+        "risks": "需绑定信用卡，超出免费额度会自动扣费，需自行监控用量",
+        "tag": "免费云主机"
+      }
     },
     {
       "hash": "3b77d190cf29da61",
@@ -2794,7 +3454,15 @@
       "summary": "1TB egress/month, 10M HTTP requests, and 2M Function invocations/month",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 95,
+        "real_free": "CloudFront CDN 每月免费 1TB 流量、1000万 HTTP 请求、200万次 Function 调用",
+        "cost": "完全免费",
+        "risks": "CDN 非计算实例，无法运行程序或获得 shell；超额流量按量计费",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "5abbe224dea94d48",
@@ -2806,7 +3474,15 @@
       "summary": "10 custom metrics and alarms, 1M API requests, 5GB of log data ingestion and 5GB of log data archive",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 92,
+        "real_free": "CloudWatch 免费额度：10个自定义指标与告警、100万次API请求、5GB日志摄取与5GB日志归档",
+        "cost": "完全免费",
+        "risks": "监控服务，非可运行程序的机器；超出免费额度按量计费",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "0d9d35c6c61c5762",
@@ -2818,7 +3494,15 @@
       "summary": "100min of build time/month",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 95,
+        "real_free": "每月100分钟构建时长，用于编译测试代码的托管CI构建服务",
+        "cost": "完全免费",
+        "risks": "CI构建服务非可登录机器，超时需付费，不能当VPS用",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "d2a978d079de03c5",
@@ -2830,7 +3514,15 @@
       "summary": "5 active users, 5k repositories/account, 50GB storage/month and 10K requests/month",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 90,
+        "real_free": "AWS CodeCommit 免费层：5个活跃用户、每账户5000个仓库、每月50GB存储和1万次请求",
+        "cost": "完全免费",
+        "risks": "纯代码托管服务，无法运行程序或获得shell/root权限",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "4c2496f9db6f895e",
@@ -2842,7 +3534,15 @@
       "summary": "1 active pipeline/month",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 95,
+        "real_free": "AWS CodePipeline 每月1条活跃流水线免费，属于CI/CD流水线服务，不提供可登录的机器",
+        "cost": "完全免费",
+        "risks": "CI/CD流水线非计算实例，无法SSH或跑常驻程序；超出免费额度按用量计费",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "35755b395c384141",
@@ -2854,7 +3554,15 @@
       "summary": "25GB NoSQL DB",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 95,
+        "real_free": "DynamoDB 免费层提供 25GB NoSQL 存储及一定读写容量，属于数据库服务",
+        "cost": "完全免费（免费层额度内）",
+        "risks": "超出免费额度会按用量计费，需绑卡",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "b50cb12fae45222f",
@@ -2866,7 +3574,15 @@
       "summary": "1 million requests/month",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "每月100万次请求+40万GB-秒计算时长的免费层，可运行函数代码",
+        "cost": "完全免费（免费层额度内）",
+        "risks": "需绑卡注册AWS账号；超额度按量计费；函数有执行时长和并发限制",
+        "tag": "免费试用"
+      }
     },
     {
       "hash": "6b5ae050e669d46f",
@@ -2878,7 +3594,15 @@
       "summary": "1 million publishes/month",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 98,
+        "real_free": "每月100万次发布的消息推送服务（SNS），属于消息队列/通知服务",
+        "cost": "完全免费",
+        "risks": "非计算资源，无法运行程序或获得shell",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "5eacf79f12e38e5e",
@@ -2890,7 +3614,15 @@
       "summary": "3.000 messages/month (6mo)",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 95,
+        "real_free": "Amazon SES 邮件发送服务，每月3000条消息免费额度（6个月）",
+        "cost": "完全免费",
+        "risks": "仅为邮件发送API，非计算资源；超出额度需付费",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "d91e8215917aa25f",
@@ -2902,7 +3634,15 @@
       "summary": "1 million messaging queue requests",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 98,
+        "real_free": "每月100万次SQS消息队列请求，属于消息队列服务，不是可运行程序的机器",
+        "cost": "完全免费",
+        "risks": "无",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "100c61c1a750d070",
@@ -2914,7 +3654,15 @@
       "summary": "",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 45,
+        "real_free": "Azure 免费账户含 12 个月热门服务免费额度及 200 美元试用金，可开 B1s 等免费层虚拟机",
+        "cost": "需绑卡",
+        "risks": "需信用卡验证，试用金到期后按量计费，免费层有配额与时长限制",
+        "tag": "免费试用"
+      }
     },
     {
       "hash": "9e3975efccca2d39",
@@ -2926,7 +3674,15 @@
       "summary": "10 web, mobile, or API apps (60 CPU minutes/day)",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 72,
+        "real_free": "Azure App Service 免费层：10 个 Web/移动/API 应用，每天 60 CPU 分钟，可托管运行代码",
+        "cost": "完全免费",
+        "risks": "需绑卡注册 Azure；每日 CPU 分钟有限，超限停服；免费层功能受限",
+        "tag": "免费PaaS"
+      }
     },
     {
       "hash": "60be59b1ca52e43d",
@@ -7549,8 +8305,13 @@
       "ai": null
     }
   ],
-  "lastUpdate": "2026-11-24T00:23:56.706Z",
+  "lastUpdate": "2026-11-24T00:38:32.643Z",
   "runs": [
+    {
+      "at": "2026-11-24T00:38:32.643Z",
+      "found": 23,
+      "errors": []
+    },
     {
       "at": "2026-11-24T00:23:56.706Z",
       "found": 621,
