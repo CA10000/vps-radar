@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VPS 雷达 · 免费服务器情报</title>
+<style>
+:root{
+  --bg:#0d1117;--panel:#161b22;--panel2:#1c2128;--border:#30363d;
+  --text:#e6edf3;--muted:#8b949e;--a:#3b82f6;--b:#10b981;--c:#f59e0b;--hover:#21262d;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font:14px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;min-height:100vh}
+header{position:sticky;top:0;z-index:100;background:rgba(13,17,23,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:14px 20px}
+.hd{display:flex;align-items:center;gap:16px;flex-wrap:wrap;max-width:1400px;margin:0 auto}
+.logo{font-size:17px;font-weight:700}
+.logo span{background:linear-gradient(90deg,#3b82f6,#10b981,#f59e0b);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.stat{display:flex;gap:14px;font-size:12px;color:var(--muted);flex-wrap:wrap}
+.stat b{color:var(--text)}
+.toolbar{max-width:1400px;margin:0 auto;padding:14px 20px 0;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.tabs{display:flex;gap:6px;flex-wrap:wrap}
+.tab{padding:7px 15px;border-radius:7px;border:1px solid var(--border);background:transparent;color:var(--muted);font-size:13px;cursor:pointer;transition:.15s}
+.tab:hover{border-color:#484f58;color:var(--text)}
+.tab.on{background:var(--panel2);color:var(--text);border-color:#484f58;font-weight:500}
+.tab .n{display:inline-block;min-width:19px;padding:0 5px;margin-left:6px;background:#30363d;border-radius:9px;font-size:11px;text-align:center}
+.tab.on .n{background:var(--a);color:#fff}
+input[type=search]{flex:1;min-width:180px;padding:8px 13px;border-radius:7px;border:1px solid var(--border);background:var(--panel);color:var(--text);font-size:13px;font-family:inherit;outline:none}
+input[type=search]:focus{border-color:var(--a)}
+.chip{padding:6px 12px;border-radius:20px;border:1px solid var(--border);background:transparent;color:var(--muted);font-size:12px;cursor:pointer}
+.chip.on{background:#10b98122;border-color:var(--b);color:#56d364}
+main{max-width:1400px;margin:0 auto;padding:16px 20px 60px}
+.list{display:flex;flex-direction:column;gap:9px}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:9px;padding:13px 16px;transition:.15s;position:relative;overflow:hidden}
+.card:hover{background:var(--panel2);border-color:#484f58}
+.cat-badge{display:inline-block;padding:1px 7px;border-radius:4px;font-size:10px;font-weight:600;margin-right:8px;vertical-align:middle}
+.cat-A{background:#3b82f622;color:#79c0ff;border:1px solid #3b82f655}
+.cat-B{background:#10b98122;color:#56d364;border:1px solid #10b98155}
+.cat-C{background:#f59e0b22;color:#e3b341;border:1px solid #f59e0b55}
+.title{font-size:14.5px;line-height:1.5;margin-bottom:5px}
+.title a{color:var(--text);text-decoration:none}
+.title a:hover{color:#58a6ff;text-decoration:underline}
+.summary{font-size:12.5px;color:var(--muted);line-height:1.55;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.meta{display:flex;gap:14px;margin-top:8px;font-size:11.5px;color:#6e7681;flex-wrap:wrap}
+.ai-box{margin-top:9px;padding:9px 12px;border-radius:7px;font-size:12.5px;line-height:1.6;border-left:3px solid}
+.ai-free{background:#10b98114;border-color:var(--b)}
+.ai-no{background:#6e768114;border-color:#484f58}
+.ai-head{display:flex;align-items:center;gap:8px;margin-bottom:4px;font-weight:600}
+.ai-free .ai-head{color:#56d364}
+.ai-no .ai-head{color:#8b949e}
+.ai-conf{font-size:11px;font-weight:400;color:var(--muted);margin-left:auto}
+.ai-row{color:#8b949e}
+.ai-row b{color:#c9d1d9;font-weight:500}
+.ai-risk{color:#e3b341}
+.ai-tag{display:inline-block;padding:0 6px;border-radius:3px;font-size:10px;background:#30363d;color:#c9d1d9;margin-left:6px}
+.empty{text-align:center;padding:70px 20px;color:var(--muted)}
+.empty .big{font-size:38px;margin-bottom:14px;opacity:.4}
+footer{max-width:1400px;margin:0 auto;padding:0 20px 40px;color:#6e7681;font-size:12px;text-align:center}
+@media(max-width:640px){.toolbar{padding-top:10px}.hd{gap:10px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="hd">
+    <div class="logo">📡 <span>VPS 雷达</span></div>
+    <div class="stat" id="stat"><span>加载中…</span></div>
+  </div>
+</header>
+
+<div class="toolbar">
+  <div class="tabs" id="tabs"></div>
+  <input type="search" id="q" placeholder="搜索标题或摘要…">
+  <button class="chip" id="chipFree">✅ 仅真免费</button>
+</div>
+
+<main>
+  <div class="list" id="list"><div class="empty"><div class="big">⏳</div><div>加载数据…</div></div></div>
+</main>
+
+<footer>
+  数据每 30 分钟自动更新 · 由 GitHub Actions 驱动 · AI 审核后展示
+</footer>
+
+<script>
+const CATS = {A:'低价VPS',B:'免费云',C:'羊毛资讯'};
+let DATA = {items:[],lastUpdate:null};
+let state = {cat:'all', q:'', free:false};
+
+const $ = s => document.querySelector(s);
+const esc = s => String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+function fmtTime(iso){
+  if(!iso) return '';
+  const d = new Date(iso);
+  if(isNaN(d)) return '';
+  const diff = (Date.now()-d.getTime())/1000;
+  if(diff<60) return '刚刚';
+  if(diff<3600) return Math.floor(diff/60)+' 分钟前';
+  if(diff<86400) return Math.floor(diff/3600)+' 小时前';
+  if(diff<86400*7) return Math.floor(diff/86400)+' 天前';
+  return d.toLocaleDateString('zh-CN',{month:'2-digit',day:'2-digit'});
+}
+
+function isTrulyFree(it){
+  return it.ai && it.ai.is_free && it.ai.is_server && it.ai.confidence>=65;
+}
+
+function renderAi(it){
+  if(!it.ai) return '<div class="ai-box ai-no"><div class="ai-row">⏳ 待 AI 审核</div></div>';
+  const a = it.ai;
+  const tag = a.tag ? '<span class="ai-tag">'+esc(a.tag)+'</span>' : '';
+  const conf = '<span class="ai-conf">置信度 '+(a.confidence||0)+'%</span>';
+
+  if(a.is_free && a.is_server){
+    const risk = (a.risks && a.risks!=='无') ? '<div class="ai-row ai-risk">⚠ '+esc(a.risks)+'</div>' : '';
+    return '<div class="ai-box ai-free">'
+      +'<div class="ai-head">✅ 真免费服务器'+tag+conf+'</div>'
+      +'<div class="ai-row"><b>'+esc(a.real_free||'')+'</b></div>'
+      +'<div class="ai-row">成本：'+esc(a.cost||'未知')+'</div>'
+      +risk+'</div>';
+  }
+  if(a.is_free && !a.is_server){
+    return '<div class="ai-box ai-no"><div class="ai-head">🔸 免费，但不是服务器'+tag+conf+'</div>'
+      +'<div class="ai-row">'+esc(a.real_free||'')+'</div></div>';
+  }
+  if(!a.is_free && a.is_server){
+    return '<div class="ai-box ai-no"><div class="ai-head">💰 是服务器，但需付费'+tag+conf+'</div>'
+      +'<div class="ai-row">'+esc(a.real_free||'')+(a.cost?' · '+esc(a.cost):'')+'</div></div>';
+  }
+  return '<div class="ai-box ai-no"><div class="ai-head">✕ 非服务器也非免费'+tag+conf+'</div>'
+    +'<div class="ai-row">'+esc(a.real_free||'')+'</div></div>';
+}
+
+function filtered(){
+  let items = DATA.items;
+  if(state.free) items = items.filter(isTrulyFree);
+  if(state.cat!=='all') items = items.filter(i=>i.category===state.cat);
+  if(state.q){
+    const q = state.q.toLowerCase();
+    items = items.filter(i=>(i.title+' '+(i.summary||'')).toLowerCase().includes(q));
+  }
+  return items;
+}
+
+function render(){
+  const items = filtered();
+
+  // 统计
+  const freeCount = DATA.items.filter(isTrulyFree).length;
+  $('#stat').innerHTML = [
+    '<span>总计 <b>'+DATA.items.length+'</b></span>',
+    '<span style="color:#56d364">✅ 真免费 <b style="color:#56d364">'+freeCount+'</b></span>',
+    DATA.lastUpdate ? '<span>更新于 <b>'+fmtTime(DATA.lastUpdate)+'</b></span>' : ''
+  ].filter(Boolean).join('');
+
+  // 标签
+  const counts = {all:DATA.items.length,A:0,B:0,C:0};
+  DATA.items.forEach(i=>counts[i.category]++);
+  const tabs = [['all','全部'],['A','低价 VPS'],['B','免费云'],['C','羊毛资讯']];
+  $('#tabs').innerHTML = tabs.map(([k,l])=>
+    '<button class="tab '+(state.cat===k?'on':'')+'" data-cat="'+k+'">'+l+'<span class="n">'+counts[k]+'</span></button>'
+  ).join('');
+  $('#tabs').querySelectorAll('.tab').forEach(el=>{
+    el.onclick = ()=>{ state.cat = el.dataset.cat; render(); };
+  });
+
+  // 列表
+  if(!items.length){
+    $('#list').innerHTML = '<div class="empty"><div class="big">📭</div><div>没有条目</div></div>';
+    return;
+  }
+  $('#list').innerHTML = items.map(it=>{
+    const t = fmtTime(it.published_at || it.found_at);
+    return '<div class="card">'
+      +'<div class="title"><span class="cat-badge cat-'+it.category+'">'+CATS[it.category]+'</span>'
+      +'<a href="'+esc(it.url)+'" target="_blank" rel="noopener">'+esc(it.title)+'</a></div>'
+      +(it.summary?'<div class="summary">'+esc(it.summary)+'</div>':'')
+      +renderAi(it)
+      +'<div class="meta"><span>'+esc(it.source_name)+'</span><span>'+t+'</span></div>'
+      +'</div>';
+  }).join('');
+}
+
+$('#chipFree').onclick = ()=>{
+  state.free = !state.free;
+  $('#chipFree').classList.toggle('on', state.free);
+  render();
+};
+let timer=null;
+$('#q').oninput = ()=>{
+  clearTimeout(timer);
+  timer = setTimeout(()=>{ state.q = $('#q').value.trim(); render(); }, 250);
+};
+
+// 加载数据
+(async()=>{
+  try{
+    const r = await fetch('data.json?t='+Date.now());
+    DATA = await r.json();
+  }catch(e){
+    $('#list').innerHTML = '<div class="empty"><div class="big">⚠️</div><div>数据加载失败</div><div style="margin-top:8px;font-size:12px">'+esc(e.message)+'</div></div>';
+    return;
+  }
+  render();
+})();
+</script>
+</body>
+</html>
