@@ -1,6 +1,958 @@
 {
   "items": [
     {
+      "hash": "6be259f319cdea8d",
+      "source_id": "lowendtalk",
+      "source_name": "LowEndTalk Offers",
+      "category": "A",
+      "title": "(Calmly) Celebrating 15 years in business",
+      "url": "https://lowendtalk.com/discussion/216524/calmly-celebrating-15-years-in-business",
+      "summary": "Calmly, because it's been a hard six months or so due to RAM/NVMe pricing going berserk. But at the same time, HostHatch has grown decently, nearly doubled in revenue compared to the year before, and we've had our hands full with upgrading our existing service stack (network upgrades, new control panel that brings in new features and so on). LET is a huge part of our story, and hence we're here for our yearly anniversary sale. Please see the deals below. These are not as good as the usual Black ",
+      "published_at": "2026-04-22T09:00:51.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "6fed68c8207762a2",
+      "source_id": "lowendtalk",
+      "source_name": "LowEndTalk Offers",
+      "category": "A",
+      "title": "[SoftShellWeb] 10 Gbps KVM VPS Deals | Ryzen 9950X NVMe (LA) & Xeon Gold (Utah)",
+      "url": "https://lowendtalk.com/discussion/214746/softshellweb-10-gbps-kvm-vps-deals-ryzen-9950x-nvme-la-xeon-gold-utah",
+      "summary": "🔥 [SoftShellWeb] 10 Gbps KVM VPS Deals | Ryzen 9950X NVMe (LA) & Xeon Gold (Utah) 🚀 Are you searching for high-performance USA VPS hosting with massive 10 Gbps connectivity and serious compute power? We are bringing our highest-tier server deployments straight to the community. Whether your projects require the bleeding-edge, single-core processing of an AMD Ryzen 9950X in Los Angeles, or the rock-solid, multi-threaded enterprise capability of our Utah hosting running on Intel Xeon Gold, we ha",
+      "published_at": "2026-02-23T12:19:09.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "1fdbacf2ad21253d",
+      "source_id": "v2ex",
+      "source_name": "V2EX 技术",
+      "category": "A",
+      "title": "北美大豆包， 必须吹爆！",
+      "url": "https://www.v2ex.com/t/1259503#reply9",
+      "summary": "前两天刚刚写了一篇对北美大豆包失望的帖子，起因是我尝试用 carbon 替代我原来的 gpt astra 来完成工作，发现明显有很大的差距，所以比较失望，发帖吐槽了一下。 但是仅仅几天， 我就被彻底打脸了，原因就是神一般的 Neon ， 我高强度的用了几天，发现已经完全可以取代我原来用的 astra ，导致我已经好几天没碰 codex 了。 下面总结一下它的使用感受。 我用它主要是做游戏项目的开发， 一些项目基本上是从 0 开始，不光代码能力，还包括图片，美术，设计等等。用下来感受如下。 1、 整体完成任务的感觉和我之前用的 astra 没有任何区别， 有些时候甚至感觉更强一些，因为它优化了很多我之前用 astra 写的代码的问题，完美的可以完成 需求，测试，交付的全过程，在体感上，至少是和 astra 是同一个级别的。 2、相对于 carbon ， neon 任务完成更加的干脆，不拖泥带水，不过度设计， 我甚至有些奇怪，为啥 google 会把 carbon 的定位放在 neon 之上，两个我确实都用过，carbon 明显比不上 neon 啊。 另外，我看网上很多人说基本上和 opu",
+      "published_at": "2026-11-24T10:51:58.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "9f690db1587642ca",
+      "source_id": "v2ex",
+      "source_name": "V2EX 技术",
+      "category": "A",
+      "title": "google 账号怎么注册啊？刚又被封了一个...",
+      "url": "https://www.v2ex.com/t/1259433#reply37",
+      "summary": "昨天刚去海鲜市场买了一个 google 美区账号，一天不到就被限制登录了...现在注册也走不通 必须国外手机号码，虚拟号也不行，有没有办法呢 好想用哈基米 4",
+      "published_at": "2026-11-24T10:45:42.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "fcc968e8f3ef31ba",
+      "source_id": "v2ex",
+      "source_name": "V2EX 技术",
+      "category": "A",
+      "title": "有多少人通过 AI 赚到工作以外额外的钱了？",
+      "url": "https://www.v2ex.com/t/1259411#reply69",
+      "summary": "大家每天都在讨论 AI 这样用那样用，很好奇各位大佬，有多少人用 AI 赚到自己工作以外其他的钱了，还是只是用来给老板来降本增效的呀。",
+      "published_at": "2026-11-24T10:45:03.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "af1aac47b99c077a",
+      "source_id": "v2ex",
+      "source_name": "V2EX 技术",
+      "category": "A",
+      "title": "礼貌询价，出谷歌云赠金 300 刀",
+      "url": "https://www.v2ex.com/t/1259499#reply8",
+      "summary": "",
+      "published_at": "2026-11-24T10:44:25.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "336dda680ec799ac",
+      "source_id": "v2ex",
+      "source_name": "V2EX 技术",
+      "category": "A",
+      "title": "「求助，到底什么才是 Agent，如何入门、掌握、精通 Agent 开发？」",
+      "url": "https://www.v2ex.com/t/1259502#reply12",
+      "summary": "近两年都在要求 AI 全栈开发 + Agent 开发相关的工作，怎么样才能入门、掌握、精通呢？我能想到的看 B 站的一些教学视频，学习 py + 一些 openai sdk 之类的，然后看一些相对完整的项目开发，怎么去真正跟企业级的 Agent 开发贴近呢，有哪些论坛或者网站是可以实际进去学习的？大家都是怎么转 Agent 开发的呢？ 算了，我直接问吧，如何应对面试提问",
+      "published_at": "2026-11-24T10:43:23.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "a392625a8f8db87c",
+      "source_id": "v2ex",
+      "source_name": "V2EX 技术",
+      "category": "A",
+      "title": "好悲催，购买完 gemini pro 年度才发现 gmail 账号归属在中国",
+      "url": "https://www.v2ex.com/t/1259444#reply27",
+      "summary": "一直以为账号地区在美国来着，购买完 antigravity 登录不上才发现居然归属在中国😅哭晕了，申请了更换地区希望能给我通过。",
+      "published_at": "2026-11-24T10:37:24.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "0e45f12a177fe7cc",
+      "source_id": "v2ex",
+      "source_name": "V2EX 技术",
+      "category": "A",
+      "title": "大龄程序员，还能坚持多久？",
+      "url": "https://www.v2ex.com/t/1259495#reply5",
+      "summary": "距离上次发文，已经很久了。 随着 AI 不断进步，对整个 IT 行业的冲击越来越大。周围的老大哥，有的失业躺平，有的想办法转行，做独立开发、电商、自媒体，想法很多，却没有几个成功的案例。 所以，我想知道，AI 到底带来了什么？ 有人说，带来了巨大的机会；也有人说，带来了大批失业。 在这里，我想以自身的经历来和大家分享一下。 我已经一年半没有「古法编程」了。从最开始分解任务、优化提示词、抽卡、多轮 Review，到现在几乎自动化全流程，我看到了 AI 的发展，也深深体会到普通人的无力感。 走到现在，最深的一个感受是： 大概率，AI 能提升效率，却很难提升上限。 说到这里，有很多人可能不服，我不想争论，只说一下自己的经历。 十年，一个滚动截图 App 十多年前 ，自己还是一个刚入门的 iOS 菜鸟，就想做一个 iPhone 上支持滚动截图的工具 App。调研、尝试了一番，最终放弃了。这其中在技术上，远不是想象的那么简单，需要积累大量底层技术资料，根本不是一个菜鸟能做的。 成长了几年 ，沉淀了不少技术，觉得自己又可以了。重启项目，磕磕绊绊终于拉通了流程，可真正测试之后才发现，这只是一个 De",
+      "published_at": "2026-11-24T10:32:47.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "140a2e39b546a2b3",
+      "source_id": "v2ex",
+      "source_name": "V2EX 技术",
+      "category": "A",
+      "title": "ai 时代，公司年终总结都不知道咋写了",
+      "url": "https://www.v2ex.com/t/1259489#reply16",
+      "summary": "以前写了多少文档，多少代码，实现了多少功能，不说多高端，总能体现点工作量吧 现在这，感觉 ai 一天都干完了，纯工作量似乎没用了",
+      "published_at": "2026-11-24T10:32:29.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "0beaa69c88ba3058",
+      "source_id": "v2ex",
+      "source_name": "V2EX 技术",
+      "category": "A",
+      "title": "Ai 时代，还想掌握代码是痴心妄想吗？",
+      "url": "https://www.v2ex.com/t/1259519#reply6",
+      "summary": "同志们，AI 时代带来了效率的巨大提升！ 这个时候，还妄想掌握代码细节，是痴心妄想吗？",
+      "published_at": "2026-11-24T10:27:42.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "606c6affad32f92d",
+      "source_id": "v2ex",
+      "source_name": "V2EX 技术",
+      "category": "A",
+      "title": "求推荐简单办公 NAS",
+      "url": "https://www.v2ex.com/t/1259410#reply16",
+      "summary": "纯文档表格，图纸共享，15 人使用，绿联 4300Plus 可以吗？",
+      "published_at": "2026-11-24T09:55:30.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "ff8b2b93f9d19a53",
+      "source_id": "v2ex",
+      "source_name": "V2EX 技术",
+      "category": "A",
+      "title": "想问一下各位关于裁判文书网采集的问题",
+      "url": "https://www.v2ex.com/t/1259496#reply10",
+      "summary": "我现在想采集一些裁判文书网的案例 但是现在没有爬虫方案 我也不考虑违规的方案 但是我想着 是不是可以让我电脑自动化 去一篇一篇读 然后下载下来这样 是不是完全合规呢？ 这个不会有什么不合规的风险吧 我比较担心这个",
+      "published_at": "2026-11-24T09:51:38.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "d389b924d97c78b5",
+      "source_id": "v2ex",
+      "source_name": "V2EX 技术",
+      "category": "A",
+      "title": "刚买 Gemini pro 一年 有点后悔",
+      "url": "https://www.v2ex.com/t/1259446#reply21",
+      "summary": "问了简单问题： searching \"DNSHE\" in vscode doesn't find \"dnshe\" But search \"dnshe\" works - i see \"match case\" \"regular expression\" already turn off, seems a bug chatgpt/claude/deepseek 都一下子指出smartcase的问题，gemini扯了半天没扯到点上...（auto/neon）都是网页版上试的",
+      "published_at": "2026-11-24T09:31:29.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "5529b5736787f3af",
+      "source_id": "v2ex",
+      "source_name": "V2EX 技术",
+      "category": "A",
+      "title": "全平台、简单、快、小：为什么我说 SOUI 是唯一四项全占的 C++ GUI 框架",
+      "url": "https://www.v2ex.com/t/1259453#reply8",
+      "summary": "全平台、简单、快、小：为什么我说 SOUI 是唯一四项全占的 C++ GUI 框架 （仓库目录 soui4 ，内核版本 5.3.2.5，官网对外标 SOUI5，本文统称 SOUI。标题里的\"唯一\"有明确限定条件，见第〇节；文末也列出边界。数据取自 2026-11-17 源码实测与当前 HEAD，WASM 移动端结论按 2026-11-20 更新。） 〇、先把\"唯一\"说清楚 GUI 选型有个几乎无解的老问题： 四个好东西，你通常只能挑两个。 要跨平台，就得接受一套新语言、新模型、新工具链（Flutter 的 Dart + Widget、Qt 的 MOC + 信号槽、Electron 的 JS + Chromium）； 要学习成本低，就往往被绑在一个平台上（Win32/MFC、Cocoa、GTK）； 要性能好、体积又小，就得放弃完整控件体系和声明式布局（Dear ImGui 是典型）； 要有完整控件和可视化设计器，通常就把 VM 或几百兆运行时一起拖进来。 我写这篇的目的，是论证 SOUI 是唯一一个把这四项同时做到的通用 GUI 框架 。但这话必须加限定词，否则就是空话： \"唯一\"指的是",
+      "published_at": "2026-11-24T09:25:27.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "894adff39bafefaa",
+      "source_id": "v2ex",
+      "source_name": "V2EX 技术",
+      "category": "A",
+      "title": "现在在 UCloud，想把云迁走，主要是数据库，云主机，k8s，数仓这种，现在有俩备选，火山跟腾讯云？兄弟们有没有被坑的，让我避避坑",
+      "url": "https://www.v2ex.com/t/1259407#reply19",
+      "summary": "",
+      "published_at": "2026-11-24T09:15:28.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "74ea37d5287a9b73",
+      "source_id": "v2ex",
+      "source_name": "V2EX 技术",
+      "category": "A",
+      "title": "注册谷歌账号是比以前麻烦了，但也没难到哪里去",
+      "url": "https://www.v2ex.com/t/1259497#reply0",
+      "summary": "注册免费谷歌云，自建节点，再使用接码平台很容易注册谷歌账号的。 1、使用机场注册完有时再登录会被封，这时可以申诉。 2、谷歌云自建节点尽量稳定使用，不要频繁更换 ip。",
+      "published_at": "2026-11-24T08:55:15.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": {
+        "is_server": false,
+        "is_free": false,
+        "confidence": 75,
+        "real_free": "无，帖子讨论的是注册谷歌账号和用谷歌云自建代理节点的方法，并非提供免费机器",
+        "cost": "未知",
+        "risks": "谷歌云免费额度需绑卡，滥用可能封号；接码平台有隐私风险",
+        "tag": "技术讨论"
+      }
+    },
+    {
+      "hash": "0f81c54bcaa0fb47",
+      "source_id": "v2ex",
+      "source_name": "V2EX 技术",
+      "category": "A",
+      "title": "黑色星期五呀",
+      "url": "https://www.v2ex.com/t/1259482#reply0",
+      "summary": "黑色星期五有没有什么推荐的购买",
+      "published_at": "2026-11-24T08:13:58.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "2d9acae12dffb29c",
+      "source_id": "v2ex",
+      "source_name": "V2EX 技术",
+      "category": "A",
+      "title": "Gemini 订阅这里的支付币种是怎么设置的",
+      "url": "https://www.v2ex.com/t/1259460#reply6",
+      "summary": "6 月份我是在闲鱼 30 块买的代订 pro 会员，这几天看大家都说新出的 Neon 还可以，这几天试了下反重力确实可以满足我的需求，刚好看到 99 刀一年我就去看了下，确实有半价一年的活动，但是我这里显示的是英镑，不知道在哪里切换币种，有知道的吗",
+      "published_at": "2026-11-24T07:48:35.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "32cf90fe6da71ae8",
+      "source_id": "v2ex",
+      "source_name": "V2EX 技术",
+      "category": "A",
+      "title": "写了个摸鱼插件：在 AI 编程工具里逛 V 站，领导来了也不慌",
+      "url": "https://www.v2ex.com/t/1259439#reply4",
+      "summary": "每次在 AI 干活的间隙，不知道干点什么好，摸摸鱼逛下 V 站吧，但是领导就在旁边，这个鱼摸的胆颤心惊。 于是就诞生了本摸鱼 v 站插件： 你能看出来我在逛 V 站 吗？哈哈 而且它还支持这几个功能： 标题伪装 头像伪装 图片隐藏 回复点赞 声明：本插件依赖于 Antumi 多 Agent 编程工作台 安装方式： 安装 https://github.com/flyhero/antumi 在设置-插件中手动安装，填写： https://github.com/flyhero/antumi-moyu",
+      "published_at": "2026-11-24T07:31:19.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "d1cff7c796e7da70",
+      "source_id": "v2ex",
+      "source_name": "V2EX 技术",
+      "category": "A",
+      "title": "gemini 会员开通求助",
+      "url": "https://www.v2ex.com/t/1259431#reply4",
+      "summary": "26 年 4 月份已经订阅过一年 pro 会员了，到 27 年的 4 月份结束。现在申请黑五 99 刀优惠的时候，显示的是到 27 年的 11 月份结束，这个会员是不会叠加我当前的订阅的周期吗？",
+      "published_at": "2026-11-24T07:00:49.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "fd1f8969ad3669ea",
+      "source_id": "v2ex",
+      "source_name": "V2EX 技术",
+      "category": "A",
+      "title": "Gemini 是不是可以平替 Claude",
+      "url": "https://www.v2ex.com/t/1259425#reply4",
+      "summary": "感觉 gemini4 neon 可以做我 90%工作，有些做的比 opus 5.5 还好，是不是可以不用续费 claude，也没那么容易封号了。",
+      "published_at": "2026-11-24T04:36:13.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "2071d7b9e46afa3e",
+      "source_id": "v2ex",
+      "source_name": "V2EX 技术",
+      "category": "A",
+      "title": "Upwork 这个接活的平台靠谱么？",
+      "url": "https://www.v2ex.com/t/1259483#reply2",
+      "summary": "网上说这个是全球最大的接这种远程工作平台，不清楚是否靠谱 第一个问题是他接单，给别人报价需要先交钱，充会员那种，首月 10$ 如果充了然后接不到活，不是坑了，我看上面挺多活的，不限于程序开发 然后是怎么收款呢？是钱打到平台，然后自己体现，还是怎么弄 有兄弟有真实经历分享吗？ 或者推荐其他的平台，我只是听说这个平台最大",
+      "published_at": "2026-11-24T00:16:05.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "db3b62670f272345",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "怎么V.ps的主页一直打不开啊，是我IP不干净吗",
+      "url": "https://www.nodeseek.com/post-1077300-1",
+      "summary": "一直维护？",
+      "published_at": "2026-11-24T10:52:33.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "b1479af873c2226b",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "懒猫云7折出350余额",
+      "url": "https://www.nodeseek.com/post-1077299-1",
+      "summary": "7折出350余额",
+      "published_at": "2026-11-24T10:52:00.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "d22d12c59454e195",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "本来都抛弃 ChatGPT 转战 Gemini，但是这个免费的不能不要吧。",
+      "url": "https://www.nodeseek.com/post-1077298-1",
+      "summary": "开了个单席位的埃及区team",
+      "published_at": "2026-11-24T10:51:44.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 30,
+        "real_free": "埃及区单席位 ChatGPT Team 账号，属于 AI 聊天服务订阅，不是可运行程序的机器",
+        "cost": "未知",
+        "risks": "跨区订阅可能违反服务条款，账号有被封禁风险",
+        "tag": "非服务器服务"
+      }
+    },
+    {
+      "hash": "d6ed9d8e1956eb1f",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "愈发焦虑，肉眼可见的头发变少",
+      "url": "https://www.nodeseek.com/post-1077297-1",
+      "summary": "日常带娃的照片都能看出后脑勺有一块颜色明显发白，且愈发明显了。目前是短发寸头，后续如果这块头发没了，应该咋样理发",
+      "published_at": "2026-11-24T10:51:11.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "411ebac53728c155",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "溢价3K出 DMIT-Malibu 1T",
+      "url": "https://www.nodeseek.com/post-1077296-1",
+      "summary": "懂的都懂",
+      "published_at": "2026-11-24T10:50:40.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "7f21b3a2867187df",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "YPT 内转 6.5 出 40U",
+      "url": "https://www.nodeseek.com/post-1077295-1",
+      "summary": "我的实名掉了",
+      "published_at": "2026-11-24T10:50:36.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "705db91148ca9fe6",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "你们的token都用来干啥了？",
+      "url": "https://www.nodeseek.com/post-1077294-1",
+      "summary": "我怎么token都用不完呢",
+      "published_at": "2026-11-24T10:50:12.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "469f7c6d30156dda",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "RackNerd 黑五的 4 GB KVM VPS一年350怎么样？",
+      "url": "https://www.nodeseek.com/post-1077293-1",
+      "summary": "RT知道这个是机房节点，主要想当服务器使用，跑一跑自己的程序，需要24小时挂机其实我也有美国家宽的需求，目前想的方案是拼车连一个美国家宽的落地机请求大佬们建议，我是一步到位买一个高配置落地家宽鸡，还是买这个主打服务器性能的鸡，然后拼家宽的车或者大佬们有什么其他的性价比的方案，或者其他的鸡推荐，性能鸡和家宽鸡，感谢感",
+      "published_at": "2026-11-24T10:50:09.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "848bb857b8637fe7",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "180包push出台bage Japan Standard - SMALL [移动快乐机 电信就别想了]",
+      "url": "https://www.nodeseek.com/post-1077292-1",
+      "summary": "到期和配置流量啥的如图是中秋节年付折扣款",
+      "published_at": "2026-11-24T10:48:56.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "42ff53053bf13cdd",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "（收） 无限收临期team，企鹅807629575",
+      "url": "https://www.nodeseek.com/post-1077291-1",
+      "summary": "（收）无限收临期team，企鹅807629575",
+      "published_at": "2026-11-24T10:48:53.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "db4b346983ddbf3d",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "建站怎么保证国内用户连通性",
+      "url": "https://www.nodeseek.com/post-1077290-1",
+      "summary": "大家建站都用国内还是国外的机子？国内的还要备案啥的，如果是国外鸡，国内连过去速度会不会不理想？",
+      "published_at": "2026-11-24T10:46:35.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "68a539b8680143f6",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "【出】刚摸完，40出，移动快乐🐔，taxi 软银 东京1G",
+      "url": "https://www.nodeseek.com/post-1077289-1",
+      "summary": "NQ/TQ自查",
+      "published_at": "2026-11-24T10:45:19.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "645e8814c1c09987",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "esim.gg怎样才能选到低价号？",
+      "url": "https://www.nodeseek.com/post-1077288-1",
+      "summary": "人肉刷，还是有什么办法？",
+      "published_at": "2026-11-24T10:45:13.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "e2c5e1a415c96091",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "买1个Gemini会员自用，最好是成品号，只在网页端使用，需要质保剩余时间退款，带价来",
+      "url": "https://www.nodeseek.com/post-1077287-1",
+      "summary": "",
+      "published_at": "2026-11-24T10:44:21.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "9ee4b456c6849e28",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "谷歌的反重力现在啥水平啊 应该怎么购买啊 哪里最便宜",
+      "url": "https://www.nodeseek.com/post-1077286-1",
+      "summary": "好像很火的样子家庭组也可以共享吗",
+      "published_at": "2026-11-24T10:42:50.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "163c8543c44b16e3",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "t3 code塌房了吗",
+      "url": "https://www.nodeseek.com/post-1077285-1",
+      "summary": "受不了反重力的界面了，刚说想要用一下刷推的时候，就看到有人锤他上传用户数据和隐私",
+      "published_at": "2026-11-24T10:42:02.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "96bb1d7d9e94e2e3",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "【NQ留档】V.PS Frankfurt Starter｜2C1G｜€49.98/两年",
+      "url": "https://www.nodeseek.com/post-1077284-1",
+      "summary": "本机NQ测试留档，供后续查阅。套餐：V.PSFrankfurtStarter，法兰克福配置：2vCPU/1GBRAM/20GB流量：1TB/月，双向计费续费：€49.98/两年到期：2028-11-01💻基本信息",
+      "published_at": "2026-11-24T10:40:23.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "f8c99c398ed8b548",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "Macbook Pro 2021 14寸 M1 Pro 16+512 二手 5500",
+      "url": "https://www.nodeseek.com/post-1077283-1",
+      "summary": "银色，成色极好，只有一处细微磕碰，大概0.2mm左右大小的凹痕，其他的没有问题。一直个人在使用，盒子+原装充电器，港版，无锁全原无折修。实诚价5500，有需要的老哥移步海鲜：https://m.tb.cn/h.jnfLwTq?tk=jkHn6TjtwFrHU287",
+      "published_at": "2026-11-24T10:40:17.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "e1ac3ee18e582b4b",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "可惜可贺，3 台鸡鸡放出来 2 个",
+      "url": "https://www.nodeseek.com/post-1077282-1",
+      "summary": "",
+      "published_at": "2026-11-24T10:40:07.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "4d7ced537e181494",
+      "source_id": "nodeseek",
+      "source_name": "NodeSeek 交易",
+      "category": "A",
+      "title": "这几个哈基米的那个模型是最强的，gpt 额度蹬完了",
+      "url": "https://www.nodeseek.com/post-1077281-1",
+      "summary": "",
+      "published_at": "2026-11-24T10:39:45.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "9c379fe3763bf108",
+      "source_id": "gh-free-vps",
+      "source_name": "GitHub: free-vps 主题",
+      "category": "C",
+      "title": "subashiniiyyanar0401/VPS-Monitoring-and-Security-Using-Free-Self-Hosted-DevOps-Tools",
+      "url": "https://github.com/subashiniiyyanar0401/VPS-Monitoring-and-Security-Using-Free-Self-Hosted-DevOps-Tools",
+      "summary": "(无描述)  ⭐ 0",
+      "published_at": "2026-11-24T10:01:45Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 92,
+        "real_free": "仓库本身是监控与安全配置教程，非免费机器；文中提到的 Uptime Kuma、Netdata、Fail2ban 均为自托管开源软件，需自备 VPS",
+        "cost": "完全免费",
+        "risks": "仅为技术文档，不提供任何可用服务器；需自行准备 VPS 才能部署",
+        "tag": "技术讨论"
+      }
+    },
+    {
+      "hash": "7492af6222f8c1a3",
+      "source_id": "gh-free-vps",
+      "source_name": "GitHub: free-vps 主题",
+      "category": "C",
+      "title": "hieudzz/vps-bore",
+      "url": "https://github.com/hieudzz/vps-bore",
+      "summary": "Free VPS via GitHub Actions (bore mode)  ⭐ 0",
+      "published_at": "2026-11-24T09:30:45Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": {
+        "is_server": false,
+        "is_free": false,
+        "confidence": 92,
+        "real_free": "无真实免费资源，该项目利用 GitHub Actions 的 CI 额度运行常驻 VPS 隧道，属于蹭额度行为",
+        "cost": "完全免费",
+        "risks": "利用 CI/CD 免费额度充当服务器，违反条款，随时封号",
+        "tag": "蹭额度hack"
+      }
+    },
+    {
+      "hash": "43d73ac517480a47",
+      "source_id": "gh-free-cloud",
+      "source_name": "GitHub: free-cloud 主题",
+      "category": "C",
+      "title": "EuphoriaLux/react-web-server [JavaScript]",
+      "url": "https://github.com/EuphoriaLux/react-web-server",
+      "summary": "React website hosted on Oracle Cloud Always Free  ⭐ 0",
+      "published_at": "2026-11-24T10:52:08Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "Oracle Cloud Always Free ARM 实例：1 OCPU、6GB 内存、50GB 磁盘，可长期免费运行",
+        "cost": "完全免费",
+        "risks": "Oracle 免费层可能回收闲置实例；需绑卡注册；仓库仅 0 星，部署脚本需自行审查",
+        "tag": "免费云主机"
+      }
+    },
+    {
+      "hash": "f41fa0ecb824b7e2",
+      "source_id": "gh-free-cloud",
+      "source_name": "GitHub: free-cloud 主题",
+      "category": "C",
+      "title": "Arthur-Ficial/apfel [Swift]",
+      "url": "https://github.com/Arthur-Ficial/apfel",
+      "summary": "The free AI already on your Mac. CLI tool, OpenAI-compatible server, and interactive chat — all on-device via Apple Intelligence. No API keys, no cloud, no downloads.  ⭐ 6623",
+      "published_at": "2026-11-24T10:39:07Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "本地运行的 CLI 工具，可在 Mac 上提供 OpenAI 兼容的本地服务，无需 API key",
+        "cost": "完全免费",
+        "risks": "需 macOS 且支持 Apple Intelligence，非远程可 SSH 的机器",
+        "tag": "非服务器服务"
+      }
+    },
+    {
+      "hash": "13ba1fa069d1bade",
+      "source_id": "gh-free-cloud",
+      "source_name": "GitHub: free-cloud 主题",
+      "category": "C",
+      "title": "jutsuhq/kawarimi-local-character-swap [Rust]",
+      "url": "https://github.com/jutsuhq/kawarimi-local-character-swap",
+      "summary": "Free, open-source Viggle alternative for Windows and Linux: swap a person in a 4–30 s video for a character from one image with Wan 2.2 Animate on your own NVIDIA GPU (12 GB VRAM recommended). $0 per video, no cloud, no account. Rust and ONNX Runtime prep, ComfyUI render, MCP server. Unofficial.  ⭐ 4",
+      "published_at": "2026-11-24T10:19:52Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "开源本地视频角色替换工具，需自备NVIDIA GPU运行，不提供任何服务器或算力",
+        "cost": "完全免费",
+        "risks": "需自备12GB显存GPU，非托管服务，无免费机器可用",
+        "tag": "非服务器服务"
+      }
+    },
+    {
+      "hash": "1e442566752aa8c8",
+      "source_id": "gh-free-cloud",
+      "source_name": "GitHub: free-cloud 主题",
+      "category": "C",
+      "title": "JasmyLab-JANCTION/janction-render [Python]",
+      "url": "https://github.com/JasmyLab-JANCTION/janction-render",
+      "summary": "Cloud GPU rendering for Blender scenes and 3D models (GLB/FBX/USD/STL) for AI agents: MCP server, HTTP API, CLI. Product shots, turntables, animations from Claude, ChatGPT, Codex, Cursor. Free to start (100 JPY with no card, 400 JPY more after saving a card), then 0.1 JPY per GPU-second.  ⭐ 4",
+      "published_at": "2026-11-24T10:48:11Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": {
+        "is_server": false,
+        "is_free": false,
+        "confidence": 72,
+        "real_free": "仅赠送100日元试用额度（绑卡后再送400日元），之后按GPU秒计费",
+        "cost": "需绑卡",
+        "risks": "本质是付费GPU渲染API，赠送额度极少，用完即收费",
+        "tag": "免费试用"
+      }
+    },
+    {
+      "hash": "d3f244dbda32d425",
+      "source_id": "gh-free-cloud",
+      "source_name": "GitHub: free-cloud 主题",
+      "category": "C",
+      "title": "yuzhe-chen/oracle-a1-grab [Python]",
+      "url": "https://github.com/yuzhe-chen/oracle-a1-grab",
+      "summary": "Retries Oracle Cloud's free Ampere A1 server until one is free  ⭐ 0",
+      "published_at": "2026-11-24T07:06:46Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 78,
+        "real_free": "Oracle Cloud 永久免费 Ampere A1 ARM 实例（4核24G），脚本自动重试抢空闲容量",
+        "cost": "完全免费",
+        "risks": "需绑卡注册Oracle账号；热门区域容量紧张需长期重试；账号可能被风控",
+        "tag": "免费云主机"
+      }
+    },
+    {
+      "hash": "d2dd121510e79725",
+      "source_id": "gh-free-cloud",
+      "source_name": "GitHub: free-cloud 主题",
+      "category": "C",
+      "title": "linkro-app/Stickle [Python]",
+      "url": "https://github.com/linkro-app/Stickle",
+      "summary": "Sticky notes for Windows, Linux and macOS that sync through your own cloud folder. No account, no server, encrypted, offline-first. Free software (GPL).  ⭐ 0",
+      "published_at": "2026-11-24T04:53:22Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "开源桌面便签软件，通过用户自己的云盘文件夹同步，无需账号和服务器",
+        "cost": "完全免费",
+        "risks": "无",
+        "tag": "非服务器服务"
+      }
+    },
+    {
+      "hash": "4b344d455bb37f09",
+      "source_id": "gh-free-cloud",
+      "source_name": "GitHub: free-cloud 主题",
+      "category": "C",
+      "title": "SujahathMSM/cgnat-bypass-wireguard-oracle [Python]",
+      "url": "https://github.com/SujahathMSM/cgnat-bypass-wireguard-oracle",
+      "summary": "Public IP for a home server behind CGNAT using Oracle Cloud Always Free, WireGuard, iptables NAT and Caddy  ⭐ 0",
+      "published_at": "2026-11-24T04:30:28Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 55,
+        "real_free": "利用 Oracle Cloud Always Free 免费 ARM 实例搭建 WireGuard 中转，为 CGNAT 后的家庭服务器提供公网 IP",
+        "cost": "完全免费",
+        "risks": "Oracle 免费实例可能被回收；需自行配置，原文未抓取，细节不确定",
+        "tag": "免费云主机"
+      }
+    },
+    {
+      "hash": "0542aaf59ce22e62",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "C",
+      "title": "2035 came early",
+      "url": "https://fzakaria.com/2026/11/23/2035-came-early",
+      "summary": "<p><a href=\"https://lobste.rs/s/rkk6o8/2035_came_early\">Comments</a></p>",
+      "published_at": "2026-11-24T06:30:15.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "d9f03d6ce94a90a9",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "C",
+      "title": "Worshipping at the altar of Brendan Gregg",
+      "url": "https://fzakaria.com/2026/11/12/worshipping-at-the-altar-of-brendan-gregg",
+      "summary": "<p><a href=\"https://lobste.rs/s/voxuev/worshipping_at_altar_brendan_gregg\">Comments</a></p>",
+      "published_at": "2026-11-24T10:50:52.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "0bebc3684bd50a31",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "C",
+      "title": "Bypassing iOS Safari 60 FPS Limit",
+      "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
+      "summary": "<p><a href=\"https://lobste.rs/s/pxvmxo/bypassing_ios_safari_60_fps_limit\">Comments</a></p>",
+      "published_at": "2026-11-24T10:35:19.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "acea198d81dfd900",
+      "source_id": "lobsters",
+      "source_name": "Lobsters",
+      "category": "C",
+      "title": "There's no reason for software to be slow anymore",
+      "url": "https://danluu.com/no-slow/",
+      "summary": "<p><a href=\"https://lobste.rs/s/uf8vxo/there_s_no_reason_for_software_be_slow\">Comments</a></p>",
+      "published_at": "2026-11-24T08:39:33.000Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "30b470df8bdd0b9c",
+      "source_id": "gh-topic-free",
+      "source_name": "GitHub: free-tier 主题",
+      "category": "C",
+      "title": "wy1040489623-tech/saibodan-ai-deals [JavaScript]",
+      "url": "https://github.com/wy1040489623-tech/saibodan-ai-deals",
+      "summary": "赛博鸡蛋 · 每日 AI 免费福利台账（自动更新）  ⭐ 0",
+      "published_at": "2026-11-24T10:51:53Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 95,
+        "real_free": "AI免费福利信息汇总仓库，仅收录各平台免费额度/试用链接，本身不提供任何机器或算力",
+        "cost": "完全免费",
+        "risks": "仅为信息台账，福利以官方页面为准，可能过期或需绑卡",
+        "tag": "非服务器服务"
+      }
+    },
+    {
+      "hash": "45417c784dc5244f",
+      "source_id": "gh-topic-free",
+      "source_name": "GitHub: free-tier 主题",
+      "category": "C",
+      "title": "pnnnhan99/awesome-free-ai-apis [JavaScript]",
+      "url": "https://github.com/pnnnhan99/awesome-free-ai-apis",
+      "summary": "A curated collection of free & free-tier AI APIs for developers, vibe coding, AI apps, and modern software development.  ⭐ 8",
+      "published_at": "2026-11-24T08:55:01Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "免费AI API清单，非计算资源",
+        "cost": "完全免费",
+        "risks": "无",
+        "tag": "非服务器服务"
+      }
+    },
+    {
+      "hash": "4b5f9b37c967a304",
+      "source_id": "gh-topic-free",
+      "source_name": "GitHub: free-tier 主题",
+      "category": "C",
+      "title": "FAHTHIZ/OASIS-ROUTE [Python]",
+      "url": "https://github.com/FAHTHIZ/OASIS-ROUTE",
+      "summary": "Every free LLM token you're entitled to, behind one key. Open-source, self-hosted gateway: verified free tiers, quota-aware routing, honest failover. OpenAI & Anthropic compatible.  ⭐ 0",
+      "published_at": "2026-11-24T08:48:14Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 72,
+        "real_free": "开源自托管的 LLM API 网关，聚合免费大模型额度，需自行部署运行",
+        "cost": "完全免费",
+        "risks": "需自行部署维护；聚合免费额度可能违反各平台条款",
+        "tag": "非服务器服务"
+      }
+    },
+    {
+      "hash": "ebd2ff1f11ae3de2",
+      "source_id": "gh-topic-free",
+      "source_name": "GitHub: free-tier 主题",
+      "category": "C",
+      "title": "Amz34/awesome-agent-infrastructure",
+      "url": "https://github.com/Amz34/awesome-agent-infrastructure",
+      "summary": "A live-checked index of production-grade, self-hostable building blocks for AI agents and LLM workloads.  ⭐ 1",
+      "published_at": "2026-11-24T08:30:04Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": null
+    },
+    {
+      "hash": "e3fd7de93c91a018",
+      "source_id": "gh-topic-free",
+      "source_name": "GitHub: free-tier 主题",
+      "category": "C",
+      "title": "pnnnhan99/awesome-free-dev-tools [JavaScript]",
+      "url": "https://github.com/pnnnhan99/awesome-free-dev-tools",
+      "summary": "A curated collection of free & useful tools for developers, vibe coding, AI, SaaS, and modern web development.  ⭐ 15",
+      "published_at": "2026-11-24T07:56:00Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 30,
+        "real_free": "一个免费开发工具清单仓库，本身不提供任何机器或算力",
+        "cost": "完全免费",
+        "risks": "无",
+        "tag": "技术讨论"
+      }
+    },
+    {
+      "hash": "417808fe51c896cc",
+      "source_id": "gh-topic-free",
+      "source_name": "GitHub: free-tier 主题",
+      "category": "C",
+      "title": "lm7644/free-llm-tracker [HTML]",
+      "url": "https://github.com/lm7644/free-llm-tracker",
+      "summary": "大模型免费渠道全景表 - 每日自动巡查的国内外大模型/Agent 免费使用渠道台账 | Auto-updated tracker of free LLM & coding-agent usage channels (CN-first)  ⭐ 2",
+      "published_at": "2026-11-24T07:52:15Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "一个追踪免费大模型API渠道的GitHub信息汇总项目，本身不提供任何可运行的计算资源",
+        "cost": "完全免费",
+        "risks": "无",
+        "tag": "非服务器服务"
+      }
+    },
+    {
+      "hash": "ade54fea82ea99ed",
+      "source_id": "gh-topic-free",
+      "source_name": "GitHub: free-tier 主题",
+      "category": "C",
+      "title": "Appentium/quota-bar [Python]",
+      "url": "https://github.com/Appentium/quota-bar",
+      "summary": "See every free AI model quota (OpenRouter, Cerebras, Gemini, Z.ai, Cloudflare) in your Mac menu bar  ⭐ 0",
+      "published_at": "2026-11-24T07:09:52Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "一个开源 Mac 菜单栏工具，用于查看各 AI 模型免费额度，本身不提供任何计算资源",
+        "cost": "完全免费",
+        "risks": "无",
+        "tag": "非服务器服务"
+      }
+    },
+    {
+      "hash": "90ce09e7e0015e27",
+      "source_id": "gh-topic-free",
+      "source_name": "GitHub: free-tier 主题",
+      "category": "C",
+      "title": "OshriFatkiev/ollama-cloud-free-tier [Python]",
+      "url": "https://github.com/OshriFatkiev/ollama-cloud-free-tier",
+      "summary": "Unofficial tracker for Ollama cloud models that work on the Free tier.  ⭐ 14",
+      "published_at": "2026-11-24T06:44:47Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": {
+        "is_server": false,
+        "is_free": false,
+        "confidence": 95,
+        "real_free": "无，这是追踪 Ollama 云模型免费额度的仓库，且已确认免费层取消",
+        "cost": "完全免费",
+        "risks": "非服务器；Ollama 云免费层已取消，需付费",
+        "tag": "非服务器服务"
+      }
+    },
+    {
+      "hash": "c1056023570503f2",
+      "source_id": "hn-free-tier",
+      "source_name": "HN: free tier 讨论",
+      "category": "C",
+      "title": "Show HN: Git·vodka – a self-hosting Git remote on Cloudflare's free tier",
+      "url": "https://git.vodka/~c/git-vodka",
+      "summary": "HN 讨论 · 4 分 · 1 评论",
+      "published_at": "2026-08-18T19:47:16Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 88,
+        "real_free": "Cloudflare Worker 免费层运行的自托管 Git 服务，存储用 D1/R2，可 clone/push",
+        "cost": "完全免费",
+        "risks": "仅为 Git 托管，无 shell/root；受 Worker CPU 与请求限制，非通用计算",
+        "tag": "非服务器服务"
+      }
+    },
+    {
+      "hash": "80dd00b68de72249",
+      "source_id": "hn-free-tier",
+      "source_name": "HN: free tier 讨论",
+      "category": "C",
+      "title": "Show HN: A Free Cloud Container",
+      "url": "https://usebench.dev/",
+      "summary": "HN 讨论 · 4 分 · 0 评论",
+      "published_at": "2026-08-13T17:27:34Z",
+      "found_at": "2026-11-24T10:52:39.705Z",
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "免费层提供 1 vCPU、1.5GB RAM 的常驻 Debian 13 容器，可通过 SSH 从任意终端登录，预装 tmux、git 等工具",
+        "cost": "完全免费",
+        "risks": "beta 阶段，免费层资源有限，服务稳定性与长期可用性未知",
+        "tag": "免费云主机"
+      }
+    },
+    {
       "hash": "51f5f97a6c1212fa",
       "source_id": "lowendtalk",
       "source_name": "LowEndTalk Offers",
@@ -6574,7 +7526,15 @@
       "summary": "S3 Compatible Object Storage Powered by Blockchain. 5 GB free storage for an unlimited duration.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 92,
+        "real_free": "5GB 区块链对象存储，S3 兼容，永久免费",
+        "cost": "完全免费",
+        "risks": "无",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "bbc226b6a5f52977",
@@ -6586,7 +7546,15 @@
       "summary": "Cloud Linux machine for AI agents and developers, running on Firecracker microVMs with Docker and common toolchains preinstalled. Free plan: one 4 vCPU / 8 GiB machine, 20 GiB disk, 5 snapshots and 100 GiB egress per month, no credit card required. Not a persistent VPS: a free machine pauses after 30 minutes idle and runs at most 8 hours per session.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "免费提供1台4vCPU/8GiB内存/20GiB磁盘的Firecracker微虚拟机，预装Docker和工具链，每月100GiB出站流量，无需信用卡。",
+        "cost": "完全免费",
+        "risks": "非持久VPS：空闲30分钟暂停，单次会话最长8小时，不适合常驻服务。",
+        "tag": "免费云主机"
+      }
     },
     {
       "hash": "2ed7e281f7b797a4",
@@ -6598,7 +7566,15 @@
       "summary": "AI-driven IaaS with generous compute, storage; offers $30 (might be limited to $5 on certain accounts) of free monthly credits",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 72,
+        "real_free": "Modal 提供无服务器计算平台，每月赠送约 $30（部分账户 $5）免费额度，可运行 Python 函数和容器任务",
+        "cost": "完全免费（每月赠送额度）",
+        "risks": "额度有限，超出后需付费；需绑卡；免费额度可能调整",
+        "tag": "免费PaaS"
+      }
     },
     {
       "hash": "8981c3593a70202a",
@@ -6610,7 +7586,15 @@
       "summary": "Cloud sandboxes for coding agents (Hangars) plus app hosting in Germany. Free: Hangars, cloud machines where agents like Claude Code, Codex and Cursor run, with no credit card required; the agent uses your own plan or API key. App hosting is paid, from $9/month with a 14-day free trial.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 72,
+        "real_free": "免费提供 Hangars 云沙盒机器，供 Claude Code、Codex、Cursor 等编码代理运行，无需绑卡，但需自备代理套餐或 API key",
+        "cost": "完全免费（沙盒）；应用托管 $9/月起",
+        "risks": "免费沙盒可能有时长或资源限制；应用托管需付费；原文未抓取，细节待核实",
+        "tag": "免费沙盒IDE"
+      }
     },
     {
       "hash": "22b2e7d46393258b",
@@ -6622,7 +7606,15 @@
       "summary": "Free and secure dynamic reverse proxy service.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 90,
+        "real_free": "免费动态反向代理服务，用于将域名流量转发到后端",
+        "cost": "完全免费",
+        "risks": "仅为代理转发，不提供可运行程序的机器或 shell",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "eb2f49799b241dae",
@@ -6634,7 +7626,15 @@
       "summary": "Visual Studio extension to expose IIS Express to the local network or over a tunnel to a public URL.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 30,
+        "real_free": "Visual Studio 扩展，将本地 IIS Express 暴露到局域网或公网隧道",
+        "cost": "未知",
+        "risks": "原文无法抓取，信息有限；本质是隧道/端口转发工具，非独立机器",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "16fe22e2d1780669",
@@ -6646,7 +7646,15 @@
       "summary": "Expose local sites via secure tunnels. The free plan includes an EU Server, Random subdomains, and Single users.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "免费提供内网穿透隧道服务，含欧盟节点、随机子域名、单用户",
+        "cost": "完全免费",
+        "risks": "隧道服务非可编程主机，无 shell/root，免费版限速限连接",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "a5adcadfe95959bf",
@@ -6658,7 +7666,15 @@
       "summary": "LogMeIn Hamachi is a hosted VPN service that lets you securely extend LAN-like networks to distributed teams with a free plan that allows unlimited networks with up to 5 people",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "Hamachi 是托管 VPN 服务，免费版可建不限数量的虚拟局域网，每网最多 5 人",
+        "cost": "完全免费",
+        "risks": "仅提供 VPN 组网，不提供可运行程序的 shell/root 机器",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "4c418015447e82b1",
@@ -6670,7 +7686,15 @@
       "summary": "Develop, test, and monitor your webhooks from anywhere. 100K requests and 100K attempts per month with three days retention.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "Hookdeck 是 Webhook 接收、调试与监控服务，免费额度为每月 10 万请求、10 万次尝试，数据保留 3 天",
+        "cost": "完全免费",
+        "risks": "非计算资源，无法运行程序或获得 shell/root",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "dda2aecf152b2feb",
@@ -6682,7 +7706,15 @@
       "summary": "Expose locally running servers over a tunnel to a public URL.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 95,
+        "real_free": "免费提供临时 SSH 隧道，将本地端口映射到公网 HTTPS 地址，无需注册",
+        "cost": "完全免费",
+        "risks": "仅隧道转发，非独立机器；临时域名不稳定，不适合常驻服务",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "61d4b271bc1969fc",
@@ -6694,7 +7726,15 @@
       "summary": "Multi-protocol tunneling for HTTP, TLS, TCP, UDP, File Server (Default, SFTP, WebDAV), and Proxy Tunnel (HTTP, SOCKS5, Shadowsocks, VLESS). Free plan: 1 tunnel, 1GB/month bandwidth, 30 min timeout (excl. HTTP Tunnels).",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "免费提供内网穿透隧道服务，1条隧道、每月1GB流量，HTTP隧道不限时，其他协议30分钟超时",
+        "cost": "完全免费",
+        "risks": "隧道服务非独立机器，流量小、非HTTP隧道30分钟断连，不适合常驻服务",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "f9f817f256d6f17c",
@@ -6706,7 +7746,15 @@
       "summary": "Expose locally running servers over a tunnel to a public URL. Free hosted version, and open source.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "免费提供内网穿透隧道服务，将本地端口映射到公网URL",
+        "cost": "完全免费",
+        "risks": "隧道服务非计算资源，公网URL不稳定，不适合生产",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "8b80f29d41526452",
@@ -6718,7 +7766,15 @@
       "summary": "Reverse proxy that enables you to expose your localhost servers to the internet. The free plan has 15 minutes tunnel lifetime.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "免费提供内网穿透反向代理隧道，每次隧道仅15分钟，非计算资源",
+        "cost": "完全免费",
+        "risks": "隧道15分钟断开，仅端口转发，不提供可运行程序的机器",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "9bf7e7b3b563279c",
@@ -6730,7 +7786,15 @@
       "summary": "Expose locally running servers over a tunnel to a public URL.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 95,
+        "real_free": "免费提供内网穿透隧道服务，将本地端口映射到公网URL，但本身不提供计算主机",
+        "cost": "完全免费",
+        "risks": "仅隧道转发，无shell/root，免费版有连接数和带宽限制",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "69e0c2aa1c83fb4f",
@@ -6742,7 +7806,15 @@
       "summary": "Public URLs for localhost with a single command, no downloads required. HTTPS / TCP / TLS tunnels. The free plan has 60 minutes tunnel lifetime.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "免费提供60分钟有效期的localhost公网隧道（HTTPS/TCP/TLS），无需下载",
+        "cost": "完全免费",
+        "risks": "隧道仅60分钟，非持久服务器；免费版有连接限制",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "bfb6e001c528dafe",
@@ -6754,7 +7826,15 @@
       "summary": "Connect multiple computers together via a VPN-enabling LAN-like network. Unlimited peers. (Hamachi alternative)",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "Radmin VPN 是免费虚拟局域网组网工具，类似 Hamachi，可把多台电脑连成局域网，不限节点数",
+        "cost": "完全免费",
+        "risks": "仅为组网 VPN，不提供可运行程序的机器或 shell/root 权限",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "6f94b430cecf39b0",
@@ -6766,7 +7846,15 @@
       "summary": "Expose local servers to the internet. No installation, no signup. Free subdomain, no limits.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "免费内网穿透/端口转发服务，提供免费子域名，无需安装注册",
+        "cost": "完全免费",
+        "risks": "本质是隧道转发而非可登录主机，无 shell/root，且服务稳定性无保障",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "6417e3b7505a168d",
@@ -6778,7 +7866,15 @@
       "summary": "Zero config VPN, using the open-source WireGuard protocol. Installs on MacOS, iOS, Windows, Linux, and Android devices. Free plan for personal use with 100 devices and three users.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "个人免费版：100台设备、3个用户的零配置 WireGuard 组网 VPN",
+        "cost": "完全免费",
+        "risks": "VPN 组网工具，不提供可运行程序的机器；免费版有设备与用户数限制",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "981eda2e78d8ed1f",
@@ -6790,7 +7886,15 @@
       "summary": "Manage, debug, fan-out, and proxy all your webhooks to public or internal (i.e. localhost) destinations. Also, expose servers running in a private network over a tunnel by getting a public HTTP endpoint (`https://yoursubdomain.webrelay.io <----> http://localhost:8080`).",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "免费提供 webhook 转发与隧道服务，可将本地端口暴露为公网 HTTP 端点",
+        "cost": "完全免费",
+        "risks": "隧道服务非完整主机，无 shell/root，免费额度有限",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "796906a2dfa9be9c",
@@ -6802,7 +7906,15 @@
       "summary": "Unlimited STUN usage + 500 MB monthly TURN bandwidth, capped bandwidth, single geographic region.",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "免费提供无限 STUN 和每月 500MB TURN 流量的 WebRTC 中继服务",
+        "cost": "完全免费",
+        "risks": "TURN 流量有限，超出需付费；非计算资源",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "6a0475c6aca83fd5",
@@ -6814,7 +7926,15 @@
       "summary": "FOSS managed virtual Ethernet as a service. Unlimited end-to-end encrypted networks of 25 clients on the free plan. Clients for desktop/mobile/NA; web interface for configuration of custom routing rules and approval of new client nodes on private networks",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "免费提供虚拟以太网组网服务，最多25个客户端，端到端加密，含Web管理界面",
+        "cost": "完全免费",
+        "risks": "仅为组网/内网穿透工具，不提供可运行程序的机器",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "94a152e3febdccd4",
@@ -6826,7 +7946,15 @@
       "summary": "Cross-platform Minecraft server manager. (Source Code) `AGPL-3.0` `Python`",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 90,
+        "real_free": "免费开源的 Minecraft 服务器管理工具，用于在本机创建和管理游戏服务器",
+        "cost": "完全免费",
+        "risks": "仅为本地管理软件，需自备运行机器和网络资源",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "a5ff234624bdd655",
@@ -6838,7 +7966,15 @@
       "summary": "Modern game server management panel. Deploy, monitor, and manage Minecraft, Hytale, and other game servers with industry-leading performance. (Source Code) `MIT` `Rust/Docker/deb`",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 55,
+        "real_free": "开源(MIT)游戏服务器管理面板，可自托管，但需自备机器",
+        "cost": "完全免费",
+        "risks": "仅为管理面板，非免费主机；需自备服务器与运维",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "52f12cd406ae5bb2",
@@ -6850,7 +7986,15 @@
       "summary": "Minecraft launcher and manager that allows users to start and administer Minecraft servers from a user-friendly interface. (Source Code) `GPL-3.0` `Docker/Python`",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 75,
+        "real_free": "Crafty Controller 是开源自托管的 Minecraft 服务器管理面板，本身免费，但需自备机器运行",
+        "cost": "完全免费",
+        "risks": "仅为管理面板，需自备服务器和带宽；Minecraft 服务端本身耗资源",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "dd7e5ba86b21eab4",
@@ -6862,7 +8006,15 @@
       "summary": "Game distribution platform, designed for distributing and sharing DRM-free games efficiently (alternative to Steam, GameVault). (Source Code, Clients) `AGPL-3.0` `Docker`",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "Drop 是一个开源的游戏分发平台软件，可自行部署，但本身不是免费服务器",
+        "cost": "完全免费",
+        "risks": "需自备服务器和带宽，无现成免费机器",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "1e2ffb8f89d0abda",
@@ -6874,7 +8026,15 @@
       "summary": "Web-interface that allows you to manage server daemons like gameservers. In addition it provides you with a CMS which includes a fully automated game- and voiceserver lending service. (Source Code) `GPL-3.0` `PHP/Shell`",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "EasyWI 是开源自托管的面板软件（GPL-3.0），用于管理游戏服务器和语音服务器，本身不提供机器",
+        "cost": "完全免费",
+        "risks": "需自备服务器和运维，非免费主机资源",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "c3e7a44eda0b1899",
@@ -6886,7 +8046,15 @@
       "summary": "Game Administration Panel for managing game servers on Linux and Windows. (Demo, Source Code, Clients) `MIT` `Go/Docker`",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 55,
+        "real_free": "GameAP 是开源自托管游戏服务器管理面板（MIT 许可），本身免费，但需自备 Linux/Windows 机器运行",
+        "cost": "完全免费",
+        "risks": "仅为管理面板，需自备服务器；原文未抓取，信息可能不全",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "26a8d7bd2fb30129",
@@ -6898,7 +8066,15 @@
       "summary": "Video game library manager with automatic scanning, web access, downloads, and plugin support. (Source Code) `AGPL-3.0` `Docker`",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 75,
+        "real_free": "Gameyfin 是开源自托管的游戏库管理软件，可免费下载并自行部署，但本身不提供免费服务器。",
+        "cost": "完全免费",
+        "risks": "需自备服务器或主机部署，无现成免费机器",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "0ff4c85c6e9fe53d",
@@ -6910,7 +8086,15 @@
       "summary": "`⚠` - Game ROM manager with a built-in web-based emulator using multiple sources to identify and provide metadata. `AGPL-3.0` `Docker/.NET`",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "开源游戏ROM管理器，可自行用Docker部署，软件本身免费",
+        "cost": "完全免费",
+        "risks": "需自备服务器/主机运行，非托管免费机器",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "24b3fed41aaff2bc",
@@ -6922,7 +8106,15 @@
       "summary": "`⚠` - LAN Party game caching made easy. (Source Code) `MIT` `Docker/Shell`",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 92,
+        "real_free": "开源游戏缓存软件，需自备机器运行Docker",
+        "cost": "完全免费",
+        "risks": "仅为软件，需自备服务器和带宽",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "8476302aaa1c76db",
@@ -6934,7 +8126,15 @@
       "summary": "CLI tool for deployment and management of dedicated game servers on Linux: more than 120 games are supported. (Source Code) `MIT` `Shell`",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 30,
+        "real_free": "LinuxGSM 是开源游戏服务器部署管理脚本，本身免费，但需自备 Linux 机器",
+        "cost": "完全免费",
+        "risks": "仅为管理工具，不提供免费机器；需自备服务器与带宽",
+        "tag": "技术讨论"
+      }
     },
     {
       "hash": "971204c66356432a",
@@ -6946,7 +8146,15 @@
       "summary": "Sync games and save files across multiple devices. (Source Code) `MIT` `Rust`",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 92,
+        "real_free": "开源(MIT)自托管游戏分发与存档同步套件，需自备服务器运行",
+        "cost": "完全免费",
+        "risks": "需自备服务器和运维，非托管服务",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "f9a60231c7f51175",
@@ -6958,7 +8166,15 @@
       "summary": "Nintendo Switch library manager, with automated management tasks (file identification and organization, missing updates/DLC), serving your library to multiple supported clients on your Switch, with shop customization and multi user authentication. `AGPL-3.0` `Docker/Python`",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "Ownfoil 是开源自托管的 Switch 游戏库管理软件，可 Docker 部署，软件本身免费",
+        "cost": "完全免费",
+        "risks": "需自备服务器/主机运行，非现成免费机器",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "00201071d22a04c0",
@@ -6970,7 +8186,15 @@
       "summary": "Web application for easy management of game servers, offering a user-friendly interface for deploying, configuring, and managing servers, server monitoring tools, and extensive customization options (fork of Pterodactyl). (Source Code) `AGPL-3.0` `PHP/Docker`",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "Pelican Panel 是开源的游戏服务器管理面板软件，本身不提供免费机器，需自备服务器部署",
+        "cost": "完全免费",
+        "risks": "仅为管理面板，需自备服务器和资源，非免费主机",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "801b8290b4be47b1",
@@ -6982,7 +8206,15 @@
       "summary": "Centralized Pokémon storage management & Pokedex app (alternative to Pokémon Home). (Demo) `GPL-3.0` `Docker`",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "开源宝可梦存储管理应用，可自行用Docker部署，软件本身免费",
+        "cost": "完全免费",
+        "risks": "需自备服务器和Docker环境，非托管机器",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "5ecfef1fb0493adb",
@@ -6994,7 +8226,15 @@
       "summary": "Management panel for game servers, with an intuitive UI for end users. (Source Code) `MIT` `PHP`",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 55,
+        "real_free": "Pterodactyl 是开源自托管游戏服务器管理面板（MIT），可免费部署在自己的机器上管理游戏服实例",
+        "cost": "完全免费",
+        "risks": "仅为管理面板，需自备服务器与运维；非现成免费机器",
+        "tag": "免费PaaS"
+      }
     },
     {
       "hash": "14199d48b2cd874a",
@@ -7006,7 +8246,15 @@
       "summary": "Game server management panel designed for both small networks and game server providers. (Source Code) `Apache-2.0` `Go`",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 55,
+        "real_free": "PufferPanel 是开源游戏服务器管理面板，可自托管在自有机器上，软件本身免费",
+        "cost": "完全免费",
+        "risks": "仅为管理面板，需自备服务器；原文未抓取，信息有限",
+        "tag": "免费PaaS"
+      }
     },
     {
       "hash": "a15729827bb7bd35",
@@ -7018,7 +8266,15 @@
       "summary": "`⚠` - Game library manager for PC and retro consoles, with metadata scraping, indexer search, download automation and browser-based emulation (alternative to RomM). (Source Code) `MIT` `Docker/.NET`",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "RetroArr 是自托管的游戏库管理软件（Docker/.NET 部署），软件本身免费开源，但需自备服务器运行",
+        "cost": "完全免费",
+        "risks": "仅为软件，需自备主机和带宽；无现成免费机器",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "b29b734bb43d3b42",
@@ -7030,7 +8286,15 @@
       "summary": "Private cloud game library distribution server + frontend/launcher. `GPL-3.0` `Docker/Rust`",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": true,
+        "is_free": true,
+        "confidence": 55,
+        "real_free": "开源软件 Retrom 可自托管，需自备服务器或 Docker 环境运行，软件本身免费",
+        "cost": "完全免费",
+        "risks": "需自备硬件/云主机，非免费机器；原文未抓取，信息有限",
+        "tag": "免费PaaS"
+      }
     },
     {
       "hash": "851c009eeeedde9c",
@@ -7042,7 +8306,15 @@
       "summary": "`⚠` - ROM manager for organizing, enriching, and playing retro games, with support for 400+ platforms. (Demo, Source Code) `AGPL-3.0` `Docker`",
       "published_at": null,
       "found_at": "2026-11-24T00:23:56.706Z",
-      "ai": null
+      "ai": {
+        "is_server": false,
+        "is_free": true,
+        "confidence": 85,
+        "real_free": "RomM 是开源自托管的 ROM 游戏管理软件，可 Docker 部署，软件本身免费",
+        "cost": "完全免费",
+        "risks": "需自备服务器/主机运行，非提供免费机器",
+        "tag": "非服务器服务"
+      }
     },
     {
       "hash": "c1c53f6cd4def237",
@@ -9853,8 +11125,13 @@
       "ai": null
     }
   ],
-  "lastUpdate": "2026-11-24T03:52:16.504Z",
+  "lastUpdate": "2026-11-24T10:52:39.705Z",
   "runs": [
+    {
+      "at": "2026-11-24T10:52:39.705Z",
+      "found": 66,
+      "errors": []
+    },
     {
       "at": "2026-11-24T03:52:16.504Z",
       "found": 41,
