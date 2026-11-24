@@ -1,0 +1,15 @@
+{
+  "name": "vps-radar",
+  "version": "1.0.0",
+  "description": "免费服务器情报聚合 + AI 审核，基于 GitHub Actions 定时运行",
+  "type": "module",
+  "scripts": {
+    "crawl": "bun run src/run.js crawl",
+    "review": "bun run src/run.js review",
+    "all": "bun run src/run.js",
+    "serve": "bun --bun serve docs -p 8090"
+  },
+  "engines": {
+    "bun": ">=1.0.0"
+  }
+}
