@@ -233,10 +233,34 @@ def run():
     save_history(hist)
     log("已保存 %d 天历史，%d 个仓库" % (len(hist["snapshots"]), len(repos)))
 
-    # 推送
+    # 推送并记录
     if hot:
         msg = build_message(hot)
-        if push_wecom(msg):
+        ok = push_wecom(msg)
+        # 记录到推送日志
+        try:
+            sys.path.insert(0, BASE)
+            import push_log
+            push_log.record(
+                kind="GitHub热点",
+                title="GitHub 热点 · %d 个" % len(hot),
+                content=msg,
+                count=len(hot),
+                summary="今日最热：%s" % hot[0]["repo"] if hot else "",
+                items=[{
+                    "title": h["repo"],
+                    "url": h["url"],
+                    "desc": h["desc"][:120],
+                    "stars": h["stars"],
+                    "growth": h["growth"],
+                    "lang": h["lang"],
+                } for h in hot[:30]],
+                success=ok,
+            )
+        except Exception as e:
+            log("记录失败: %s" % e)
+
+        if ok:
             log("✅ 微信推送成功：%d 个热点" % len(hot))
         else:
             log("❌ 微信推送失败")

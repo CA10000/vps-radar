@@ -205,6 +205,74 @@ main{max-width:1180px;margin:0 auto;padding:14px 16px 48px}
 .hitem .repo:hover{color:var(--blue)}
 .hitem .g{color:#ff6b00;font-weight:600;font-size:12px;white-space:nowrap}
 
+/* ── 推送记录 ── */
+.pushlist{display:flex;flex-direction:column;gap:10px}
+.pushcard{
+  background:var(--card);border-radius:var(--radius);
+  box-shadow:var(--shadow);overflow:hidden;
+  transition:box-shadow .18s;
+}
+.pushcard:hover{box-shadow:var(--shadow-h)}
+.pushhead{
+  display:flex;align-items:center;gap:10px;
+  padding:13px 16px;cursor:pointer;user-select:none;
+}
+.pushkind{
+  flex:0 0 auto;padding:2px 9px;border-radius:6px;
+  font-size:11px;font-weight:600;letter-spacing:.01em;white-space:nowrap;
+}
+.k-免费资源{background:rgba(52,199,89,.14);color:#248a3d}
+.k-GitHub热点{background:rgba(255,149,0,.14);color:#c93400}
+.k-话题调研{background:rgba(0,113,227,.12);color:#0071e3}
+.k-心跳{background:rgba(142,142,147,.16);color:var(--sub)}
+@media (prefers-color-scheme:dark){
+  .k-免费资源{color:#30d158}
+  .k-GitHub热点{color:#ff9f0a}
+  .k-话题调研{color:#0a84ff}
+}
+.pushmain{flex:1;min-width:0}
+.pushtitle{
+  font-size:14px;font-weight:600;letter-spacing:-.01em;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+}
+.pushsub{
+  font-size:12px;color:var(--sub);margin-top:2px;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+}
+.pushmeta{
+  flex:0 0 auto;font-size:11.5px;color:var(--sub);text-align:right;white-space:nowrap;
+}
+.pushfail{color:#ff3b30;font-size:11px;font-weight:600}
+.chev{
+  flex:0 0 auto;width:16px;height:16px;opacity:.35;
+  transition:transform .2s;
+}
+.pushcard.open .chev{transform:rotate(180deg)}
+.pushbody{
+  display:none;padding:0 16px 15px;
+  border-top:.5px solid var(--line);margin-top:0;
+}
+.pushcard.open .pushbody{display:block;animation:fade .2s}
+.pushbody pre{
+  font:13px/1.62 ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
+  white-space:pre-wrap;word-break:break-word;
+  color:var(--text);margin-top:12px;
+  max-height:520px;overflow:auto;
+  padding:12px;border-radius:10px;background:rgba(118,118,128,.06);
+}
+.pitem{
+  display:flex;gap:9px;padding:7px 0;font-size:13px;
+  border-top:.5px solid var(--line);
+}
+.pitem:first-child{border-top:0;padding-top:0}
+.pitem .num{flex:0 0 20px;color:var(--sub);font-size:12px;text-align:right}
+.pitem .body{flex:1;min-width:0}
+.pitem a{color:var(--text);text-decoration:none;font-weight:500;word-break:break-all}
+.pitem a:hover{color:var(--blue)}
+.pitem .d{color:var(--sub);font-size:12px;margin-top:1px}
+.pitem .g{color:#ff6b00;font-weight:700;font-size:12px}
+.pfilter{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+
 /* 返回顶部 */
 .fab{
   position:fixed;right:16px;bottom:calc(20px + env(safe-area-inset-bottom));
@@ -266,19 +334,21 @@ const LANG_COLOR = {
 };
 const langColor = l => LANG_COLOR[l] || '#8e8e93';
 
-let DATA = {items:[], trending:{snapshots:[],repos:{}}};
+let DATA = {items:[], trending:{snapshots:[],repos:{}}, pushLog:{records:[]}};
 let state = {tab:'hot', q:'', free:false};
 
 /* ────────── 数据加载 ────────── */
 async function load(){
   $('#main').innerHTML = '<div class="grid">'+'<div class="skel"></div>'.repeat(6)+'</div>';
   try{
-    const [d, t] = await Promise.all([
+    const [d, t, p] = await Promise.all([
       fetch('data.json?t='+Date.now()).then(r=>r.json()).catch(()=>({items:[]})),
-      fetch('trending.json?t='+Date.now()).then(r=>r.json()).catch(()=>({snapshots:[],repos:{}}))
+      fetch('trending.json?t='+Date.now()).then(r=>r.json()).catch(()=>({snapshots:[],repos:{}})),
+      fetch('push_log.json?t='+Date.now()).then(r=>r.json()).catch(()=>({records:[]}))
     ]);
     DATA.items = d.items || [];
     DATA.trending = t || {snapshots:[],repos:{}};
+    DATA.pushLog = p || {records:[]};
   }catch(e){
     $('#main').innerHTML = '<div class="empty"><div class="t">数据加载失败</div><div>'+esc(e.message)+'</div></div>';
     return;
@@ -315,6 +385,7 @@ const TABS = [
   {k:'free',   label:'免费资源'},
   {k:'vps',    label:'低价 VPS'},
   {k:'ai',     label:'AI 工具'},
+  {k:'push',   label:'推送记录'},
   {k:'history',label:'历史榜单'},
 ];
 
@@ -326,6 +397,7 @@ function renderTabs(){
     free: freeN,
     vps: DATA.items.filter(i=>i.category==='A').length,
     ai: DATA.items.filter(i=>i.category==='C').length,
+    push: (DATA.pushLog?.records || []).length,
     history: DATA.trending.snapshots?.length || 0,
   };
   $('#tabs').innerHTML = TABS.map(t =>
@@ -431,6 +503,65 @@ function renderHistory(){
   }).join('') + '</div>';
 }
 
+/* ────────── 推送记录 ────────── */
+let pushFilter = 'all';
+
+function renderPush(){
+  const recs = DATA.pushLog?.records || [];
+  if(!recs.length){
+    return '<div class="empty"><div class="t">还没有推送记录</div><div>下次自动推送后会出现在这里</div></div>';
+  }
+
+  const kinds = ['all', ...new Set(recs.map(r=>r.kind))];
+  const filtered = pushFilter==='all' ? recs : recs.filter(r=>r.kind===pushFilter);
+
+  const filterBar = '<div class="pfilter">' + kinds.map(k => {
+    const n = k==='all' ? recs.length : recs.filter(r=>r.kind===k).length;
+    return '<button class="chip" data-pk="'+esc(k)+'" aria-pressed="'+(pushFilter===k)+'">'
+      + (k==='all'?'全部':esc(k)) + ' <span style="opacity:.6">'+n+'</span></button>';
+  }).join('') + '</div>';
+
+  const cards = filtered.map((r, i) => {
+    const t = new Date(r.at);
+    const when = t.toLocaleString('zh-CN', {month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'});
+    const kindCls = 'k-' + (r.kind||'其他');
+    let itemsHtml = '';
+    if(r.items && r.items.length){
+      itemsHtml = '<div style="margin-top:12px">' + r.items.slice(0,12).map((it, idx) => {
+        const name = it.title || it.name || '';
+        const url = it.url || '';
+        const d = it.real_free || it.desc || '';
+        const g = it.growth ? '<span class="g">+'+num(it.growth)+'</span>' : '';
+        return '<div class="pitem">'
+          + '<span class="num">'+(idx+1)+'</span>'
+          + '<div class="body">'
+          + (url?'<a href="'+esc(url)+'" target="_blank" rel="noopener">'+esc(name)+'</a>':'<span>'+esc(name)+'</span>')
+          + (d?'<div class="d">'+esc(String(d).slice(0,110))+'</div>':'')
+          + '</div>' + g + '</div>';
+      }).join('') + '</div>';
+    }
+    return '<div class="pushcard" data-pi="'+i+'">'
+      + '<div class="pushhead">'
+      +   '<span class="pushkind '+kindCls+'">'+esc(r.kind||'未知')+'</span>'
+      +   '<div class="pushmain">'
+      +     '<div class="pushtitle">'+esc(r.title||'')+'</div>'
+      +     (r.summary?'<div class="pushsub">'+esc(r.summary)+'</div>':'')
+      +   '</div>'
+      +   '<div class="pushmeta">'+when
+      +     (r.success===false?'<div class="pushfail">推送失败</div>':'')
+      +   '</div>'
+      +   '<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>'
+      + '</div>'
+      + '<div class="pushbody">'
+      +   itemsHtml
+      +   (r.content?'<pre>'+esc(r.content)+'</pre>':'')
+      + '</div>'
+      + '</div>';
+  }).join('');
+
+  return filterBar + '<div class="pushlist">' + cards + '</div>';
+}
+
 /* ────────── 主渲染 ────────── */
 function render(){
   renderStats();
@@ -438,6 +569,11 @@ function render(){
 
   if(state.tab==='history'){
     $('#main').innerHTML = renderHistory();
+    return;
+  }
+  if(state.tab==='push'){
+    $('#main').innerHTML = renderPush();
+    bindPushEvents();
     return;
   }
 
@@ -454,6 +590,16 @@ function render(){
       : '<div class="empty"><div class="t">没有匹配结果</div><div>换个关键词试试</div></div>';
   }
   $('#main').innerHTML = html;
+}
+
+/* ────────── 推送记录交互 ────────── */
+function bindPushEvents(){
+  document.querySelectorAll('[data-pk]').forEach(b=>{
+    b.onclick = ()=>{ pushFilter = b.dataset.pk; render(); };
+  });
+  document.querySelectorAll('.pushhead').forEach(h=>{
+    h.onclick = ()=> h.parentElement.classList.toggle('open');
+  });
 }
 
 /* ────────── 交互 ────────── */

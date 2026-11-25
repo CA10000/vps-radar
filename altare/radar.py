@@ -374,6 +374,18 @@ def push_wecom(md):
         return False
 
 
+def push_and_log(md, kind, title, count=0, items=None, summary=None):
+    """推送并记录到 push_log.json"""
+    ok = push_wecom(md)
+    try:
+        import push_log
+        push_log.record(kind=kind, title=title, content=md,
+                        summary=summary, count=count, items=items, success=ok)
+    except Exception as e:
+        log("推送记录失败: %s" % e)
+    return ok
+
+
 KIND_EMOJI = {"免费服务器": "🖥", "免费AI": "🤖", "开源项目": "⭐", "其他": "📌"}
 
 
@@ -711,7 +723,16 @@ def run():
         msg = build_message(valuable)
         if health:
             msg += "\n\n" + health
-        if push_wecom(msg):
+        ok = push_and_log(
+            msg, kind="免费资源",
+            title="免费资源 · %d 条" % len(valuable),
+            count=len(valuable),
+            summary=valuable[0]["title"][:60] if valuable else "",
+            items=[{"title": v["title"][:100], "url": v["url"],
+                    "real_free": (v["ai"].get("real_free") or "")[:100],
+                    "tag": v["ai"].get("kind", "")} for v in valuable[:20]],
+        )
+        if ok:
             log("✅ 微信推送成功：%d 条" % len(valuable))
         else:
             log("❌ 微信推送失败")
@@ -719,7 +740,8 @@ def run():
         log("本轮无新内容（微信不推送）")
         # 若长时间无推送，发一次存活确认
         if health:
-            push_wecom("# 📡 VPS 雷达运行中\n\n本轮无新内容。\n\n" + health)
+            push_and_log("# 📡 VPS 雷达运行中\n\n本轮无新内容。\n\n" + health,
+                         kind="心跳", title="运行状态确认", count=0)
 
     # 同步到 GitHub（网页）
     log("同步到 GitHub...")
