@@ -7,6 +7,7 @@ GitHub 热点专区
 import json
 import os
 import re
+import sys
 import html as html_mod
 import time
 import urllib.request
