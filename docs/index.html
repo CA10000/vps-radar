@@ -337,21 +337,23 @@ const LANG_COLOR = {
 };
 const langColor = l => LANG_COLOR[l] || '#8e8e93';
 
-let DATA = {items:[], trending:{snapshots:[],repos:{}}, pushLog:{records:[]}};
+let DATA = {items:[], trending:{snapshots:[],repos:{}}, pushLog:{records:[]}, jobs:{jobs:[]}};
 let state = {tab:'hot', q:'', free:false};
 
 /* ────────── 数据加载 ────────── */
 async function load(){
   $('#main').innerHTML = '<div class="grid">'+'<div class="skel"></div>'.repeat(6)+'</div>';
   try{
-    const [d, t, p] = await Promise.all([
+    const [d, t, p, jb] = await Promise.all([
       fetch('data.json?t='+Date.now()).then(r=>r.json()).catch(()=>({items:[]})),
       fetch('trending.json?t='+Date.now()).then(r=>r.json()).catch(()=>({snapshots:[],repos:{}})),
-      fetch('push_log.json?t='+Date.now()).then(r=>r.json()).catch(()=>({records:[]}))
+      fetch('push_log.json?t='+Date.now()).then(r=>r.json()).catch(()=>({records:[]})),
+      fetch('jobs.json?t='+Date.now()).then(r=>r.json()).catch(()=>({jobs:[]}))
     ]);
     DATA.items = d.items || [];
     DATA.trending = t || {snapshots:[],repos:{}};
     DATA.pushLog = p || {records:[]};
+    DATA.jobs = jb || {jobs:[]};
   }catch(e){
     $('#main').innerHTML = '<div class="empty"><div class="t">数据加载失败</div><div>'+esc(e.message)+'</div></div>';
     return;
@@ -386,11 +388,100 @@ function timeAgo(d){
 const TABS = [
   {k:'hot',    label:'GitHub 热点'},
   {k:'free',   label:'免费资源'},
+  {k:'jobs',   label:'远程职位'},
   {k:'vps',    label:'低价 VPS'},
   {k:'ai',     label:'AI 工具'},
   {k:'push',   label:'推送记录'},
   {k:'history',label:'历史榜单'},
 ];
+
+/* ── 远程职位 ── */
+let jobStack = 'all';
+let jobRegion = 'asia';
+
+const JOB_STACKS = ['all','AI/ML','Python','TypeScript','JavaScript','Go','Rust','Java','DevOps','Cloud','Data','Frontend','Backend','Fullstack','Mobile','Security'];
+
+function renderJobs(){
+  const jobs = DATA.jobs?.jobs || [];
+  if(!jobs.length){
+    return '<div class="empty"><div class="t">暂无职位数据</div><div>下次抓取后出现</div></div>';
+  }
+
+  let list = jobs;
+  // 地区筛选
+  if(jobRegion==='asia'){
+    list = list.filter(j => isAsiaFriendly(j.location));
+  }
+  // 技术栈筛选
+  if(jobStack!=='all'){
+    list = list.filter(j => (j.stacks||[]).includes(jobStack));
+  }
+  // 搜索
+  if(state.q){
+    const q = state.q.toLowerCase();
+    list = list.filter(j =>
+      ((j.title||'')+' '+(j.company||'')+' '+(j.desc||'')+' '+(j.location||'')).toLowerCase().includes(q));
+  }
+
+  // 筛选栏
+  const regionBar = '<div class="pfilter">'
+    + '<button class="chip" data-jr="asia" aria-pressed="'+(jobRegion==='asia')+'">中国可申请</button>'
+    + '<button class="chip" data-jr="all" aria-pressed="'+(jobRegion==='all')+'">全部地区</button>'
+    + '</div>';
+
+  const stackBar = '<div class="pfilter">' + JOB_STACKS.map(s => {
+    const n = s==='all' ? (DATA.jobs.jobs||[]).length : (DATA.jobs.jobs||[]).filter(j=>(j.stacks||[]).includes(s)).length;
+    if(s!=='all' && n===0) return '';
+    return '<button class="chip" data-js="'+esc(s)+'" aria-pressed="'+(jobStack===s)+'">'
+      + (s==='all'?'全部技术':esc(s)) + ' <span style="opacity:.6">'+n+'</span></button>';
+  }).join('') + '</div>';
+
+  const countLine = '<div style="font-size:12.5px;color:var(--sub);margin:0 0 10px">共 '+list.length+' 个职位</div>';
+
+  if(!list.length){
+    return regionBar + stackBar + '<div class="empty"><div class="t">没有匹配的职位</div><div>换个筛选条件试试</div></div>';
+  }
+
+  const cards = list.map(j => {
+    const stacks = (j.stacks||[]).slice(0,4).map(s => '<span class="tag">'+esc(s)+'</span>').join('');
+    return '<article class="card">'
+      + '<div class="ct"><a class="cname" href="'+esc(j.url)+'" target="_blank" rel="noopener">'+esc(j.title)+'</a></div>'
+      + '<div class="cfoot" style="margin-top:2px">'
+      +   '<span style="color:var(--text);font-weight:500">'+esc(j.company||'')+'</span>'
+      +   '<span>'+esc(j.location||'')+'</span>'
+      + '</div>'
+      + (j.salary?'<div style="font-size:13px;font-weight:600;color:#30a14e">'+esc(j.salary)+'</div>':'')
+      + (j.desc?'<div class="cdesc">'+esc(j.desc.slice(0,140))+'</div>':'')
+      + '<div class="cfoot" style="gap:5px">'+stacks
+      +   '<span style="margin-left:auto;font-size:11px">'+esc(j.source||'')+'</span>'
+      + '</div>'
+      + '</article>';
+  }).join('');
+
+  return regionBar + stackBar + countLine + '<div class="grid">'+cards+'</div>';
+}
+
+function isAsiaFriendly(loc){
+  if(!loc) return true;
+  let s = loc;
+  if(s.includes('Ã')){ try{ s = s.encode; }catch(e){} }
+  const bad = /\b(usa?|united states|us[- ]only|canada|uk|united kingdom|europe|emea|latam|latin america|brazil|india|germany|france|australia|africa|netherlands|spain|poland|portugal|italy|ireland|sweden|north america|south america|pst|est|cst|mst)\b/i;
+  const good = /\b(worldwide|anywhere|global|asia|apac|singapore|hong\s*kong|japan|china|korea|taiwan)\b/i;
+  const hasBad = bad.test(s);
+  if(good.test(s) && !hasBad) return true;
+  if(hasBad) return false;
+  if(/\b(münchen|munich|berlin|london|paris|tokyo|seoul|arlington|toronto|vancouver|sydney|melbourne)\b/i.test(s)) return false;
+  return true;
+}
+
+function bindJobEvents(){
+  document.querySelectorAll('[data-jr]').forEach(b=>{
+    b.onclick = ()=>{ jobRegion = b.dataset.jr; state.q = $('#q').value.trim(); render(); };
+  });
+  document.querySelectorAll('[data-js]').forEach(b=>{
+    b.onclick = ()=>{ jobStack = b.dataset.js; state.q = $('#q').value.trim(); render(); };
+  });
+}
 
 function renderTabs(){
   const freeN = DATA.items.filter(isFree).length;
@@ -400,6 +491,7 @@ function renderTabs(){
     free: freeN,
     vps: DATA.items.filter(i=>i.category==='A').length,
     ai: DATA.items.filter(i=>i.category==='C').length,
+    jobs: (DATA.jobs?.jobs || []).length,
     push: (DATA.pushLog?.records || []).length,
     history: DATA.trending.snapshots?.length || 0,
   };
@@ -651,6 +743,11 @@ function render(){
   if(state.tab==='push'){
     $('#main').innerHTML = renderPush();
     bindPushEvents();
+    return;
+  }
+  if(state.tab==='jobs'){
+    $('#main').innerHTML = renderJobs();
+    bindJobEvents();
     return;
   }
 

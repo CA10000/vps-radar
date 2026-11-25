@@ -18,6 +18,7 @@ FILES = [
     ("/opt/radar/repo/docs/data.json", "docs/data.json"),          # 已在仓库，保留
     ("/opt/radar/trending.json", "docs/trending.json"),
     ("/opt/radar/push_log.json", "docs/push_log.json"),
+    ("/opt/radar/jobs.json", "docs/jobs.json"),
     ("/opt/radar/index.html", "docs/index.html"),
     # 脚本备份
     ("/opt/radar/radar.py", "altare/radar.py"),
