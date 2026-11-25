@@ -271,7 +271,10 @@ main{max-width:1180px;margin:0 auto;padding:14px 16px 48px}
 .pitem a:hover{color:var(--blue)}
 .pitem .d{color:var(--sub);font-size:12px;margin-top:1px}
 .pitem .g{color:#ff6b00;font-weight:700;font-size:12px}
-.pfilter{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+.pfilter{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}
+.pfilter:last-of-type{margin-bottom:12px}
+.pfilter .chip{padding:6px 12px;font-size:12.5px}
+.pfilter .chip[aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:#fff}
 
 /* 返回顶部 */
 .fab{
@@ -505,6 +508,36 @@ function renderHistory(){
 
 /* ────────── 推送记录 ────────── */
 let pushFilter = 'all';
+let pushRange = 'all';   // all | today | week | month
+let pushSort = 'new';    // new | old | count
+let pushQuery = '';
+
+const RANGES = [
+  {k:'all',   label:'全部时间'},
+  {k:'today', label:'今天'},
+  {k:'week',  label:'近 7 天'},
+  {k:'month', label:'近 30 天'},
+];
+const SORTS = [
+  {k:'new',   label:'最新优先'},
+  {k:'old',   label:'最早优先'},
+  {k:'count', label:'条目最多'},
+];
+
+function inRange(isoAt, range){
+  if(range==='all') return true;
+  const t = new Date(isoAt).getTime();
+  if(isNaN(t)) return true;
+  const now = Date.now();
+  const day = 86400000;
+  if(range==='today'){
+    const d = new Date(); d.setHours(0,0,0,0);
+    return t >= d.getTime();
+  }
+  if(range==='week')  return now - t <= 7*day;
+  if(range==='month') return now - t <= 30*day;
+  return true;
+}
 
 function renderPush(){
   const recs = DATA.pushLog?.records || [];
@@ -512,14 +545,58 @@ function renderPush(){
     return '<div class="empty"><div class="t">还没有推送记录</div><div>下次自动推送后会出现在这里</div></div>';
   }
 
+  // 类型统计（基于时间范围内的记录）
+  const rangedRecs = recs.filter(r => inRange(r.at, pushRange));
   const kinds = ['all', ...new Set(recs.map(r=>r.kind))];
-  const filtered = pushFilter==='all' ? recs : recs.filter(r=>r.kind===pushFilter);
 
-  const filterBar = '<div class="pfilter">' + kinds.map(k => {
-    const n = k==='all' ? recs.length : recs.filter(r=>r.kind===k).length;
+  // 应用筛选
+  let filtered = rangedRecs;
+  if(pushFilter !== 'all') filtered = filtered.filter(r => r.kind === pushFilter);
+  if(pushQuery){
+    const q = pushQuery.toLowerCase();
+    filtered = filtered.filter(r =>
+      (r.title||'').toLowerCase().includes(q) ||
+      (r.summary||'').toLowerCase().includes(q) ||
+      (r.content||'').toLowerCase().includes(q) ||
+      (r.items||[]).some(it => ((it.title||it.name||'')+' '+(it.desc||'')+' '+(it.real_free||'')).toLowerCase().includes(q))
+    );
+  }
+
+  // 排序
+  filtered = [...filtered];
+  if(pushSort === 'old') filtered.sort((a,b)=> new Date(a.at)-new Date(b.at));
+  else if(pushSort === 'count') filtered.sort((a,b)=> (b.count||0)-(a.count||0));
+  else filtered.sort((a,b)=> new Date(b.at)-new Date(a.at));
+
+  // 类型栏
+  const kindBar = '<div class="pfilter">' + kinds.map(k => {
+    const n = k==='all' ? rangedRecs.length : rangedRecs.filter(r=>r.kind===k).length;
     return '<button class="chip" data-pk="'+esc(k)+'" aria-pressed="'+(pushFilter===k)+'">'
       + (k==='all'?'全部':esc(k)) + ' <span style="opacity:.6">'+n+'</span></button>';
   }).join('') + '</div>';
+
+  // 时间栏
+  const rangeBar = '<div class="pfilter">' + RANGES.map(r => {
+    const n = r.k==='all' ? recs.length : recs.filter(x=>inRange(x.at, r.k)).length;
+    return '<button class="chip" data-pr="'+r.k+'" aria-pressed="'+(pushRange===r.k)+'">'
+      + r.label + ' <span style="opacity:.6">'+n+'</span></button>';
+  }).join('') + '</div>';
+
+  // 排序栏
+  const sortBar = '<div class="pfilter">' + SORTS.map(s =>
+    '<button class="chip" data-ps="'+s.k+'" aria-pressed="'+(pushSort===s.k)+'">'+s.label+'</button>'
+  ).join('') + '</div>';
+
+  const countLine = '<div style="font-size:12.5px;color:var(--sub);margin:0 0 10px">'
+    + '共 ' + filtered.length + ' 条'
+    + (filtered.length !== recs.length ? '（总 ' + recs.length + '）' : '')
+    + '</div>';
+
+  const filterBar = kindBar + rangeBar + sortBar + countLine;
+
+  if(!filtered.length){
+    return filterBar + '<div class="empty"><div class="t">没有匹配的记录</div><div>试试放宽筛选条件</div></div>';
+  }
 
   const cards = filtered.map((r, i) => {
     const t = new Date(r.at);
@@ -595,7 +672,13 @@ function render(){
 /* ────────── 推送记录交互 ────────── */
 function bindPushEvents(){
   document.querySelectorAll('[data-pk]').forEach(b=>{
-    b.onclick = ()=>{ pushFilter = b.dataset.pk; render(); };
+    b.onclick = ()=>{ pushFilter = b.dataset.pk; pushQuery = $('#q').value.trim(); render(); };
+  });
+  document.querySelectorAll('[data-pr]').forEach(b=>{
+    b.onclick = ()=>{ pushRange = b.dataset.pr; pushQuery = $('#q').value.trim(); render(); };
+  });
+  document.querySelectorAll('[data-ps]').forEach(b=>{
+    b.onclick = ()=>{ pushSort = b.dataset.ps; pushQuery = $('#q').value.trim(); render(); };
   });
   document.querySelectorAll('.pushhead').forEach(h=>{
     h.onclick = ()=> h.parentElement.classList.toggle('open');
@@ -606,7 +689,11 @@ function bindPushEvents(){
 let timer = null;
 $('#q').oninput = e => {
   clearTimeout(timer);
-  timer = setTimeout(()=>{ state.q = e.target.value.trim(); render(); }, 180);
+  timer = setTimeout(()=>{
+    state.q = e.target.value.trim();
+    pushQuery = state.q;
+    render();
+  }, 180);
 };
 $('#chipFree').onclick = () => {
   state.free = !state.free;
