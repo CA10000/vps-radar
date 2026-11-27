@@ -24,3 +24,4 @@ if ! pgrep -f 'freehunter/scripts/grab\.py' > /dev/null 2>&1; then
   cd /opt/freehunter && setsid nohup python3 /opt/freehunter/scripts/grab.py /opt/freehunter/hoody/config.json >> /opt/freehunter/hoody/grab.log 2>&1 < /dev/null &
   echo "free-hunter 抢号已启动"
 fi
+
